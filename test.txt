@@ -1,1 +1,5 @@
-hello luoyangchenggg
+<<<<<<< HEAD
+hello luoyc
+=======
+hello luoyc
+>>>>>>> new
