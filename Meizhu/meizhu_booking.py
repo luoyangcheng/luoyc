@@ -1,5 +1,4 @@
 #
-
 #提交订单-间夜房
 import sys
 from selenium import webdriver
@@ -19,21 +18,20 @@ import xlrd
 #     return username,passwd,tip
 
 
-def booking():
+def login(browser):
     # username,passwd,tip=read_excel()
     url = "http://192.168.3.19:8090/login.html"
-    browser = webdriver.Firefox()
     browser.get(url)
     browser.find_element_by_id("requestUsername").send_keys("18802094078")
     browser.find_element_by_id("requestPassword").send_keys("qq111111")
     browser.find_element_by_id("requestSubmit").click()
+
+def booking(browser):
     waitxp(browser,'//*[@id="orderListBody"]/tr[1]/td[4]/div')
     browser.find_element_by_xpath('//*[@id="orderListBody"]/tr[1]/td[4]/div').click()
-
     time.sleep(3)
     browser.find_element_by_xpath('//*[@id="addOrderRoom"]/table/tbody/tr[2]/td[1]/input').send_keys("10")
     browser.find_element_by_xpath('//*[@id="addOrderRoom"]/table/tbody/tr[2]/td[2]/div[2]/input').send_keys("15802094078")
-
     browser.find_element_by_xpath('//*[@id="addOrderRoom"]/table/tbody/tr[2]/td[3]/input').send_keys("")
     browser.find_element_by_xpath('//*[@id="addOrderReceive"]/tbody/tr/td[4]/div/input').send_keys("10")
     browser.find_element_by_id("submitBook").click()
@@ -47,4 +45,6 @@ def booking():
 
 
 if __name__ == "__main__":
-    booking()
+    browser = webdriver.Firefox()
+    login(browser)
+    booking(browser)
