@@ -8,7 +8,7 @@ import xlrd
 
 
 def read_excel():
-    data = xlrd.open_workbook('F:\meizhu_testcase.xlsx')
+    data = xlrd.open_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
     sheet = data.sheets()[0]
     username = sheet.col_values(0)
     passwd = sheet.col_values(1)
