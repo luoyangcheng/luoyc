@@ -26,7 +26,7 @@ class Meizhu(unittest.TestCase):
            driver.find_element_by_id("requestPassword").send_keys(x)
            driver.find_element_by_id("requestSubmit").click()
            s=driver.find_element_by_id("login-tip").text
-           browser.find_element_by_xpath ( ".//*[text()='用户不存在']" )
+           driver.find_element_by_xpath ( ".//*[text()='用户不存在']" )
            if s =='密码不正确':
                print("错误密码:"+x)
                break

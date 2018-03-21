@@ -1,7 +1,7 @@
 import requests
 import sys
 import io
-from meizhu_login import login
+from Test.meizhu_login import login
 #改变标准输出的默认编码
 #sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
 
@@ -22,20 +22,25 @@ resp = session.post(login_url, data)
 print(resp.content.decode('utf-8'))
 
 #登录后才能访问 或者操作的网页
-url = "http://192.168.3.19:8090/Mobile/Hotel/addNoteCost"
+url = "http://192.168.3.19:8090/Home/Customer/addVip"
 
 #循环添加数据
-for i in range(20):
+for i in range(18802094058,18802094060):
      datas = {
-         "userId":"402",
-         "token":"mQyjB9S9y36+WrpxAPfk5KbWR2wXdW481MSvEcsFRbuar/RJ9mqdRbH5rL0qpTvc1x5o5Si4uOCBPNRqnd4yycg4NnHIrcZOW2dcOyTFyNudoQecLgitbHSAVa0HQN0Byf1qEULSgm/Ul5s99bJ0y9W/NukeDsf2BLNrOgbJ4Ss21nnIW8sQrPF/XpkoOwOMfwdyvztWaVj2jp4TNLnwhrd09330F+JUiqTW/zX5J96RoqRHPnIhX+whPMdOExMn46ApDHIi4pnMRSiogKE/RRJ0xca1Ipc6/j+ozVavYIEqGZ+4NU0Cjp+MxRdeFPtxdrxu0/gv84ZGtU5XdRUoHQ==",
          "hotel":"309",
-         "noteDate":"2018-01-09",
-         "noteId": "1826",
-         "payId": "900",
-         "type": "1",
-         "price": "100",
+         "name":"路人甲"+str(i),
+         "mobile": str(i),
+         "vipInfoId":"465",
+         "gender": "0",
+         "birthday": "",
+         "nation": "",
+         "identity": "",
+         "address": "",
+         "wechat": "",
          "remark": "",
+         "share": "1",
+         "areaCode": "86",
+         "vipLevelName": "黄金"
      }
      r = session.post(url,datas)
      print(r.content.decode('utf-8'))
