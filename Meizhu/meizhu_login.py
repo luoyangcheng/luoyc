@@ -21,9 +21,9 @@ def read_excel():
     tip = []
     for r in range(2, sheet.max_row + 1):
         tip.append(sheet.cell(row=r, column=3).value)
-    return username,passwd,tip
+    return username , passwd,tip
 
-def login():
+def browser():
     username,passwd,tip=read_excel()
     url = "http://192.168.3.19:8090/login.html"
     browser = webdriver.Firefox()
@@ -44,4 +44,4 @@ def login():
 
 
 if __name__ == "__main__":
-    login()
+    browser()
