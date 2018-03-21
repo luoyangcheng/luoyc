@@ -1,9 +1,8 @@
 #
 #
-#
 # 美住登录功能
 from selenium import webdriver
-from _def import waitid,waitxp
+from Meizhu._def import waitid,waitxp
 import time
 import xlrd
 

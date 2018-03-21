@@ -317,3 +317,20 @@ ld][RunMessage] Error: Channel closing: too late to send/recv, messages will be 
 1521535600010	geckodriver::marionette	INFO	Connecting to Marionette on localhost:16461
 1521535601921	Marionette	INFO	Listening on port 16461
 1521535603235	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521537392042	geckodriver	INFO	Listening on 127.0.0.1:20008
+1521537395053	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.zezgrHpl0vKQ
+1521537395053	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1521537395070	geckodriver::marionette	INFO	Connecting to Marionette on localhost:20020
+1521537398342	Marionette	INFO	Listening on port 20020
+1521537399476	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+[Child 5492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 5492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
