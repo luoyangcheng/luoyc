@@ -11,17 +11,28 @@ from Meizhu._def import waitid,waitxp
 import time
 import xlrd
 
-# def read_excel():
-#     data = xlrd.open_workbook('F:\meizhu_testcase.xlsx')
-#     sheet = data.sheets()[0]
-#     username = sheet.col_values(0)
-#     passwd = sheet.col_values(1)
-#     tip = sheet.col_values(2)
-#     return username,passwd,tip
+def read_excel():
+    data = load_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+    sheet = data["间夜房-提交订单"]
+    orderusername = []
+    for r in range(2, sheet.max_row + 1):
+        orderusername.append(sheet.cell(row=r, column=1).value)
+    mobile = []
+    for r in range(2, sheet.max_row + 1):
+        mobile.append(sheet.cell(row=r, column=2).value)
+    idcard = []
+    for r in range(2, sheet.max_row + 1):
+        idcard.append(sheet.cell(row=r, column=3).value)
+    money = []
+    for r in range(2, sheet.max_row + 1):
+        money.append(sheet.cell(row=r, column=4).value)
+        deposit = []
+    for r in range(2, sheet.max_row + 1):
+        deposit.append(sheet.cell(row=r, column=4).value)
 
+    return orderusername, mobile, idcard,money,deposit
 
 def login(browser):
-    # username,passwd,tip=read_excel()
     url = "http://192.168.3.19:8090/login.html"
     browser.get(url)
     browser.find_element_by_id("requestUsername").send_keys("18802094078")
@@ -29,10 +40,11 @@ def login(browser):
     browser.find_element_by_id("requestSubmit").click()
 
 def booking(browser):
+    orderusername, mobile, idcard, money, deposit=read_excel()
     waitxp(browser,'//*[@id="orderListBody"]/tr[1]/td[4]/div')
     browser.find_element_by_xpath('//*[@id="orderListBody"]/tr[1]/td[4]/div').click()
     time.sleep(3)
-    browser.find_element_by_xpath('//*[@id="addOrderRoom"]/table/tbody/tr[2]/td[1]/input').send_keys("自动化")
+    browser.find_element_by_xpath('//*[@id="addOrderRoom"]/table/tbody/tr[2]/td[1]/input').send_keys("x")
     browser.find_element_by_xpath('//*[@id="addOrderRoom"]/table/tbody/tr[2]/td[2]/div[2]/input').send_keys("15802094078")
     browser.find_element_by_xpath('//*[@id="addOrderRoom"]/table/tbody/tr[2]/td[3]/input').send_keys("")
     browser.find_element_by_xpath('//*[@id="addOrderReceive"]/tbody/tr/td[4]/div/input').send_keys("100")
