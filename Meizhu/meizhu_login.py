@@ -3,16 +3,24 @@
 # 美住登录功能
 from selenium import webdriver
 from Meizhu._def import waitid,waitxp
+from openpyxl import Workbook
+from openpyxl import load_workbook
 import time
 import xlrd
 
 
 def read_excel():
-    data = xlrd.open_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
-    sheet = data.sheets()[0]
-    username = sheet.col_values(0)
-    passwd = sheet.col_values(1)
-    tip = sheet.col_values(2)
+    data=load_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+    sheet=data["美住登录"]
+    username = []
+    for r in range(2, sheet.max_row + 1):
+        username.append(sheet.cell(row=r, column=1).value)
+    passwd = []
+    for r in range(2, sheet.max_row + 1):
+        passwd.append(sheet.cell(row=r, column=2).value)
+    tip = []
+    for r in range(2, sheet.max_row + 1):
+        tip.append(sheet.cell(row=r, column=3).value)
     return username,passwd,tip
 
 def browser():
