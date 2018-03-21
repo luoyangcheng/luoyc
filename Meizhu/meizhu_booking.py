@@ -5,6 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from openpyxl import Workbook
+from openpyxl import load_workbook
 from Meizhu._def import waitid,waitxp
 import time
 import xlrd

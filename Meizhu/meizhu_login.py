@@ -23,7 +23,7 @@ def read_excel():
         tip.append(sheet.cell(row=r, column=3).value)
     return username,passwd,tip
 
-def browser():
+def login():
     username,passwd,tip=read_excel()
     url = "http://192.168.3.19:8090/login.html"
     browser = webdriver.Firefox()
@@ -44,4 +44,4 @@ def browser():
 
 
 if __name__ == "__main__":
-    browser()
+    login()
