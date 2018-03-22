@@ -1,18 +1,28 @@
+from selenium import webdriver
+from Meizhu._def import waitid,waitxp
 from openpyxl import Workbook
 from openpyxl import load_workbook
+import time
 import xlrd
+import xlwt
 
-# data = load_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
-# sheet = data["美住登录"]
-# list = []
-# for r in range(2, sheet.max_row + 1):
-#     list.append(sheet.cell(row=r, column=1).value)
-# print(list)
+import xlwt
+# f = xlwt.Workbook()
+# sheet1 = f.add_sheet(u'sheet1',cell_overwrite_ok=True)
+data=load_workbook('F:/text.xlsx')
+sheet=data["Sheet1"]
+# l_=[2,3,4,5,6]
+rows=sheet.max_row
+l_=[]
+for i in range(2,rows+1):
+    l_.append(i)
+print(l_)
 
 
-data = xlrd.open_workbook('F:\meizhu_testcase.xlsx')
-sheet = data.sheets()[0]
-username = sheet.col_values(0)
-passwd = sheet.col_values(1)
-tip = sheet.col_values(2)
-print(username)
+a=["k","d","d","s","q"]
+for i,j in zip(l_,a):
+    sheet.cell(i,3,j)
+data.save('F:/text.xlsx')
+
+
+

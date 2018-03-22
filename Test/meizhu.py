@@ -1,35 +1,64 @@
 # -*- coding: utf-8 -*-
+
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import NoAlertPresentException
-import unittest, time, re
+from Meizhu._def import waitid,waitxp
+from openpyxl import Workbook
+from openpyxl import load_workbook
 
-class Meizhu(unittest.TestCase):
-    def setUp(self):
-        self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(3000)
-        self.base_url = "http://www.meizhuyun.com/"
-        self.verificationErrors = []
-        self.accept_next_alert = True
 
-    def test_meizhu(self):
-        pwd=["111111h","qq111111","aa111111"]
-        for x in pwd:
-           driver = self.driver
-           driver.get(self.base_url + "/login.html")
-           driver.find_element_by_id("requestUsername").clear()
-           driver.find_element_by_id("requestUsername").send_keys("18802094078")
-           driver.find_element_by_id("requestPassword").clear()
-           driver.find_element_by_id("requestPassword").send_keys(x)
-           driver.find_element_by_id("requestSubmit").click()
-           s=driver.find_element_by_id("login-tip").text
-           driver.find_element_by_xpath ( ".//*[text()='用户不存在']" )
-           if s =='密码不正确':
-               print("错误密码:"+x)
-               break
-           else:
-               print("正确密码是："+x)
+def read_excel():
+    data=load_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+    sheet=data["美住登录"]
+    username = []
+    for r in range(2, sheet.max_row + 1):
+        username.append(sheet.cell(row=r, column=1).value)
+    passwd = []
+    for r in range(2, sheet.max_row + 1):
+        passwd.append(sheet.cell(row=r, column=2).value)
+    tip = []
+    for r in range(2, sheet.max_row + 1):
+        tip.append(sheet.cell(row=r, column=3).value)
+    return username , passwd,tip
 
+def browser():
+    username,passwd,tip=read_excel()
+    url = "http://192.168.3.19:8090/login.html"
+    browser = webdriver.Firefox()
+    result=""
+    rr=[]
+    for x, y, z in zip(username, passwd, tip):
+        browser.get(url)
+        waitid(browser,"requestUsername")
+        browser.find_element_by_id("requestUsername").send_keys(x)
+        waitid(browser, "requestPassword")
+        browser.find_element_by_id("requestPassword").send_keys(y)
+        waitid(browser, "requestSubmit")
+        browser.find_element_by_id("requestSubmit").click()
+        str = browser.find_element_by_id("login-tip").text
+        if str == z:
+            print("测试通过")
+            result = "PASS"
+            rr.append(result)
+        else:
+            print("\033[1;31m !!!!ERRO!!!! \033[0m!", x, y,str,z)
+            result = "FAIL"
+            rr.append(result)
+    return rr
+
+def write_excel():
+    rr=browser()
+    data = load_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+    sheet = data["美住登录"]
+    rows = sheet.max_row
+    l_ = []
+    for i in range(2, rows + 1):
+        l_.append(i)
+    print(l_)
+
+    for i, j in zip(l_, rr):
+        sheet.cell(i, 4, j)
+    data.save('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+
+
+if __name__ == "__main__":
+    write_excel()
