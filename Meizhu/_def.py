@@ -17,8 +17,9 @@ def waitid(b,id):
     locator = (By.ID, id)
     try:
         WebDriverWait(b, 20, 0.5).until(EC.visibility_of_element_located(locator))
-        time.sleep(2)
-    except TimeoutException as msg:
+    finally:
         pass
-    except NoSuchElementException as msg:
-        pass
+    # except TimeoutException as msg:
+    #     pass
+    # except NoSuchElementException as msg:
+    #     pass

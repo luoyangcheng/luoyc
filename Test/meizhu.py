@@ -34,6 +34,7 @@ def browser():
         browser.find_element_by_id("requestPassword").send_keys(y)
         waitid(browser, "requestSubmit")
         browser.find_element_by_id("requestSubmit").click()
+        waitid(browser,"login-tip")
         str = browser.find_element_by_id("login-tip").text
         if str == z:
             print("测试通过")
