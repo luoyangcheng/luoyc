@@ -25,3 +25,27 @@ def waitid(b,id):
     #     pass
     # except NoSuchElementException as msg:
     #     pass
+
+def waitclass(b,classname):
+    locator = (By.CLASS_NAME, classname)
+    try:
+        WebDriverWait(b, 20, 0.5).until(EC.visibility_of_element_located(locator))
+    except IOError:
+        print('仍然找不到元素')
+        return None
+
+def waitname(b,name):
+    locator = (By.NAME, name)
+    try:
+        WebDriverWait(b, 20, 0.5).until(EC.visibility_of_element_located(locator))
+    except IOError:
+        print('仍然找不到元素')
+        return None
+
+def waitline(b,line):
+    locator = (By.LINK_TEXT, line)
+    try:
+        WebDriverWait(b, 20, 0.5).until(EC.visibility_of_element_located(locator))
+    except IOError:
+        print('仍然找不到元素')
+        return None
