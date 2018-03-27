@@ -998,3 +998,698 @@ JavaScript error: http://192.168.3.19:8090/Public/dist/Home/common_control.js?re
 1521797530283	Marionette	INFO	Listening on port 45753
 1521797531250	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 5272] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522117678049	geckodriver	INFO	Listening on 127.0.0.1:3112
+1522117681080	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.6iY01nfHLQok
+1522117681096	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522117681174	geckodriver::marionette	INFO	Connecting to Marionette on localhost:3120
+1522117684847	Marionette	INFO	Listening on port 3120
+1522117686892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522117756050	geckodriver	INFO	Listening on 127.0.0.1:3290
+1522117759122	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.syxxgpD80rSk
+1522117759122	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522117759122	geckodriver::marionette	INFO	Connecting to Marionette on localhost:3301
+1522117760905	Marionette	INFO	Listening on port 3301
+1522117761985	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3956] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522119486008	geckodriver	INFO	Listening on 127.0.0.1:4081
+1522119488944	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.yqvYiqMQleY6
+1522119488947	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522119488949	geckodriver::marionette	INFO	Connecting to Marionette on localhost:4089
+1522119491089	Marionette	INFO	Listening on port 4089
+1522119492221	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1522119623028	geckodriver	INFO	Listening on 127.0.0.1:4256
+1522119626081	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.KRwcWFFdzoZs
+1522119626081	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522119626097	geckodriver::marionette	INFO	Connecting to Marionette on localhost:4264
+1522119627939	Marionette	INFO	Listening on port 4264
+1522119628977	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+[Child 4356] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4356] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+d 4976] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522119738755	geckodriver	INFO	Listening on 127.0.0.1:4619
+1522119741842	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.uFvglseY28lY
+1522119741844	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522119741854	geckodriver::marionette	INFO	Connecting to Marionette on localhost:4627
+1522119743783	Marionette	INFO	Listening on port 4627
+1522119744712	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522119850574	geckodriver	INFO	Listening on 127.0.0.1:4804
+1522119853646	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.JsWjC5aGTi8j
+1522119853649	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522119853660	geckodriver::marionette	INFO	Connecting to Marionette on localhost:4812
+1522119855597	Marionette	INFO	Listening on port 4812
+1522119856665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.3.19:8090/Public/dist/Home/common_control.js?rev=d2d95b4bdc49c83470f104e88d8458f3, line 1: TypeError: i is undefined
+1522119889679	geckodriver	INFO	Listening on 127.0.0.1:4981
+1522119892737	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.tXddbfHeznpS
+1522119892741	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522119892754	geckodriver::marionette	INFO	Connecting to Marionette on localhost:4989
+1522119894337	Marionette	INFO	Listening on port 4989
+1522119895516	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1522120681213	geckodriver	INFO	Listening on 127.0.0.1:5216
+1522120684221	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.FSnm7ClHyYsI
+1522120684221	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522120684236	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5224
+1522120686314	Marionette	INFO	Listening on port 5224
+1522120687407	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6048] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+on localhost:5389
+1522120699230	Marionette	INFO	Listening on port 5389
+1522120700204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522120985216	geckodriver	INFO	Listening on 127.0.0.1:5565
+1522120988005	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.u6yWHTyeTjUR
+1522120988005	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522120988021	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5573
+1522120990108	Marionette	INFO	Listening on port 5573
+1522120991349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522121079643	geckodriver	INFO	Listening on 127.0.0.1:5738
+1522121082699	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.2zZJ1g2WtIK7
+1522121082699	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522121082699	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5746
+1522121084124	Marionette	INFO	Listening on port 5746
+1522121085236	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522121093270	geckodriver	INFO	Listening on 127.0.0.1:5888
+1522121096374	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.VUjkoSHT2JXV
+1522121096376	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522121096386	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5911
+1522121098026	Marionette	INFO	Listening on port 5911
+1522121099174	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4580] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522121141409	geckodriver	INFO	Listening on 127.0.0.1:6093
+1522121144457	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.xDeBogOrWXy0
+1522121144457	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522121144473	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6101
+1522121145757	Marionette	INFO	Listening on port 6101
+1522121147059	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522121215068	geckodriver	INFO	Listening on 127.0.0.1:6272
+1522121218204	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.HWKmlyePvJmq
+1522121218204	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522121218220	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6280
+1522121219531	Marionette	INFO	Listening on port 6280
+1522121220600	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+ette	INFO	Connecting to Marionette on localhost:6444
+1522121232790	Marionette	INFO	Listening on port 6444
+1522121233768	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5224] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522121481158	geckodriver	INFO	Listening on 127.0.0.1:6628
+1522121484232	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.rsTPlKSRFtT4
+1522121484247	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522121484247	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6636
+1522121485618	Marionette	INFO	Listening on port 6636
+1522121486675	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4764] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522121770333	geckodriver	INFO	Listening on 127.0.0.1:6833
+1522121773421	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Ly5SnA3Au95j
+1522121773437	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522121773437	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6841
+1522121774666	Marionette	INFO	Listening on port 6841
+1522121775789	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4416] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522121869592	geckodriver	INFO	Listening on 127.0.0.1:7017
+1522121872728	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.KqHBkitGVPwL
+1522121872743	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522121872759	geckodriver::marionette	INFO	Connecting to Marionette on localhost:7029
+1522121874014	Marionette	INFO	Listening on port 7029
+1522121874970	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6000] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522122031117	geckodriver	INFO	Listening on 127.0.0.1:7204
+1522122034237	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.ZCNtPDKN6kJH
+1522122034237	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522122034253	geckodriver::marionette	INFO	Connecting to Marionette on localhost:7213
+1522122035692	Marionette	INFO	Listening on port 7213
+1522122036687	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522122101629	geckodriver	INFO	Listening on 127.0.0.1:7382
+1522122104718	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.47Gw4opTTYYR
+1522122104718	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522122104733	geckodriver::marionette	INFO	Connecting to Marionette on localhost:7390
+1522122105884	Marionette	INFO	Listening on port 7390
+1522122106958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522122363378	geckodriver	INFO	Listening on 127.0.0.1:7672
+1522122366444	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.S7ZMGq4oWirx
+1522122366447	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522122366456	geckodriver::marionette	INFO	Connecting to Marionette on localhost:7680
+1522122367798	Marionette	INFO	Listening on port 7680
+1522122368792	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522122602782	geckodriver	INFO	Listening on 127.0.0.1:7884
+1522122605890	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.DQLYIlMoKjlA
+1522122605890	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522122605906	geckodriver::marionette	INFO	Connecting to Marionette on localhost:7892
+1522122607281	Marionette	INFO	Listening on port 7892
+1522122608287	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 2444] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 2444] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522122674684	geckodriver	INFO	Listening on 127.0.0.1:8067
+1522122677759	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.PoJTyMeCJUU8
+1522122677759	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522122677774	geckodriver::marionette	INFO	Connecting to Marionette on localhost:8075
+1522122679174	Marionette	INFO	Listening on port 8075
+1522122680066	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522122823855	geckodriver	INFO	Listening on 127.0.0.1:8269
+1522122826961	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.jCdoLOIczhVo
+1522122826961	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522122826977	geckodriver::marionette	INFO	Connecting to Marionette on localhost:8277
+1522122828237	Marionette	INFO	Listening on port 8277
+1522122829250	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 2712] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522122876560	geckodriver	INFO	Listening on 127.0.0.1:8441
+1522122879650	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.LXwxcAoKtFUx
+1522122879650	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522122879666	geckodriver::marionette	INFO	Connecting to Marionette on localhost:8449
+1522122880938	Marionette	INFO	Listening on port 8449
+1522122881859	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6096] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522123150985	geckodriver	INFO	Listening on 127.0.0.1:8875
+1522123154092	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Uop4QTa73gT0
+1522123154092	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522123154110	geckodriver::marionette	INFO	Connecting to Marionette on localhost:8883
+1522123155550	Marionette	INFO	Listening on port 8883
+1522123156523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522123248070	geckodriver	INFO	Listening on 127.0.0.1:9061
+1522123251111	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.TX6TTPVfAzT4
+1522123251127	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522123251127	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9069
+1522123252769	Marionette	INFO	Listening on port 9069
+1522123253643	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522123403564	geckodriver	INFO	Listening on 127.0.0.1:9303
+1522123406609	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.0DGx5rPmIXtJ
+1522123406609	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522123406609	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9311
+1522123408604	Marionette	INFO	Listening on port 9311
+1522123409674	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4828] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4828] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522129266636	geckodriver	INFO	Listening on 127.0.0.1:9673
+1522129269725	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.LTyzE6CxELvq
+1522129269740	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522129269756	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9681
+1522129272618	Marionette	INFO	Listening on port 9681
+1522129273802	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3768] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522129367995	geckodriver	INFO	Listening on 127.0.0.1:9864
+1522129371100	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.VyhnNWc10sku
+1522129371100	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522129371100	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9872
+1522129372507	Marionette	INFO	Listening on port 9872
+1522129373439	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 1412] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522129465593	geckodriver	INFO	Listening on 127.0.0.1:10110
+1522129468682	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.5mikO1ReApVw
+1522129468682	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522129468697	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10118
+1522129471238	Marionette	INFO	Listening on port 10118
+1522129472436	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4600AE,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1522129551842	geckodriver	INFO	Listening on 127.0.0.1:10333
+1522129554902	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.7XvMcKrLRyj4
+1522129554902	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522129554918	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10342
+1522129556541	Marionette	INFO	Listening on port 10342
+1522129557398	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3908] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522129621261	geckodriver	INFO	Listening on 127.0.0.1:10580
+1522129624310	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.0Asoh8CV9SXq
+1522129624326	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522129624326	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10588
+1522129626360	Marionette	INFO	Listening on port 10588
+1522129627551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522129655983	geckodriver	INFO	Listening on 127.0.0.1:10804
+1522129659078	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.H5yVkJDVA7Wk
+1522129659078	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522129659110	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10812
+1522129660496	Marionette	INFO	Listening on port 10812
+1522129661475	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522129836251	geckodriver	INFO	Listening on 127.0.0.1:11160
+1522129839280	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Ef0nvjKIN0MM
+1522129839282	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522129839292	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11168
+1522129841044	Marionette	INFO	Listening on port 11168
+1522129842000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522129903729	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+[Child 2176] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 2176] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+ning on port 11351
+1522129869384	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 1976] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 1976] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522131629965	geckodriver	INFO	Listening on 127.0.0.1:13218
+1522131633022	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.l90ADTgIhMyp
+1522131633022	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522131633037	geckodriver::marionette	INFO	Connecting to Marionette on localhost:13226
+1522131634939	Marionette	INFO	Listening on port 13226
+1522131636341	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 5772] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522131685130	geckodriver	INFO	Listening on 127.0.0.1:13454
+1522131688182	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.prcOPyDP52ac
+1522131688182	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522131688197	geckodriver::marionette	INFO	Connecting to Marionette on localhost:13463
+1522131689449	Marionette	INFO	Listening on port 13463
+1522131690534	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4684] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522132215181	geckodriver	INFO	Listening on 127.0.0.1:13917
+1522132218224	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.z1GQreYiDHDE
+1522132218228	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522132218254	geckodriver::marionette	INFO	Connecting to Marionette on localhost:13971
+1522132219694	Marionette	INFO	Listening on port 13971
+1522132220770	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522132289595	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1522132393788	geckodriver	INFO	Listening on 127.0.0.1:14200
+1522132396866	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.E3sUHjvutjrS
+1522132396871	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522132396890	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14208
+1522132398581	Marionette	INFO	Listening on port 14208
+1522132399644	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+[Child 2084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522133598493	geckodriver	INFO	Listening on 127.0.0.1:14625
+1522133601517	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.7wZ6J5KlADEP
+1522133601533	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133601548	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14633
+1522133603137	Marionette	INFO	Listening on port 14633
+1522133604274	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3388] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522133645170	geckodriver	INFO	Listening on 127.0.0.1:14798
+1522133648275	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.4iWTfGrRyWHS
+1522133648275	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133648290	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14806
+1522133649983	Marionette	INFO	Listening on port 14806
+1522133651006	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5768] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1000006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1000006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1522133667294	geckodriver	INFO	Listening on 127.0.0.1:14964
+1522133670382	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.jbCUQ2RmivIV
+1522133670382	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133670398	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14972
+1522133672275	Marionette	INFO	Listening on port 14972
+1522133673420	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522133739386	geckodriver	INFO	Listening on 127.0.0.1:15133
+1522133742475	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.XwskTpHMEb2C
+1522133742475	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133742490	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15141
+1522133744404	Marionette	INFO	Listening on port 15141
+1522133745451	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 2516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 2516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1522133762635	geckodriver	INFO	Listening on 127.0.0.1:15300
+1522133765724	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.NruH196c8HDN
+1522133765740	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133765740	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15308
+1522133767085	Marionette	INFO	Listening on port 15308
+1522133768202	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4288] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1522133796240	geckodriver	INFO	Listening on 127.0.0.1:15476
+1522133799329	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.hjevPOoAbAGR
+1522133799329	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133799329	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15484
+1522133800960	Marionette	INFO	Listening on port 15484
+1522133801971	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522133818348	geckodriver	INFO	Listening on 127.0.0.1:15645
+1522133821437	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.J8TEiLmxyoqt
+1522133821437	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133821437	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15653
+1522133823284	Marionette	INFO	Listening on port 15653
+1522133824375	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6072] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 6072] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522133839264	geckodriver	INFO	Listening on 127.0.0.1:15811
+1522133842339	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.VwXH9RzGkpxf
+1522133842354	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133842354	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15819
+1522133844392	Marionette	INFO	Listening on port 15819
+1522133845495	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.3.19:8090/Public/dist/Home/common_control.js?rev=d2d95b4bdc49c83470f104e88d8458f3, line 1: TypeError: i is undefined
+[Child 4936] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4936] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522133901549	geckodriver	INFO	Listening on 127.0.0.1:15991
+1522133904596	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.NZwpqVuSVPGT
+1522133904596	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133904596	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15999
+1522133905909	Marionette	INFO	Listening on port 15999
+1522133906904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522133952632	geckodriver	INFO	Listening on 127.0.0.1:16187
+1522133955684	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.HlayLtJvexiT
+1522133955700	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522133955700	geckodriver::marionette	INFO	Connecting to Marionette on localhost:16195
+1522133957117	Marionette	INFO	Listening on port 16195
+1522133958214	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522134037216	geckodriver	INFO	Listening on 127.0.0.1:16381
+1522134040279	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.jSwN2spLy4ln
+1522134040279	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522134040295	geckodriver::marionette	INFO	Connecting to Marionette on localhost:16389
+1522134041993	Marionette	INFO	Listening on port 16389
+1522134042980	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522134287640	geckodriver	INFO	Listening on 127.0.0.1:16602
+1522134290761	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.2sJ2uRh77xlW
+1522134290761	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522134290776	geckodriver::marionette	INFO	Connecting to Marionette on localhost:16610
+1522134292694	Marionette	INFO	Listening on port 16610
+1522134293743	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522134332586	geckodriver	INFO	Listening on 127.0.0.1:16774
+1522134335642	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Bg9GW1GsfeL5
+1522134335644	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522134335654	geckodriver::marionette	INFO	Connecting to Marionette on localhost:16782
+1522134337462	Marionette	INFO	Listening on port 16782
+1522134338597	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4876] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 4876] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522134379016	geckodriver	INFO	Listening on 127.0.0.1:16946
+1522134382057	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.NkyGy5ZjTmnl
+1522134382059	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522134382072	geckodriver::marionette	INFO	Connecting to Marionette on localhost:16954
+1522134383760	Marionette	INFO	Listening on port 16954
+1522134384849	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5780] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522134543974	geckodriver	INFO	Listening on 127.0.0.1:17202
+1522134547016	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.NFfXNVkY9Sri
+1522134547016	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522134547031	geckodriver::marionette	INFO	Connecting to Marionette on localhost:17210
+1522134549013	Marionette	INFO	Listening on port 17210
+1522134549942	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 3500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+ile.3UfFNiwHglZZ
+1522134741996	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522134742009	geckodriver::marionette	INFO	Connecting to Marionette on localhost:17760
+1522134743562	Marionette	INFO	Listening on port 17760
+1522134744791	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 195"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:195:5
+reply@chrome://marionette/content/proxy.js:175:7
+sendToServer@chrome://marionette/content/listener.js:439:3
+sendError@chrome://marionette/content/listener.js:473:3
+dispatch/</<@chrome://marionette/content/listener.js:202:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:935:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+
+[Child 5236] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 5236] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522134767077	geckodriver	INFO	Listening on 127.0.0.1:17943
+1522134770182	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Tqfu1PSDw109
+1522134770182	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522134770198	geckodriver::marionette	INFO	Connecting to Marionette on localhost:17951
+1522134771926	Marionette	INFO	Listening on port 17951
+1522134772907	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522136113331	geckodriver	INFO	Listening on 127.0.0.1:19045
+1522136116289	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.AJSwTewEB3P6
+1522136116304	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522136116316	geckodriver::marionette	INFO	Connecting to Marionette on localhost:19053
+1522136117808	Marionette	INFO	Listening on port 19053
+1522136118824	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 195"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:195:5
+reply@chrome://marionette/content/proxy.js:175:7
+sendToServer@chrome://marionette/content/listener.js:439:3
+sendError@chrome://marionette/content/listener.js:473:3
+dispatch/</<@chrome://marionette/content/listener.js:202:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:935:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+
+1522136194565	geckodriver	INFO	Listening on 127.0.0.1:19228
+1522136197602	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.SlRoybmxJGLT
+1522136197605	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522136197617	geckodriver::marionette	INFO	Connecting to Marionette on localhost:19236
+1522136198881	Marionette	INFO	Listening on port 19236
+1522136199959	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 195"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:195:5
+reply@chrome://marionette/content/proxy.js:175:7
+sendToServer@chrome://marionette/content/listener.js:439:3
+sendError@chrome://marionette/content/listener.js:473:3
+dispatch/</<@chrome://marionette/content/listener.js:202:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:935:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+
+1522136579294	geckodriver	INFO	Listening on 127.0.0.1:19994
+1522136582369	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.MGHXlXRpnbHE
+1522136582369	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522136582369	geckodriver::marionette	INFO	Connecting to Marionette on localhost:20002
+1522136583580	Marionette	INFO	Listening on port 20002
+1522136584801	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: can't access dead object
+Full stack: find_@chrome://marionette/content/element.js:279:7
+element.find/</findElements<@chrome://marionette/content/element.js:250:15
+implicitlyWaitFor/</elementSearch@chrome://marionette/content/element.js:594:15
+
+*************************
+Marionette threw an error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: chrome://marionette/content/proxy.js :: sendReply_ :: line 195"  data: no]
+sendReply_@chrome://marionette/content/proxy.js:195:5
+reply@chrome://marionette/content/proxy.js:175:7
+sendToServer@chrome://marionette/content/listener.js:439:3
+sendError@chrome://marionette/content/listener.js:473:3
+dispatch/</<@chrome://marionette/content/listener.js:202:40
+Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:935:21
+this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:813:7
+this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:747:11
+
+1522136620161	geckodriver	INFO	Listening on 127.0.0.1:20180
+1522136623234	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.PhYTFB0qpiIk
+1522136623250	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522136623265	geckodriver::marionette	INFO	Connecting to Marionette on localhost:20188
+1522136624683	Marionette	INFO	Listening on port 20188
+1522136625827	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late[Child 1012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+[Child 1012] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages wi[Child 4528] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+ too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1522136948537	geckodriver	INFO	Listening on 127.0.0.1:20805
+1522136951460	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.jqfBMp5ZjxaR
+1522136951476	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522136951476	geckodriver::marionette	INFO	Connecting to Marionette on localhost:20813
+1522136954094	Marionette	INFO	Listening on port 20813
+1522136955039	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522137172135	geckodriver	INFO	Listening on 127.0.0.1:21054
+1522137175186	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.fgQJja0MzCuT
+1522137175186	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522137175201	geckodriver::marionette	INFO	Connecting to Marionette on localhost:21062
+1522137176574	Marionette	INFO	Listening on port 21062
+1522137177590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522137458338	geckodriver	INFO	Listening on 127.0.0.1:21376
+1522137461403	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.SK2hDdS5W25Q
+1522137461403	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522137461418	geckodriver::marionette	INFO	Connecting to Marionette on localhost:21384
+1522137462610	Marionette	INFO	Listening on port 21384
+1522137463714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522137495311	geckodriver	INFO	Listening on 127.0.0.1:21590
+1522137498419	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.McAgb2bZ3OPw
+1522137498419	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522137498435	geckodriver::marionette	INFO	Connecting to Marionette on localhost:21598
+1522137499724	Marionette	INFO	Listening on port 21598
+1522137501035	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522137514062	geckodriver	INFO	Listening on 127.0.0.1:21753
+1522137517143	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.wDvpTbdAKX2c
+1522137517145	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522137517154	geckodriver::marionette	INFO	Connecting to Marionette on localhost:21761
+1522137518542	Marionette	INFO	Listening on port 21761
+1522137519658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522137535874	geckodriver	INFO	Listening on 127.0.0.1:21919
+1522137538984	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Tfr2GLKEzlyj
+1522137538984	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522137539000	geckodriver::marionette	INFO	Connecting to Marionette on localhost:21927
+1522137540331	Marionette	INFO	Listening on port 21927
+1522137541419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://192.168.3.19:8090/Public/dist/Home/common_control.js?rev=d2d95b4bdc49c83470f104e88d8458f3, line 1: TypeError: i is undefined
+[Child 5840] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 536: TypeError: this.tablesData[table] is undefined
+1522142529996	geckodriver	INFO	Listening on 127.0.0.1:25604
+1522142532877	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.kqXDefzogRFQ
+1522142532877	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522142532877	geckodriver::marionette	INFO	Connecting to Marionette on localhost:25612
+1522142534410	Marionette	INFO	Listening on port 25612
+1522142535488	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5208] WARNING: pipe error: 109: file c:/builds/moz2_s1522142577058	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.KBEOPECcqRMM
+1522142577058	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522142577073	geckodriver::marionette	INFO	Connecting to Marionette on localhost:25820
+1522142579044	Marionette	INFO	Listening on port 25820
+1522142580232	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5940] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1522142617054	geckodriver	INFO	Listening on 127.0.0.1:25995
+1522142620101	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.YgSrjUrYfzZw
+1522142620116	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1522142620116	geckodriver::marionette	INFO	Connecting to Marionette on localhost:26005
+1522142621463	Marionette	INFO	Listening on port 26005
+1522142622519	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
