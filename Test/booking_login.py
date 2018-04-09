@@ -1,8 +1,8 @@
 import requests
 from time import ctime
 
-class login:
-    def ll(mobile,password,areaCode):
+class blogin:
+    def bll(mobile,password,areaCode):
         data = {'mobile': mobile,
                 'password': password,
                 'areaCode': areaCode}
@@ -11,7 +11,7 @@ class login:
         # headers = {'User-agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'}
 
         # 登录时表单提交到的地址（登录接口）
-        login_url = "http://115.29.142.212:8010/Home/Public/login"
+        login_url = "http://192.168.3.19:8091/Home/Public/login"
 
         # 构造Session
         session = requests.Session()
@@ -20,6 +20,4 @@ class login:
         # 可以用print(session.cookies.get_dict())查看
         resp = session.post(login_url, data)
         print ( resp.content.decode('utf-8'))
-        session = requests.Session()
-        print("请求时间： %s" %(ctime()))
         return session
