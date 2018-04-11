@@ -84,46 +84,46 @@ import pymysql
 #     t = threading.Thread(target=tcplink, args=(sock, addr))
 #     t.start()
 
-# co = pymysql.connect('192.168.3.19', 'root', 'hongwei',"luoyc")
-# cursor = co.cursor()
-# # DB_NAME = 'luoyc'
-# # cursor.execute('DROP DATABASE IF EXISTS %s' %DB_NAME)
-# # cursor.execute('CREATE DATABASE IF NOT EXISTS %s' %DB_NAME)
-# # co.select_db(DB_NAME)
-# # TABLE_NAME = 'user'
-# # cursor.execute('CREATE TABLE %s(id int primary key,name varchar(30))' %TABLE_NAME)
+co = pymysql.connect('192.168.3.19', 'root', 'hongwei',"luoyc")
+cursor = co.cursor(cursor=pymysql.cursors.DictCursor)
+# DB_NAME = 'luoyc'
+# cursor.execute('DROP DATABASE IF EXISTS %s' %DB_NAME)
+# cursor.execute('CREATE DATABASE IF NOT EXISTS %s' %DB_NAME)
+# co.select_db(DB_NAME)
+TABLE_NAME = 'user'
+cursor.execute('CREATE TABLE %s(id int primary key,name varchar(30),password varchar(50),Email varchar(50))'%TABLE_NAME)
 # n ="kk"
 # sql = 'INSERT INTO user (id, name) VALUES (%s,%s)',(4,n)
-# sql2 = 'select * from user'
-# # cursor.execute('INSERT INTO user (id, name) VALUES (%s,%s)',(4,n))
+# sql2 = 'select name from user'
+# cursor.execute('INSERT INTO user (id, name) VALUES (%s,%s)',(4,n))
 # cursor.execute(sql2)
 # re = cursor.fetchall()
-# co.commit()
-# print(re)
+co.commit()
+print(re)
 
-from flask import Flask
-from flask import request
-
-app = Flask(__name__)
-
-@app.route('/', methods=['GET', 'POST'])
-def home():
-    return '<h1>Home</h1>'
-
-@app.route('/signin', methods=['GET'])
-def signin_form():
-    return '''<form action="/signin" method="post">
-              <p><input name="username"></p>
-              <p><input name="password" type="password"></p>
-              <p><button type="submit">Sign In</button></p>
-              </form>'''
-
-@app.route('/signin', methods=['POST'])
-def signin():
-    # 需要从request对象读取表单内容：
-    if request.form['username']=='admin' and request.form['password']=='password':
-        return '<h3>Hello, admin!</h3>'
-    return '<h3>Bad username or password.</h3>'
-
-if __name__ == '__main__':
-    app.run()
+# from flask import Flask
+# from flask import request
+#
+# app = Flask(__name__)
+#
+# @app.route('/', methods=['GET', 'POST'])
+# def home():
+#     return '<h1>Home</h1>'
+#
+# @app.route('/signin', methods=['GET'])
+# def signin_form():
+#     return '''<form action="/signin" method="post">
+#               <p><input name="username"></p>
+#               <p><input name="password" type="password"></p>
+#               <p><button type="submit">Sign In</button></p>
+#               </form>'''
+#
+# @app.route('/signin', methods=['POST'])
+# def signin():
+#     # 需要从request对象读取表单内容：
+#     if request.form['username']=='admin' and request.form['password']=='password':
+#         return '<h3>Hello, admin!</h3>'
+#     return '<h3>Bad username or password.</h3>'
+#
+# if __name__ == '__main__':
+#     app.run()

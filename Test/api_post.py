@@ -1,4 +1,4 @@
-import json
+import json,pymysql
 from wsgiref.simple_server import make_server
 
 
@@ -10,17 +10,24 @@ def application(environ, start_response):
 
     request_body = environ["wsgi.input"].read(int(environ.get("CONTENT_LENGTH", 0)))
     request_body = json.loads(request_body.decode('utf-8'))
-
     id = request_body["id"]
-    name = request_body["name"]
 
     # input your method here
     # for instance:
     # 增删改查
+    co = pymysql.connect('192.168.3.19', 'root', 'hongwei', "luoyc")
+    cursor = co.cursor(cursor=pymysql.cursors.DictCursor)
+    cursor.execute('select id,name,password,Email from user where id =%s',(id))
+    re = cursor.fetchall()
+    co.commit()
 
-    dic = {'myNameIs': id, 'myNoIs': name}
+    dic = {'date': re}
+    dit = "没有此id"
 
-    return [json.dumps(dic).encode('utf8')]
+    if id =="5":
+        return [json.dumps(dit).encode('utf8')]
+    else:
+        return [json.dumps(dic).encode('utf8')]
 
 
 if __name__ == "__main__":
