@@ -1,9 +1,9 @@
 from Test.booking_login import blogin
 
 class coupons:
-    def bc(hotel,couponNo):
+    def bc(mobile,password,areaCode,hotel,couponNo):
 
-        session = blogin.bll("18802094078","111111b","86")
+        session = blogin.bll(mobile,password,areaCode)
 
         data = {'hotel': hotel ,'couponNo': couponNo}
 
