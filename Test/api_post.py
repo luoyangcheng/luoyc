@@ -1,7 +1,6 @@
 import json,pymysql
 from wsgiref.simple_server import make_server
 
-
 # 定义函数，参数是函数的两个参数，都是python本身定义的，默认就行了。
 def application(environ, start_response):
     # 定义文件请求的类型和当前请求成功的code
