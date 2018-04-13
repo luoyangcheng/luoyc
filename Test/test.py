@@ -9,7 +9,6 @@ import tkinter.messagebox as messagebox
 import socket
 import threading
 import pymysql
-
 # now = datetime.now()
 # print(now)
 # print(now.timestamp())
