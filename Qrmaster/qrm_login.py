@@ -1,8 +1,8 @@
 import requests, hashlib
 from bs4 import BeautifulSoup
 
-url = 'http://192.168.3.19:8082/login.html'
-login_url = "http://192.168.3.19:8082/Home/Public/login"
+login_url = 'http://192.168.3.19:8082/login.html'
+login_api = "http://192.168.3.19:8082/Home/Public/login"
 
 data = {'mobile': '18802094078',
         'password': '45101b093c4e8acf32a525dc231afd50',
@@ -13,7 +13,7 @@ def md5(str):
     return m.hexdigest()
 
 def hash(url):
-    soup = BeautifulSoup(session.get(url).text, 'html.parser')
+    soup = BeautifulSoup(session.get(login_url).text, 'html.parser')
     course = soup.find_all('div', class_="card")
     for i in course:
       hash = i['data-hash']
@@ -26,10 +26,10 @@ def gethash(data, hash):
 
 if __name__ == "__main__":
     session = requests.session()
-    hash = hash(url)
+    hash = hash(login_url)
     print(hash)
     gethash(data,hash)
     print(data['hash'])
-    a = session.post(login_url, data=data)
+    a = session.post(login_api, data=data)
     print(a.text)
 
