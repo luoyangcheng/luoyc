@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>My_Blog</title>
 </head>
 <body>
-<h1>{{ ari.title}}</h1>
+<h1><a href="{% url 'webhome:edit_page' 0 %}">添加新文章</a></h1>
+{% for a in ari %}
+<a href="{% url 'webhome:blog_page' a.id %}">{{ a.title }}</a>
+<br>
+{% endfor %}
 </body>
 </html>

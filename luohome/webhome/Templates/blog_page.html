@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章详情页</title>
+</head>
+<body>
+<h1>{{ ari.title }}</h1>
+<br>
+<h2>{{ ari.content }}</h2>
+<br><br>
+<a href="{% url 'webhome:edit_page' ari.id%}">修改文章</a>
+<a href="{% url 'webhome:index'%}">返回文章</a>
+</body>
+</html>

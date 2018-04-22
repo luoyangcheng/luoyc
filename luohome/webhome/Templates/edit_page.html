@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改</title>
+</head>
+<body>
+<form action="{% url 'webhome:edit_action' %}" method="post">
+    {% csrf_token %}
+    {% if ari %}
+        <input type="hidden" name="aid" value="{{ ari.id }}">
+        <label>
+            <input type="text" name="title" value="{{ ari.title }}"/>
+        </label>
+        <br>
+        <label>
+            <input type="text" name="content" value="{{ ari.content }}">
+        </label>
+        <br>
+    {% else %}
+        <input type="hidden" name="aid" value="0">
+        <label>
+            <input type="text" name="title"/>
+        </label>
+        <br>
+        <label>
+            <input type="text" name="content">
+        </label>
+        <br>
+    {% endif %}
+    <input type="submit" value="确认提交">
+</form>
+<a href="{% url 'webhome:index'%}">返回文章</a>
+</body>
+</html>

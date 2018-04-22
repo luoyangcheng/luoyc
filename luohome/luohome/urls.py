@@ -14,13 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from django.conf.urls import url, include
-from webhome import views
-
+from django.urls import path, include
+# from django.conf.urls import url, include
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.hello),
-    # url(r'^admin/', admin.site.urls), #这里也要注意正则表达式符号和结尾的反斜杠 /
+    path('blog/', include('webhome.urls', namespace='webhome')),
+
+    # path('blog/<int:aid>/', views.blog_page),
+    # url(r'^admin/', admin.site.urls),
     # url(r'^index/', views.hello),
+    # url(r'^ari/(?P<aid>[0-9]+)$', views.blog_page),
 ]
