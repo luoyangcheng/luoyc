@@ -1,5 +1,6 @@
 from Test.meizhu_login import login
 import json
+from datetime import datetime
 
 
 class vip:
@@ -9,15 +10,18 @@ class vip:
         data = {'hotel': hotel, 'currentPage': currentPage}
 
         login_url = "http://192.168.3.19:8090/Home/Customer/vip"
+        startime = datetime.now()
         resp = session.post(login_url, data)
+        endtime = datetime.now()
         r = resp.content.decode('utf-8')
         f = json.loads(r)
-        vid = []
+        vids = []
         for i in range(len(f["data"]["item"])):
-            id = (f["data"]["item"][i]["id"])
-            vid.append(id)
-        print(vid)
-        print(max(vid))
+            vid = (f["data"]["item"][i]["id"])
+            vids.append(vid)
+        print(vids)
+        print(max(vids))
+        print(endtime - startime)
 
 
 if __name__ == '__main__':
