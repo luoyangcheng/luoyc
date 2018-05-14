@@ -8,7 +8,7 @@ from openpyxl.styles import Font, colors
 class Login:
 
     def read_excel(self):
-        data = load_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+        data = load_workbook('E:/luoyc\Meizhu\meizhu_testcase.xlsx')
         sheet = data["美住登录"]
         username = []
         for r in range(2, sheet.max_row + 1):
@@ -61,7 +61,7 @@ class Login:
         Result = self.browser()
         green = Font(color=colors.GREEN)
         red = Font(color=colors.RED)
-        data = load_workbook('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+        data = load_workbook('E:/luoyc\Meizhu\meizhu_testcase.xlsx')
         sheet = data["美住登录"]
         rows = sheet.max_row
         cols = sheet.max_column
@@ -76,7 +76,7 @@ class Login:
                 resu.font = green
             else:
                 resu.font = red
-        data.save('C:/Users\Administrator\luoyc\Meizhu\meizhu_testcase.xlsx')
+        data.save('E:/luoyc\Meizhu\meizhu_testcase.xlsx')
 
 if __name__ == "__main__":
     Login().write_excel()

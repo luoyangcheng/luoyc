@@ -1693,3 +1693,79 @@ JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 
 1522142621463	Marionette	INFO	Listening on port 26005
 1522142622519	Marionette	WARN	TLS certificate errors will be ignored for this session
 [Child 5500] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 345
+1526287594882	geckodriver	INFO	geckodriver 0.19.0
+1526287594890	geckodriver	INFO	Listening on 127.0.0.1:53826
+1526287645831	geckodriver	INFO	geckodriver 0.19.0
+1526287645838	geckodriver	INFO	Listening on 127.0.0.1:53904
+1526287892238	geckodriver	INFO	Listening on 127.0.0.1:54417
+1526287895356	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.G7YcY4MgNy0x
+1526287895364	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526287895409	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54430
+1526287916282	geckodriver	INFO	Listening on 127.0.0.1:54474
+1526287919395	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.DB07MVQnF7T4
+1526287919399	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526287919433	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54486
+1526288075233	geckodriver	INFO	Listening on 127.0.0.1:54763
+1526288078293	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.0XvDhwp4RnZA
+1526288078296	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526288078314	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54775
+1526288091034	geckodriver	INFO	Listening on 127.0.0.1:54809
+1526288094151	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.rRLsyjraMfcK
+1526288094156	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526288094175	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54821
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 471: TypeError: this.tablesData[table] is undefined
+1526289672593	geckodriver	INFO	Listening on 127.0.0.1:58523
+1526289675687	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.oSSmFU3l30VM
+1526289675690	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526289675705	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58535
+1526289738368	geckodriver	INFO	Listening on 127.0.0.1:58641
+1526289741427	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.R9pwZkHTw5Vh
+1526289741427	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526289741444	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58663
+1526289760674	geckodriver	INFO	Listening on 127.0.0.1:58707
+1526289763747	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.UcBmc7UhSJEG
+1526289763753	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526289763784	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58719
+1526289787953	geckodriver	INFO	Listening on 127.0.0.1:58777
+1526289791000	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.MtR3sfnMr1XL
+1526289791002	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526289791011	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58789
+1526289821225	geckodriver	INFO	Listening on 127.0.0.1:58856
+1526289824295	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.htRy9bn7lxqE
+1526289824297	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526289824314	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58868
+1526289836009	geckodriver	INFO	Listening on 127.0.0.1:58901
+1526289839067	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.o8CZeL6UX7sa
+1526289839070	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526289839106	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58915
+1526289865098	geckodriver	INFO	Listening on 127.0.0.1:58953
+1526289868193	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.DEefT5YShqEt
+1526289868194	geckodriver::marionette	INFO	Starting browser D:\Firefox\firefox.exe with args []
+1526289868220	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58967
+1526290991787	geckodriver	INFO	geckodriver 0.20.1
+1526290991797	geckodriver	INFO	Listening on 127.0.0.1:61429
+1526290994854	mozrunner::runner	INFO	Running command: "D:\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.r5l2xT09eFG9"
+1526290998854	Marionette	INFO	Listening on port 61441
+1526290999132	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1976, MediaPlayback #1] WARNING: Decoder=f8ac800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 379
+[Child 1976, MediaPlayback #1] WARNING: Decoder=f8ac800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3445
+[Child 1976, MediaPlayback #5] WARNING: 176cce80 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 359
+[Child 1976, MediaPlayback #3] WARNING: 174d8d00 Can't get cubeb context!: file z:/build/build/src/dom/media/AudioStream.cpp, line 359
+[Child 1976, MediaPlayback #2] WARNING: Decoder=183b5800 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3746
+[Child 1976, MediaPlayback #2] WARNING: Decoder=183b5800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3445
+[Child 1976, MediaPlayback #5] WARNING: Decoder=13a18400 [OnMediaSinkAudioError]: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3746
+[Child 1976, MediaPlayback #5] WARNING: Decoder=13a18400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file z:/build/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3445
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8064, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
