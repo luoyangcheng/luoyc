@@ -1,4 +1,4 @@
-from datetime import datetime,timedelta
+from datetime import datetime, timedelta
 import hashlib
 import hmac
 import itertools
@@ -9,6 +9,7 @@ import tkinter.messagebox as messagebox
 import socket
 import threading
 import pymysql
+
 # now = datetime.now()
 # print(now)
 # print(now.timestamp())
@@ -83,22 +84,22 @@ import pymysql
 #     t = threading.Thread(target=tcplink, args=(sock, addr))
 #     t.start()
 
-co = pymysql.connect('192.168.3.19', 'root', 'hongwei',"luoyc")
-cursor = co.cursor(cursor=pymysql.cursors.DictCursor)
+# co = pymysql.connect('192.168.3.19', 'root', 'hongwei',"luoyc")
+# cursor = co.cursor(cursor=pymysql.cursors.DictCursor)
 # DB_NAME = 'luoyc'
 # cursor.execute('DROP DATABASE IF EXISTS %s' %DB_NAME)
 # cursor.execute('CREATE DATABASE IF NOT EXISTS %s' %DB_NAME)
 # co.select_db(DB_NAME)
-TABLE_NAME = 'user'
-cursor.execute('CREATE TABLE %s(id int primary key,name varchar(30),password varchar(50),Email varchar(50))'%TABLE_NAME)
-# n ="kk"
+# TABLE_NAME = 'user'
+# cursor.execute('CREATE TABLE %s(id int primary key,name varchar(30),password varchar(50),Email varchar(50))'%TABLE_NAME)
+# # n ="kk"
 # sql = 'INSERT INTO user (id, name) VALUES (%s,%s)',(4,n)
 # sql2 = 'select name from user'
 # cursor.execute('INSERT INTO user (id, name) VALUES (%s,%s)',(4,n))
 # cursor.execute(sql2)
 # re = cursor.fetchall()
-co.commit()
-print(re)
+# co.commit()
+# print(re)
 
 # from flask import Flask
 # from flask import request
@@ -126,3 +127,16 @@ print(re)
 #
 # if __name__ == '__main__':
 #     app.run()
+
+import json
+for i in range(2):
+    rooms = []
+    data = {
+        "locktype": '1',
+        "name": str(i),
+        "no": str(i),
+        "num": str(i)
+    }
+    a = json.dumps(data)
+    rooms.append(a)
+    print(rooms)
