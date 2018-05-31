@@ -1,47 +1,44 @@
 import requests
-import sys
-import io
+import json
 import time
-import hashlib
+
+class getroomitem:
+    def login(areaCode, account, passwd):
+        data1 = {'areaCode': areaCode,
+                 'account': account,
+                 'passwd': passwd
+
+                 }
+        login_url = "http://115.29.142.212:8020/mobile/user/login"
+
+        session = requests.Session()
+        resp = session.post(login_url, data1)
+        r = resp.content.decode('utf-8')
+        print(resp.content.decode('utf-8'))
+        f = json.loads(r)
+        token = (f["data"]["token"])
+        return token
+
+    def room(id, token, communityId,buildingId,floorId,rooms):
+        data2 = {'id': id,
+                 'token': token,
+                 'communityId': communityId,
+                 'buildingId':buildingId,
+                 'floorId':floorId,
+                 'rooms':rooms}
+
+        header = {'V': '3.0.08'}
+        room_url = "http://115.29.142.212:8020/Mobile/Room/addRooms"
+        rooms = []
 
 
-#改变标准输出的默认编码
-#sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf8')
-
-#登录时需要POST的数据
-data = {'mobile':'18802094078',
-        'password':'45101b093c4e8acf32a525dc231afd50',
-        'areaCode':'86',
-        "hash":"a64eb28672e8b66c105702165ea88646"}
-
-#设置请求头
-#headers = {'User-agent':'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'}
+        for i in range(1):
+            resp = requests.post(room_url, data2, headers = header)
+            print(resp.content.decode('utf-8'))
+            time.sleep(1)
 
 
-#登录时表单提交到的地址（登录接口）
-login_url = "http://115.29.142.212:8020/Home/Public/login"
-
-#构造Session
-session = requests.Session()
-
-#在session中发送登录请求，此后这个session里就存储了cookie
-#可以用print(session.cookies.get_dict())查看
-resp = session.post(login_url, data)
-print(resp.text)
-
-#登录后才能访问 或者操作的网页
-url = "http://115.29.142.212:8020/Home/Room/addRooms"
-
-#循环添加数据
-for i in range(1,2):
-     datas = {
-         "build":"591",
-         "floor":"1443",
-         "rooms[0][name]":str(i),
-         "rooms[0][num]":str(i),
-         "rooms[0][no]": str(i),
-         "rooms[0][locktype]": "1",
-         "rooms[0][layout]": '{"translate": {"x": 0,"y": 0},"width": 80,"height": 80}'
-     }
-     r = session.post(url,datas)
-     print(r.text)
+if __name__ == '__main__':
+    token = getroomitem.login('86', '18802094078',
+                              'fCx5Gyw0h98172b+w9StnCDbRxNe+ByEosng3aApcePOkQh7zD37uA9EZfcDwqUksqtl8lnV19ZtZAY7RI9gF06cHY00ObkHxYTJuwPgwWjq1ou/KdsKDUJVj6KkKHIx7vojzhG5M53Iim3kqYqvw8nqBLORebshNknGbrHygX2ff3UnP6Htt0nVfz/b2AQpb6w3a2fmUPzXtw+ikXGkCfBCcMtBZfTnY9EOpRVUAyvdILq3SUuEqYLjdts11cBLNPmCIi4MkQDrmFExq5hEJzcfOpqX4yW+zuhKOOGrvlHtyDXkeZ9XBU4B8onWx4qNOiP1g+pf06Rgr4RftNYQAg==')
+    getroomitem.room('4103',token,'819','973','2271','[{"locktype":1,"name":"999","no":"999","num":"23"}]')
