@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8281a331-d329-4052-a287-c872f9ed0215" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Meizhu/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/qrm_app_getroomlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/qrm_addroom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/qrm_app_addroom.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/orm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qrmaster/qrm_addroom.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +30,8 @@
     <SUITE FILE_PATH="coverage/warehouse$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1523635754655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$demo.coverage" NAME="demo Coverage Results" MODIFIED="1527732948381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom1.coverage" NAME="qrm_addroom1 Coverage Results" MODIFIED="1527750491695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
-    <SUITE FILE_PATH="coverage/luoyc$qrm_addroom.coverage" NAME="qrm_addroom Coverage Results" MODIFIED="1527729860006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
+    <SUITE FILE_PATH="coverage/luoyc$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1527835422153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/luoyc$qrm_addroom.coverage" NAME="qrm_addroom Coverage Results" MODIFIED="1527843489856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrmaster_login.coverage" NAME="qrmaster_login Coverage Results" MODIFIED="1523608822421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_login.coverage" NAME="qrm_login Coverage Results" MODIFIED="1524463266904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal2.coverage" NAME="meizhu_withdrawal2 Coverage Results" MODIFIED="1524023490591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
@@ -45,7 +41,20 @@
     <SUITE FILE_PATH="coverage/warehouse$regular.coverage" NAME="regular Coverage Results" MODIFIED="1523681217837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="qrm_web_addroom.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-338">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,11 +110,13 @@
         <option value="$PROJECT_DIR$/Test/requests_json.py" />
         <option value="$PROJECT_DIR$/Meizhu/meizhu_login.py" />
         <option value="$PROJECT_DIR$/Test/demo.py" />
-        <option value="$PROJECT_DIR$/Qrmaster/qrm_addroom.py" />
         <option value="$PROJECT_DIR$/Test/qrmaster_online_test_add_room.py" />
         <option value="$PROJECT_DIR$/Qrmaster/qrm_addroom1.py" />
         <option value="$PROJECT_DIR$/Test/test.py" />
         <option value="$PROJECT_DIR$/Test/qrm_addroom.py" />
+        <option value="$PROJECT_DIR$/Demo/demo.py" />
+        <option value="$PROJECT_DIR$/Qrmaster/qrm_addroom.py" />
+        <option value="$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py" />
       </list>
     </option>
   </component>
@@ -118,7 +129,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="312" />
     <option name="y" value="114" />
     <option name="width" value="1435" />
@@ -160,6 +171,11 @@
               <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
               <item name="luoyc" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luoyc" type="462c0819:PsiDirectoryNode" />
+              <item name="Qrmaster" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -193,8 +209,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.qrm_addroom (1)">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.qrm_addroom">
+    <configuration name="demo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luoyc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,12 +218,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\luoyc\Test\qrm_app_getroomlist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,6 +248,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="qrm_addroom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="luoyc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qrmaster" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\luoyc\Qrmaster\qrm_web_addroom.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="qrm_addroom1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luoyc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,25 +281,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qrmaster/qrm_addroom1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="qrmaster_online_test_add_room" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="luoyc" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/qrmaster_online_test_add_room.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,19 +306,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.demo" />
       <item itemvalue="Python.qrm_addroom (1)" />
-      <item itemvalue="Python.qrmaster_online_test_add_room" />
       <item itemvalue="Python.qrm_addroom1" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.demo (1)" />
+      <item itemvalue="Python.qrm_addroom" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.qrm_addroom" />
+        <item itemvalue="Python.demo (1)" />
         <item itemvalue="Python.qrm_addroom (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.qrm_addroom1" />
-        <item itemvalue="Python.qrmaster_online_test_add_room" />
-        <item itemvalue="Python.demo" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +359,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="312" y="114" width="1435" height="840" extended-state="1" />
+    <frame x="312" y="114" width="1435" height="840" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.24867162" />
@@ -352,7 +368,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.24827586" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.16842847" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.16842847" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -381,20 +397,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -712,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_addroom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -730,6 +725,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-338">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
