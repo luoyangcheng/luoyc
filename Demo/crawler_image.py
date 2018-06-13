@@ -4,14 +4,21 @@ import urllib.request
 import os
 
 
-def mkdirfile(file_path):
-    folder = os.path.exists(file_path)
-    if not folder:
-        os.makedirs(file_path)
-        print("File created successfully")
+def mkdirfile(file_path, goods_id):
+    url = 'https://app.bicijian.com/index.php?act=goods&op=goods_detail&goods_id=' + str(goods_id) + '&key=&dis_id='
+    str(url)
+    img_s = requests.get(url)
+    f = json.loads(img_s.text)
+    e = f["code"]
+    if e == 200:
+        folder = os.path.exists(file_path)
+        if not folder:
+            os.makedirs(file_path)
+            print("File created successfully")
+        else:
+            print("File already exists")
     else:
-        print("File already exists")
-
+        print('The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】')
 
 def getBicijianImag(path, goods_id):
     try:
@@ -34,7 +41,7 @@ def getBicijianImag(path, goods_id):
 
 
 if __name__ == '__main__':
-    mk_file_path = 'C:/BCJ_image/'
-    mkdirfile(mk_file_path)
-    for goods_id in range(430187, 430188):
+    for goods_id in range(430188, 430189):
+        mk_file_path = 'C:/BCJ_image/' + str(goods_id) + '/'
+        mkdirfile(mk_file_path, goods_id)
         getBicijianImag(mk_file_path, goods_id)
