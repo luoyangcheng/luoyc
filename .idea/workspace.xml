@@ -33,7 +33,7 @@
     <SUITE FILE_PATH="coverage/luoyc$demo.coverage" NAME="demo Coverage Results" MODIFIED="1527732948381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom1.coverage" NAME="qrm_addroom1 Coverage Results" MODIFIED="1527750491695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom.coverage" NAME="qrm_addroom Coverage Results" MODIFIED="1527843489856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
-    <SUITE FILE_PATH="coverage/luoyc$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1528852762704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/luoyc$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1528955649328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/luoyc$qrmaster_login.coverage" NAME="qrmaster_login Coverage Results" MODIFIED="1523608822421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_login.coverage" NAME="qrm_login Coverage Results" MODIFIED="1524463266904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal2.coverage" NAME="meizhu_withdrawal2 Coverage Results" MODIFIED="1524023490591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="247">
+              <caret line="36" column="22" selection-end-line="45" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -61,8 +61,8 @@
       <file leaf-file-name="crawler_image.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo/crawler_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="338">
+              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -147,7 +147,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="312" />
     <option name="y" value="114" />
     <option name="width" value="1435" />
@@ -193,11 +193,6 @@
               <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
               <item name="luoyc" type="462c0819:PsiDirectoryNode" />
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luoyc" type="462c0819:PsiDirectoryNode" />
-              <item name="Qrmaster" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -736,8 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="247">
+          <caret line="36" column="22" selection-end-line="45" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -746,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/crawler_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="338">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
