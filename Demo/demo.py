@@ -1,20 +1,14 @@
-all = []
-for i in range(2):
-    a = []
-    for j in range(5):
-        a.append(j)
-    if a not in all:
-        all.append(a)
-        print(a)
-    else:
-        print("已存在")
-print(all)
 
-c = [[1,2],[3,4]]
-d = [3,45]
-e = c[0]
-if d not in c:
-    print(0)
-else:
-    print(1)
-print(e)
+class A:
+    def __init__(self,name):
+        self.name = name
+
+    def sum(self,hh):
+        dd = self.name*hh
+        return dd
+
+luoyc = A(5).sum(5)
+you = A(6).sum(6)
+
+print(luoyc)
+print(you)

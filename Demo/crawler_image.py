@@ -53,5 +53,5 @@ if __name__ == '__main__':
                 all_img.append(img_urls)
             else:
                 print('Data already exists')
-
-        print('The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】')
+        else:
+            print('The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】')

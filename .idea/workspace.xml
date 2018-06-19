@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8281a331-d329-4052-a287-c872f9ed0215" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/luoyc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/luoyc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/crawler_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/crawler_image.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/demo.py" afterDir="false" />
@@ -31,17 +29,18 @@
     <SUITE FILE_PATH="coverage/luoyc$test.coverage" NAME="test Coverage Results" MODIFIED="1527759239382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/warehouse$Unittests_for_unittest_mytest.coverage" NAME="Unittests for unittest.mytest Coverage Results" MODIFIED="1523681138531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom__1_.coverage" NAME="qrm_addroom (1) Coverage Results" MODIFIED="1527761694220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/luoyc$text.coverage" NAME="text Coverage Results" MODIFIED="1529390716870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/luoyc$demo.coverage" NAME="demo Coverage Results" MODIFIED="1527732948381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/warehouse$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1523635754655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom1.coverage" NAME="qrm_addroom1 Coverage Results" MODIFIED="1527750491695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom.coverage" NAME="qrm_addroom Coverage Results" MODIFIED="1527843489856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
-    <SUITE FILE_PATH="coverage/luoyc$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1529042239176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/luoyc$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1529397916251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_login.coverage" NAME="qrm_login Coverage Results" MODIFIED="1524463266904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrmaster_login.coverage" NAME="qrmaster_login Coverage Results" MODIFIED="1523608822421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal2.coverage" NAME="meizhu_withdrawal2 Coverage Results" MODIFIED="1524023490591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$requests_json.coverage" NAME="requests_json Coverage Results" MODIFIED="1524905856296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$booking_coupons_mult.coverage" NAME="booking_coupons_mult Coverage Results" MODIFIED="1524021066104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/luoyc$crawler_image.coverage" NAME="crawler_image Coverage Results" MODIFIED="1529044120046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/luoyc$crawler_image.coverage" NAME="crawler_image Coverage Results" MODIFIED="1529049474299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal_mult.coverage" NAME="meizhu_withdrawal_mult Coverage Results" MODIFIED="1524035086962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/warehouse$regular.coverage" NAME="regular Coverage Results" MODIFIED="1523681217837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/warehouse$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1528988092629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Demo/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="52">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -61,8 +60,11 @@
       <file leaf-file-name="crawler_image.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Demo/crawler_image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="248">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +132,7 @@
         <option value="$PROJECT_DIR$/Qrmaster/qrm_addroom.py" />
         <option value="$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py" />
         <option value="$PROJECT_DIR$/Test/qrm_app_getroomlist.py" />
+        <option value="$PROJECT_DIR$/Demo/text.py" />
         <option value="$PROJECT_DIR$/Demo/demo.py" />
         <option value="$PROJECT_DIR$/Demo/crawler_image.py" />
       </list>
@@ -224,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler_image">
+  <component name="RunManager" selected="Python.demo (1)">
     <configuration name="crawler_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luoyc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,25 +261,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="qrm_addroom" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="luoyc" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qrmaster" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\luoyc\Qrmaster\qrm_web_addroom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,20 +304,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="luoyc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/text.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.demo (1)" />
-      <item itemvalue="Python.qrm_addroom" />
       <item itemvalue="Python.qrm_web_addroom" />
       <item itemvalue="Python.qrm_app_getroomlist" />
       <item itemvalue="Python.crawler_image" />
+      <item itemvalue="Python.text" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.crawler_image" />
         <item itemvalue="Python.demo (1)" />
+        <item itemvalue="Python.text" />
+        <item itemvalue="Python.crawler_image" />
         <item itemvalue="Python.qrm_app_getroomlist" />
         <item itemvalue="Python.qrm_web_addroom" />
-        <item itemvalue="Python.qrm_addroom" />
       </list>
     </recent_temporary>
   </component>
@@ -380,17 +383,17 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010571" side_tool="true" weight="0.24689655" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.24689655" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.24689655" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.16701902" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5042194" side_tool="true" weight="0.20581818" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -413,7 +416,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webapp/app.py" />
     <entry file="file://$PROJECT_DIR$/Test/api_get.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -605,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meizhu/meizhu_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/booking_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -696,17 +691,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Meizhu/meizhu_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-934">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/text.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="52">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/crawler_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="248">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
