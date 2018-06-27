@@ -4,6 +4,9 @@
     <list default="true" id="8281a331-d329-4052-a287-c872f9ed0215" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/crawler_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/crawler_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,6 +29,7 @@
     <SUITE FILE_PATH="coverage/luoyc$meizhu_login.coverage" NAME="meizhu_login Coverage Results" MODIFIED="1526290990765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Meizhu" />
     <SUITE FILE_PATH="coverage/warehouse$settings__1_.coverage" NAME="settings (1) Coverage Results" MODIFIED="1523684702642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/luohome/luohome" />
     <SUITE FILE_PATH="coverage/luoyc$test.coverage" NAME="test Coverage Results" MODIFIED="1527759239382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/luoyc$withdrawal.coverage" NAME="withdrawal Coverage Results" MODIFIED="1530063615709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/warehouse$Unittests_for_unittest_mytest.coverage" NAME="Unittests for unittest.mytest Coverage Results" MODIFIED="1523681138531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom__1_.coverage" NAME="qrm_addroom (1) Coverage Results" MODIFIED="1527761694220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$text.coverage" NAME="text Coverage Results" MODIFIED="1529390716870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
@@ -33,14 +37,14 @@
     <SUITE FILE_PATH="coverage/warehouse$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1523635754655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom1.coverage" NAME="qrm_addroom1 Coverage Results" MODIFIED="1527750491695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_addroom.coverage" NAME="qrm_addroom Coverage Results" MODIFIED="1527843489856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
-    <SUITE FILE_PATH="coverage/luoyc$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1529476430228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/luoyc$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1529648218731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_login.coverage" NAME="qrm_login Coverage Results" MODIFIED="1524463266904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
     <SUITE FILE_PATH="coverage/luoyc$qrmaster_login.coverage" NAME="qrmaster_login Coverage Results" MODIFIED="1523608822421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qrmaster" />
-    <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal2.coverage" NAME="meizhu_withdrawal2 Coverage Results" MODIFIED="1524023490591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal2.coverage" NAME="meizhu_withdrawal2 Coverage Results" MODIFIED="1530007952063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$requests_json.coverage" NAME="requests_json Coverage Results" MODIFIED="1524905856296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$booking_coupons_mult.coverage" NAME="booking_coupons_mult Coverage Results" MODIFIED="1524021066104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/luoyc$crawler_image.coverage" NAME="crawler_image Coverage Results" MODIFIED="1529485072995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
-    <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal_mult.coverage" NAME="meizhu_withdrawal_mult Coverage Results" MODIFIED="1524035086962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/luoyc$meizhu_withdrawal_mult.coverage" NAME="meizhu_withdrawal_mult Coverage Results" MODIFIED="1530008355327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/warehouse$regular.coverage" NAME="regular Coverage Results" MODIFIED="1523681217837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/warehouse$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1528988092629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/luoyc$qrm_app_getroomlist.coverage" NAME="qrm_app_getroomlist Coverage Results" MODIFIED="1528352280462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
@@ -93,7 +97,6 @@
         <option value="$PROJECT_DIR$/Test/meizhu_login.py" />
         <option value="$PROJECT_DIR$/Test/meizhu_withdrawal.py" />
         <option value="$PROJECT_DIR$/Test/meizhu_withdrawal2.py" />
-        <option value="$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py" />
         <option value="$PROJECT_DIR$/Test/booking_coupons_mult.py" />
         <option value="$PROJECT_DIR$/Test/meizhu_pay.py" />
         <option value="$PROJECT_DIR$/Test/crawler.py" />
@@ -109,9 +112,11 @@
         <option value="$PROJECT_DIR$/Qrmaster/qrm_addroom.py" />
         <option value="$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py" />
         <option value="$PROJECT_DIR$/Test/qrm_app_getroomlist.py" />
-        <option value="$PROJECT_DIR$/Demo/text.py" />
-        <option value="$PROJECT_DIR$/Demo/demo.py" />
         <option value="$PROJECT_DIR$/Demo/crawler_image.py" />
+        <option value="$PROJECT_DIR$/Demo/demo.py" />
+        <option value="$PROJECT_DIR$/Demo/text.py" />
+        <option value="$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py" />
+        <option value="$PROJECT_DIR$/Demo/withdrawal.py" />
       </list>
     </option>
   </component>
@@ -165,11 +170,6 @@
               <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
               <item name="luoyc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luoyc" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -204,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crawler_image">
+  <component name="RunManager" selected="Python.withdrawal">
     <configuration name="crawler_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luoyc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,7 +243,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="qrm_app_getroomlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="meizhu_withdrawal2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luoyc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,13 +256,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/qrm_app_getroomlist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/meizhu_withdrawal2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="qrm_web_addroom" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="meizhu_withdrawal_mult" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luoyc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,18 +270,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qrmaster" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="withdrawal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="luoyc" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,7 +294,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/text.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/withdrawal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,18 +302,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.demo (1)" />
-      <item itemvalue="Python.qrm_web_addroom" />
-      <item itemvalue="Python.qrm_app_getroomlist" />
       <item itemvalue="Python.crawler_image" />
-      <item itemvalue="Python.text" />
+      <item itemvalue="Python.meizhu_withdrawal2" />
+      <item itemvalue="Python.meizhu_withdrawal_mult" />
+      <item itemvalue="Python.withdrawal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.crawler_image" />
+        <item itemvalue="Python.withdrawal" />
+        <item itemvalue="Python.meizhu_withdrawal_mult" />
+        <item itemvalue="Python.meizhu_withdrawal2" />
         <item itemvalue="Python.demo (1)" />
-        <item itemvalue="Python.text" />
-        <item itemvalue="Python.qrm_app_getroomlist" />
-        <item itemvalue="Python.qrm_web_addroom" />
+        <item itemvalue="Python.crawler_image" />
       </list>
     </recent_temporary>
   </component>
@@ -361,9 +361,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.24689655" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.37931034" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32905984" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.16701902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4957806" visible="true" weight="0.18252291" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -392,20 +392,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/api_get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/bubbleSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -520,20 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/meizhu_withdrawal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/meizhu_withdrawal2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/booking_coupons_mult.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -562,20 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/meizhu_addvip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/meizhu_pay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/api_post.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -597,46 +555,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/meizhu_pay_mult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Qrmaster/qrmaster_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/meizhu_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/qrmaster_online_test_add_room.py" />
     <entry file="file://C:/Python36/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="829" column="13" lean-forward="true" selection-start-line="829" selection-start-column="13" selection-end-line="829" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/booking_coupons.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -649,17 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/app.py" />
     <entry file="file://$PROJECT_DIR$/webapp/orm.py" />
-    <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_addroom1.py" />
     <entry file="file://$PROJECT_DIR$/Test/qrm_app_addroom.py" />
     <entry file="file://$PROJECT_DIR$/Test/qrm_app_getroomlist.py" />
-    <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py" />
-    <entry file="file://$PROJECT_DIR$/Qrmaster/qrmaster_syn_meizhu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="324" column="27" lean-forward="true" selection-start-line="324" selection-start-column="27" selection-end-line="324" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/requests_json.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -674,32 +588,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Meizhu/meizhu_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-934">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/crawler_image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#139#498#0" />
-            <element signature="e#561#1114#0" />
-            <element signature="e#1183#2864#0" />
-            <element signature="e#1345#2585#0" />
-            <element signature="e#2612#2665#0" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/demo.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/meizhu_withdrawal2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/meizhu_withdrawal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/booking_coupons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Meizhu/meizhu_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/meizhu_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/meizhu_addvip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qrmaster/qrmaster_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qrmaster/qrmaster_syn_meizhu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="324" column="27" lean-forward="true" selection-start-line="324" selection-start-column="27" selection-end-line="324" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_web_addroom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qrmaster/qrm_addroom1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/meizhu_pay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/meizhu_pay_mult.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/withdrawal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#24#216#0" />
+          </folding>
         </state>
       </provider>
     </entry>
