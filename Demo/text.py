@@ -1,4 +1,4 @@
 import requests
 
-a = requests.get('www.baidu.com')
+a = requests.get('https://www.baidu.com')
 print(a)
