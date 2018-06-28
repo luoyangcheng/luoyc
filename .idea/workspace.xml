@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8281a331-d329-4052-a287-c872f9ed0215" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/crawler_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/crawler_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/meizhu_withdrawal_mult.py" afterDir="false" />
-    </list>
+    <list default="true" id="8281a331-d329-4052-a287-c872f9ed0215" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +44,7 @@
     <SUITE FILE_PATH="coverage/luoyc$qrm_app_getroomlist.coverage" NAME="qrm_app_getroomlist Coverage Results" MODIFIED="1528352280462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,7 +123,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="314" />
     <option name="y" value="103" />
     <option name="width" value="1435" />
@@ -169,6 +163,11 @@
             <path>
               <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
               <item name="luoyc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luoyc" type="462c0819:PsiDirectoryNode" />
+              <item name=".vscode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -655,9 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-206">
           <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,10 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#24#216#0" />
-          </folding>
         </state>
       </provider>
     </entry>
