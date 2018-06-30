@@ -28,9 +28,9 @@ def getBicijianImag(path, goods_id, img_urls, all_img):
                 time.sleep(1)
                 m = m + 1
             print('The download is complete，goods_id：【' + str(goods_id) + '】')
-        except:
+        except Exception as e:
             print(
-                'The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】')
+                'The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】', e)
     else:
         print("Data already exists")
 
@@ -72,6 +72,6 @@ if __name__ == '__main__':
             else:
                 print("开始商品ID不能大于结束商品ID，请重新输入")
                 i = i + 1
-        except:
-            print("商品ID必须是正整数")
+        except Exception as e:
+            print("商品ID必须是正整数", e)
             i = i + 1
