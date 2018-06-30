@@ -42,7 +42,7 @@ if __name__ == '__main__':
         try:
             star1 = input("请输入开始商品ID，如：430188（输完按回车）:")
             star = int(star1)
-            end1 = input("请输入结束商品ID,如：430199（输完按回车）:")
+            end1 = input("请输入结束商品ID, 如：430199（输完按回车）:")
             end = int(end1)
             if star < end:
                 all_img = []
