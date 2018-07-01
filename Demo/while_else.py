@@ -7,7 +7,7 @@ while i < 5:
     try:
         m = int(m)
     except Exception as e:
-        print('手机号格式错误', e)
+        print('手机号格式错误，错误信息：', e)
     if m == mobile:
         j = 0
         while j < 5:
