@@ -23,12 +23,14 @@ def getBicijianImag(path, goods_id, img_urls, all_img):
             m = 1
             for img_url in img_urls:
                 print(str(goods_id) + str(m) + '.jpg')
-                urllib.request.urlretrieve(img_url, path + str(goods_id) + '_' + str(m) + '.jpg')
+                urllib.request.urlretrieve(
+                    img_url, path + str(goods_id) + '_' + str(m) + '.jpg')
                 time.sleep(1)
                 m = m + 1
             print('The download is complete，goods_id：【' + str(goods_id) + '】')
-        except:
-            print('The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】')
+        except Exception as e:
+            print(
+                'The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】', e)
     else:
         print("Data already exists")
 
@@ -38,15 +40,14 @@ if __name__ == '__main__':
     i = 0
     while (i < 10):
         try:
-            star1 = input("请输入开始商品ID，如：430188（输完按回车）:")
-            star = int(star1)
-            end1 = input("请输入结束商品ID,如：430199（输完按回车）:")
-            end = int(end1)
+            star = input("请输入开始商品ID，如：430188（输完按回车）:")
+            star = int(star)           
+            end = input("请输入结束商品ID, 如：430199（输完按回车）:")
+            end = int(end)
             if star < end:
                 all_img = []
                 for goods_id in range(star, end):
-                    url = 'https://app.bicijian.com/index.php?act=goods&op=goods_detail&goods_id=' + str(
-                        goods_id) + '&key=&dis_id='
+                    url = 'https://app.bicijian.com/index.php?act=goods&op=goods_detail&goods_id=' + str(goods_id) + '&key=&dis_id='
                     img_s = requests.get(url)
                     f = json.loads(img_s.text)
                     code = f["code"]
@@ -64,12 +65,13 @@ if __name__ == '__main__':
                         else:
                             print('Data already exists')
                     else:
-                        print('The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】')
+                        print(
+                            'The commodity department exists or has been deleted, goods_id：【' + str(goods_id) + '】')
                 wait = input("请按回车键结束程序")
                 break
             else:
                 print("开始商品ID不能大于结束商品ID，请重新输入")
                 i = i + 1
-        except:
-            print("商品ID必须是正整数")
+        except Exception as e:
+            print("商品ID必须是正整数", e)
             i = i + 1
