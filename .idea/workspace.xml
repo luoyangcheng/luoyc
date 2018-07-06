@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8281a331-d329-4052-a287-c872f9ed0215" name="Default" comment="" />
+    <list default="true" id="8281a331-d329-4052-a287-c872f9ed0215" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/luoyc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/luoyc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/demo.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +128,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="314" />
     <option name="y" value="103" />
     <option name="width" value="1435" />
@@ -157,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,16 +170,10 @@
               <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
               <item name="luoyc" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="luoyc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luoyc" type="462c0819:PsiDirectoryNode" />
-              <item name=".vscode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
