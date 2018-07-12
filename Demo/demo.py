@@ -26,7 +26,7 @@ class App(QWidget):
         # create textbox
         self.textbox = QLineEdit(self)
         self.textbox.move(20, 20)
-        self.textbox.resize(280, 40)
+        self.textbox.resize(80, 20)
 
         # Create a button in the window
         self.button = QPushButton('确定', self)
