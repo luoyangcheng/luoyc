@@ -1,4 +1,5 @@
-import requests, hashlib
+import requests
+import hashlib
 from bs4 import BeautifulSoup
 
 url = 'http://192.168.3.19:8082/login.html'

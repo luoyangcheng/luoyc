@@ -1,4 +1,4 @@
-#冒泡排序
+# 冒泡排序
 def bubbleSort(num):
     for i in range(len(num) - 1):
         for j in range(len(num) - i - 1):
