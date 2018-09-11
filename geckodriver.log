@@ -701,3 +701,72 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1536658656652	geckodriver	INFO	geckodriver 0.21.0
+1536658656660	geckodriver	INFO	Listening on 127.0.0.1:49115
+1536658659688	mozrunner::runner	INFO	Running command: "D:\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.mNtYl1Fzm3R4"
+1536658662984	Marionette	INFO	Listening on port 49123
+1536658663083	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536658663136	Marionette	DEBUG	[6442450945] Frame script loaded
+1536658663146	Marionette	DEBUG	[6442450945] Frame script registered
+1536658663184	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1536658663217	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1536658663390	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658663606	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658663958	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536658663999	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658664664	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658664665	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658664889	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658664937	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658665280	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536658665318	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658665348	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658665350	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658665584	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658665644	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658666476	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536658666531	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658666568	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658666570	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658666644	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658666709	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658667089	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536658667124	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658667148	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658667150	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658667206	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658667257	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658667599	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536658667625	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658667640	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658667641	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658667844	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658667887	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658668206	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536658668242	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658668254	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658668254	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658668309	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658668359	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658668699	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1536658668723	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658668737	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658668739	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658668833	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1536658668875	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1536658669010	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1536658669174	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1536658669175	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1536658669385	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/Home/BookPage/index.html
+1536658671102	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/Home/BookPage/index.html
+[Parent 3876, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8564, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3876, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1536658683280	Marionette	INFO	Stopped listening on port 49123
+[GPU 6712, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4C0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
