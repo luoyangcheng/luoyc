@@ -1,12 +1,12 @@
 # 美住登录功能
 from selenium import webdriver
-from Meizhu._def import waitid
+from _def import waitid, waittext
 from openpyxl import load_workbook
 from termcolor import colored
 from openpyxl.styles import Font, colors
 
-class Login:
 
+class Login:
     def read_excel(self):
         data = load_workbook('E:/luoyc\Meizhu\meizhu_testcase.xlsx')
         sheet = data["美住登录"]
@@ -46,8 +46,8 @@ class Login:
             browser.find_element_by_id("requestPassword").send_keys(y)
             waitid(browser, "requestSubmit")
             browser.find_element_by_id("requestSubmit").click()
-            str = browser.find_element_by_id("login-tip").text
-            if str == z:
+            tip = waittext(browser, "login-tip")
+            if tip == z:
                 print(colored('测试通过', 'green'))
                 result_text = "PASS"
                 Result.append(result_text)
@@ -70,13 +70,14 @@ class Login:
             l_.append(i)
 
         for i, j in zip(l_, Result):
-            sheet.cell(i, cols - 2, j)
-            resu = sheet.cell(row=i, column=cols - 2)
+            sheet.cell(i, cols, j)
+            resu = sheet.cell(row=i, column=cols)
             if resu.value == "PASS":
                 resu.font = green
             else:
                 resu.font = red
         data.save('E:/luoyc\Meizhu\meizhu_testcase.xlsx')
+
 
 if __name__ == "__main__":
     Login().write_excel()

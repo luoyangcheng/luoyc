@@ -4,23 +4,29 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 
-def waitxp(b, xpath):
+def waitxp(browser, xpath):
     locator = (By.XPATH, xpath)
     try:
-        WebDriverWait(b, 20, 0.5).until(
+        WebDriverWait(browser, 5, 0.5).until(
             EC.visibility_of_element_located(locator))
-    finally:
-        pass
+    except Exception as e:
+        print(e)
 
 
-def waitid(b, id):
+def waitid(browser, id):
     locator = (By.ID, id)
     try:
-        WebDriverWait(b, 20, 0.5).until(
+        WebDriverWait(browser, 5, 0.5).until(
             EC.visibility_of_element_located(locator))
-    finally:
-        pass
-    # except TimeoutException as msg:
-    #     pass
-    # except NoSuchElementException as msg:
-    #     pass
+    except Exception as e:
+        print(e)
+
+
+def waittext(browser, id):
+    locator = (By.ID, id)
+    try:
+        WebDriverWait(browser, 5, 0.5).until(
+            EC.visibility_of_element_located(locator))
+        return browser.find_element_by_id(id).text
+    except Exception as e:
+        return ""
