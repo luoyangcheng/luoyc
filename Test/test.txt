@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-hello luoyc
-=======
-hello luoyc
->>>>>>> new
