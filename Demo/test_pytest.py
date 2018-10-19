@@ -7,4 +7,4 @@ def test_m1():
 
 
 if __name__ == '__main__':
-    pytest.main("-q E:\luoyc\Test\Pytest\\test_pytest.py --html=C:\log.html")
+    pytest.main("-q E:\luoyc\Demo\\test_pytest.py --html=C:\log.html")
