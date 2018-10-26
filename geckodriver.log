@@ -272,3 +272,416 @@ JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/stat
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1540461522825	geckodriver	INFO	geckodriver 0.21.0
+1540461522933	geckodriver	INFO	Listening on 127.0.0.1:27280
+1540461525845	mozrunner::runner	INFO	Running command: "D:\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.x3re44RnQIQE"
+1540461559798	geckodriver	INFO	geckodriver 0.21.0
+1540461559805	geckodriver	INFO	Listening on 127.0.0.1:27364
+1540461562861	mozrunner::runner	INFO	Running command: "D:\\Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.J1c0SRtPS7zt"
+1540461563293	Marionette	DEBUG	Received observer notification profile-after-change
+1540461563631	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540461563652	Marionette	DEBUG	Received observer notification command-line-startup
+1540461563652	Marionette	DEBUG	Received observer notification nsPref:changed
+1540461563652	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1540461564532	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1540461565806	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1540461565806	Marionette	DEBUG	Waiting for delayed startup...
+1540461565864	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1540461565864	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1540461565865	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1540461565865	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1540461565865	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1540461565866	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1540461565866	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1540461565866	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1540461565866	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1540461565866	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1540461565866	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1540461565866	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1540461565867	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1540461565867	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1540461565867	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1540461565867	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1540461565867	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1540461565867	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1540461565867	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1540461565867	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1540461565867	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1540461565867	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1540461565867	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1540461565868	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1540461565868	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1540461565868	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1540461565905	Marionette	INFO	Listening on port 27377
+1540461565905	Marionette	DEBUG	Remote service is active
+1540461566277	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:27392
+1540461566279	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1540461566279	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540461566327	Marionette	DEBUG	[6442450945] Frame script loaded
+1540461566331	Marionette	DEBUG	[6442450945] Frame script registered
+1540461566333	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"11537423-4f1d-488b-9426-12b3f145cb6f","capabilities":{"browserName":"firefox","browserVersion":"63.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1540461566425	Marionette	TRACE	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":3000}]
+1540461566426	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1540461566427	Marionette	TRACE	0 -> [0,3,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461566445	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540461566485	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540461566842	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461567300	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461567303	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1540461567306	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461567309	Marionette	TRACE	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68e2015e-4765-49f9-b36b-9deaa79cce34"}}]
+1540461567310	Marionette	TRACE	0 -> [0,5,"WebDriver:IsElementDisplayed",{"id":"68e2015e-4765-49f9-b36b-9deaa79cce34"}]
+1540461567322	Marionette	TRACE	0 <- [1,5,null,{"value":true}]
+1540461567324	Marionette	TRACE	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461567333	Marionette	TRACE	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"68e2015e-4765-49f9-b36b-9deaa79cce34"}}]
+1540461567336	Marionette	TRACE	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"68e2015e-4765-49f9-b36b-9deaa79cce34","text":"18802094078","value":["1","8","8","0","2","0","9","4","0","7","8"]}]
+1540461567358	Marionette	TRACE	0 <- [1,7,null,{"value":null}]
+1540461567360	Marionette	TRACE	0 -> [0,8,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461567363	Marionette	TRACE	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"df75e17e-cf94-4909-92de-e14851fa1bc4"}}]
+1540461567366	Marionette	TRACE	0 -> [0,9,"WebDriver:IsElementDisplayed",{"id":"df75e17e-cf94-4909-92de-e14851fa1bc4"}]
+1540461567374	Marionette	TRACE	0 <- [1,9,null,{"value":true}]
+1540461567375	Marionette	TRACE	0 -> [0,10,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461567377	Marionette	TRACE	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"df75e17e-cf94-4909-92de-e14851fa1bc4"}}]
+1540461567383	Marionette	TRACE	0 -> [0,11,"WebDriver:ElementSendKeys",{"id":"df75e17e-cf94-4909-92de-e14851fa1bc4","text":"111111b","value":["1","1","1","1","1","1","b"]}]
+1540461567401	Marionette	TRACE	0 <- [1,11,null,{"value":null}]
+1540461567403	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461567405	Marionette	TRACE	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f04b87ed-fbdc-4e0b-b56b-be0afb5c2e9f"}}]
+1540461567406	Marionette	TRACE	0 -> [0,13,"WebDriver:IsElementDisplayed",{"id":"f04b87ed-fbdc-4e0b-b56b-be0afb5c2e9f"}]
+1540461567411	Marionette	TRACE	0 <- [1,13,null,{"value":true}]
+1540461567415	Marionette	TRACE	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461567417	Marionette	TRACE	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f04b87ed-fbdc-4e0b-b56b-be0afb5c2e9f"}}]
+1540461567418	Marionette	TRACE	0 -> [0,15,"WebDriver:ElementClick",{"id":"f04b87ed-fbdc-4e0b-b56b-be0afb5c2e9f"}]
+1540461567649	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540461567650	Marionette	TRACE	0 <- [1,15,null,{"value":null}]
+1540461567652	Marionette	TRACE	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461567654	Marionette	TRACE	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1c984613-3f8a-406e-892c-2f7064004deb"}}]
+1540461567656	Marionette	TRACE	0 -> [0,17,"WebDriver:IsElementDisplayed",{"id":"1c984613-3f8a-406e-892c-2f7064004deb"}]
+1540461567659	Marionette	TRACE	0 <- [1,17,null,{"value":true}]
+1540461567661	Marionette	TRACE	0 -> [0,18,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461567665	Marionette	TRACE	0 <- [1,18,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1c984613-3f8a-406e-892c-2f7064004deb"}}]
+1540461567667	Marionette	TRACE	0 -> [0,19,"WebDriver:GetElementText",{"id":"1c984613-3f8a-406e-892c-2f7064004deb"}]
+1540461567676	Marionette	TRACE	0 <- [1,19,null,{"value":"密码不正确"}]
+1540461567683	Marionette	TRACE	0 -> [0,20,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461567686	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461567709	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461567710	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461567798	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461567847	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461567848	Marionette	TRACE	0 <- [1,20,null,{"value":null}]
+1540461567858	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461567863	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a72829e8-8832-4976-8216-3e66980ba25b"}}]
+1540461567867	Marionette	TRACE	0 -> [0,22,"WebDriver:IsElementDisplayed",{"id":"a72829e8-8832-4976-8216-3e66980ba25b"}]
+1540461567889	Marionette	TRACE	0 <- [1,22,null,{"value":true}]
+1540461567897	Marionette	TRACE	0 -> [0,23,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461567902	Marionette	TRACE	0 <- [1,23,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a72829e8-8832-4976-8216-3e66980ba25b"}}]
+1540461567905	Marionette	TRACE	0 -> [0,24,"WebDriver:ElementSendKeys",{"id":"a72829e8-8832-4976-8216-3e66980ba25b","text":"18802094000","value":["1","8","8","0","2","0","9","4","0","0","0"]}]
+1540461567921	Marionette	TRACE	0 <- [1,24,null,{"value":null}]
+1540461567924	Marionette	TRACE	0 -> [0,25,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461567928	Marionette	TRACE	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"151f4a77-8266-4814-a827-27d9663f84f0"}}]
+1540461567934	Marionette	TRACE	0 -> [0,26,"WebDriver:IsElementDisplayed",{"id":"151f4a77-8266-4814-a827-27d9663f84f0"}]
+1540461567939	Marionette	TRACE	0 <- [1,26,null,{"value":true}]
+1540461567941	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461567942	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"151f4a77-8266-4814-a827-27d9663f84f0"}}]
+1540461567943	Marionette	TRACE	0 -> [0,28,"WebDriver:ElementSendKeys",{"id":"151f4a77-8266-4814-a827-27d9663f84f0","text":"111111b","value":["1","1","1","1","1","1","b"]}]
+1540461567964	Marionette	TRACE	0 <- [1,28,null,{"value":null}]
+1540461567967	Marionette	TRACE	0 -> [0,29,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461567968	Marionette	TRACE	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"283cc085-65e2-4aa4-8150-6c436dbe266f"}}]
+1540461567969	Marionette	TRACE	0 -> [0,30,"WebDriver:IsElementDisplayed",{"id":"283cc085-65e2-4aa4-8150-6c436dbe266f"}]
+1540461567973	Marionette	TRACE	0 <- [1,30,null,{"value":true}]
+1540461567975	Marionette	TRACE	0 -> [0,31,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461567977	Marionette	TRACE	0 <- [1,31,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"283cc085-65e2-4aa4-8150-6c436dbe266f"}}]
+1540461567979	Marionette	TRACE	0 -> [0,32,"WebDriver:ElementClick",{"id":"283cc085-65e2-4aa4-8150-6c436dbe266f"}]
+1540461568318	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540461568319	Marionette	TRACE	0 <- [1,32,null,{"value":null}]
+1540461568321	Marionette	TRACE	0 -> [0,33,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461568323	Marionette	TRACE	0 <- [1,33,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ec35217f-581b-4a58-9518-8500b89f557c"}}]
+1540461568325	Marionette	TRACE	0 -> [0,34,"WebDriver:IsElementDisplayed",{"id":"ec35217f-581b-4a58-9518-8500b89f557c"}]
+1540461568332	Marionette	TRACE	0 <- [1,34,null,{"value":true}]
+1540461568334	Marionette	TRACE	0 -> [0,35,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461568354	Marionette	TRACE	0 <- [1,35,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ec35217f-581b-4a58-9518-8500b89f557c"}}]
+1540461568355	Marionette	TRACE	0 -> [0,36,"WebDriver:GetElementText",{"id":"ec35217f-581b-4a58-9518-8500b89f557c"}]
+1540461568363	Marionette	TRACE	0 <- [1,36,null,{"value":"用户不存在"}]
+1540461568365	Marionette	TRACE	0 -> [0,37,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461568366	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461568387	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461568388	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461568506	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461568576	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461568577	Marionette	TRACE	0 <- [1,37,null,{"value":null}]
+1540461568586	Marionette	TRACE	0 -> [0,38,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461568593	Marionette	TRACE	0 <- [1,38,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1df389c2-7886-4a31-8f1c-bb90d9f284b4"}}]
+1540461568604	Marionette	TRACE	0 -> [0,39,"WebDriver:IsElementDisplayed",{"id":"1df389c2-7886-4a31-8f1c-bb90d9f284b4"}]
+1540461568609	Marionette	TRACE	0 <- [1,39,null,{"value":true}]
+1540461568610	Marionette	TRACE	0 -> [0,40,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461568611	Marionette	TRACE	0 <- [1,40,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1df389c2-7886-4a31-8f1c-bb90d9f284b4"}}]
+1540461568616	Marionette	TRACE	0 -> [0,41,"WebDriver:ElementSendKeys",{"id":"1df389c2-7886-4a31-8f1c-bb90d9f284b4","text":"18802094078","value":["1","8","8","0","2","0","9","4","0","7","8"]}]
+1540461568636	Marionette	TRACE	0 <- [1,41,null,{"value":null}]
+1540461568640	Marionette	TRACE	0 -> [0,42,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461568644	Marionette	TRACE	0 <- [1,42,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a55ccfe7-ea0c-440d-87cb-d87d5ae01f11"}}]
+1540461568648	Marionette	TRACE	0 -> [0,43,"WebDriver:IsElementDisplayed",{"id":"a55ccfe7-ea0c-440d-87cb-d87d5ae01f11"}]
+1540461568654	Marionette	TRACE	0 <- [1,43,null,{"value":true}]
+1540461568656	Marionette	TRACE	0 -> [0,44,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461568657	Marionette	TRACE	0 <- [1,44,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a55ccfe7-ea0c-440d-87cb-d87d5ae01f11"}}]
+1540461568659	Marionette	TRACE	0 -> [0,45,"WebDriver:ElementSendKeys",{"id":"a55ccfe7-ea0c-440d-87cb-d87d5ae01f11","text":"111111","value":["1","1","1","1","1","1"]}]
+1540461568674	Marionette	TRACE	0 <- [1,45,null,{"value":null}]
+1540461568675	Marionette	TRACE	0 -> [0,46,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461568677	Marionette	TRACE	0 <- [1,46,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5f31e185-a356-46ae-b98f-6f55ad30965b"}}]
+1540461568678	Marionette	TRACE	0 -> [0,47,"WebDriver:IsElementDisplayed",{"id":"5f31e185-a356-46ae-b98f-6f55ad30965b"}]
+1540461568685	Marionette	TRACE	0 <- [1,47,null,{"value":true}]
+1540461568687	Marionette	TRACE	0 -> [0,48,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461568688	Marionette	TRACE	0 <- [1,48,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5f31e185-a356-46ae-b98f-6f55ad30965b"}}]
+1540461568689	Marionette	TRACE	0 -> [0,49,"WebDriver:ElementClick",{"id":"5f31e185-a356-46ae-b98f-6f55ad30965b"}]
+1540461569393	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540461569394	Marionette	TRACE	0 <- [1,49,null,{"value":null}]
+1540461569398	Marionette	TRACE	0 -> [0,50,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461569401	Marionette	TRACE	0 <- [1,50,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cdcb4046-2916-44b9-82d8-9dc842ecb9c7"}}]
+1540461569404	Marionette	TRACE	0 -> [0,51,"WebDriver:IsElementDisplayed",{"id":"cdcb4046-2916-44b9-82d8-9dc842ecb9c7"}]
+1540461569414	Marionette	TRACE	0 <- [1,51,null,{"value":true}]
+1540461569418	Marionette	TRACE	0 -> [0,52,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461569421	Marionette	TRACE	0 <- [1,52,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cdcb4046-2916-44b9-82d8-9dc842ecb9c7"}}]
+1540461569424	Marionette	TRACE	0 -> [0,53,"WebDriver:GetElementText",{"id":"cdcb4046-2916-44b9-82d8-9dc842ecb9c7"}]
+1540461569431	Marionette	TRACE	0 <- [1,53,null,{"value":"密码要求6~20位数字与字母组合"}]
+1540461569433	Marionette	TRACE	0 -> [0,54,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461569435	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461569454	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461569455	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461569530	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461569582	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461569583	Marionette	TRACE	0 <- [1,54,null,{"value":null}]
+1540461569589	Marionette	TRACE	0 -> [0,55,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461569597	Marionette	TRACE	0 <- [1,55,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"314f55b7-83cb-4b24-8f24-b6ebf8e7fbb4"}}]
+1540461569605	Marionette	TRACE	0 -> [0,56,"WebDriver:IsElementDisplayed",{"id":"314f55b7-83cb-4b24-8f24-b6ebf8e7fbb4"}]
+1540461569621	Marionette	TRACE	0 <- [1,56,null,{"value":true}]
+1540461569622	Marionette	TRACE	0 -> [0,57,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461569626	Marionette	TRACE	0 <- [1,57,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"314f55b7-83cb-4b24-8f24-b6ebf8e7fbb4"}}]
+1540461569627	Marionette	TRACE	0 -> [0,58,"WebDriver:ElementSendKeys",{"id":"314f55b7-83cb-4b24-8f24-b6ebf8e7fbb4","text":"1880209407","value":["1","8","8","0","2","0","9","4","0","7"]}]
+1540461569648	Marionette	TRACE	0 <- [1,58,null,{"value":null}]
+1540461569651	Marionette	TRACE	0 -> [0,59,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461569653	Marionette	TRACE	0 <- [1,59,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4f116f5a-6492-4668-84f2-0ae0b1db297a"}}]
+1540461569655	Marionette	TRACE	0 -> [0,60,"WebDriver:IsElementDisplayed",{"id":"4f116f5a-6492-4668-84f2-0ae0b1db297a"}]
+1540461569661	Marionette	TRACE	0 <- [1,60,null,{"value":true}]
+1540461569663	Marionette	TRACE	0 -> [0,61,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461569666	Marionette	TRACE	0 <- [1,61,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4f116f5a-6492-4668-84f2-0ae0b1db297a"}}]
+1540461569668	Marionette	TRACE	0 -> [0,62,"WebDriver:ElementSendKeys",{"id":"4f116f5a-6492-4668-84f2-0ae0b1db297a","text":"111111b","value":["1","1","1","1","1","1","b"]}]
+1540461569686	Marionette	TRACE	0 <- [1,62,null,{"value":null}]
+1540461569687	Marionette	TRACE	0 -> [0,63,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461569689	Marionette	TRACE	0 <- [1,63,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"41c34501-63a1-4090-af9f-7b679e85967f"}}]
+1540461569690	Marionette	TRACE	0 -> [0,64,"WebDriver:IsElementDisplayed",{"id":"41c34501-63a1-4090-af9f-7b679e85967f"}]
+1540461569694	Marionette	TRACE	0 <- [1,64,null,{"value":true}]
+1540461569697	Marionette	TRACE	0 -> [0,65,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461569701	Marionette	TRACE	0 <- [1,65,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"41c34501-63a1-4090-af9f-7b679e85967f"}}]
+1540461569702	Marionette	TRACE	0 -> [0,66,"WebDriver:ElementClick",{"id":"41c34501-63a1-4090-af9f-7b679e85967f"}]
+1540461569926	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540461569927	Marionette	TRACE	0 <- [1,66,null,{"value":null}]
+1540461569928	Marionette	TRACE	0 -> [0,67,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461569931	Marionette	TRACE	0 <- [1,67,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"320b56e0-0eab-4461-a9c3-67f15ed37e07"}}]
+1540461569934	Marionette	TRACE	0 -> [0,68,"WebDriver:IsElementDisplayed",{"id":"320b56e0-0eab-4461-a9c3-67f15ed37e07"}]
+1540461569940	Marionette	TRACE	0 <- [1,68,null,{"value":true}]
+1540461569941	Marionette	TRACE	0 -> [0,69,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461569943	Marionette	TRACE	0 <- [1,69,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"320b56e0-0eab-4461-a9c3-67f15ed37e07"}}]
+1540461569944	Marionette	TRACE	0 -> [0,70,"WebDriver:GetElementText",{"id":"320b56e0-0eab-4461-a9c3-67f15ed37e07"}]
+1540461569952	Marionette	TRACE	0 <- [1,70,null,{"value":"手机号格式错误"}]
+1540461569954	Marionette	TRACE	0 -> [0,71,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461569956	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461569973	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461569975	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461570044	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461570096	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461570097	Marionette	TRACE	0 <- [1,71,null,{"value":null}]
+1540461570102	Marionette	TRACE	0 -> [0,72,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461570110	Marionette	TRACE	0 <- [1,72,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3cec7f43-9d21-4de1-a160-c0d80e61e71b"}}]
+1540461570120	Marionette	TRACE	0 -> [0,73,"WebDriver:IsElementDisplayed",{"id":"3cec7f43-9d21-4de1-a160-c0d80e61e71b"}]
+1540461570134	Marionette	TRACE	0 <- [1,73,null,{"value":true}]
+1540461570138	Marionette	TRACE	0 -> [0,74,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461570140	Marionette	TRACE	0 <- [1,74,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3cec7f43-9d21-4de1-a160-c0d80e61e71b"}}]
+1540461570141	Marionette	TRACE	0 -> [0,75,"WebDriver:ElementSendKeys",{"id":"3cec7f43-9d21-4de1-a160-c0d80e61e71b","text":"","value":[]}]
+1540461570147	Marionette	TRACE	0 <- [1,75,null,{"value":null}]
+1540461570150	Marionette	TRACE	0 -> [0,76,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461570151	Marionette	TRACE	0 <- [1,76,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5c0bed59-f688-4ba5-991e-c3b58eefe210"}}]
+1540461570153	Marionette	TRACE	0 -> [0,77,"WebDriver:IsElementDisplayed",{"id":"5c0bed59-f688-4ba5-991e-c3b58eefe210"}]
+1540461570157	Marionette	TRACE	0 <- [1,77,null,{"value":true}]
+1540461570158	Marionette	TRACE	0 -> [0,78,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461570160	Marionette	TRACE	0 <- [1,78,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5c0bed59-f688-4ba5-991e-c3b58eefe210"}}]
+1540461570161	Marionette	TRACE	0 -> [0,79,"WebDriver:ElementSendKeys",{"id":"5c0bed59-f688-4ba5-991e-c3b58eefe210","text":"111111b","value":["1","1","1","1","1","1","b"]}]
+1540461570175	Marionette	TRACE	0 <- [1,79,null,{"value":null}]
+1540461570176	Marionette	TRACE	0 -> [0,80,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461570178	Marionette	TRACE	0 <- [1,80,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a0a85c5d-eefe-443e-8dd7-7f9dfe616b0d"}}]
+1540461570182	Marionette	TRACE	0 -> [0,81,"WebDriver:IsElementDisplayed",{"id":"a0a85c5d-eefe-443e-8dd7-7f9dfe616b0d"}]
+1540461570187	Marionette	TRACE	0 <- [1,81,null,{"value":true}]
+1540461570188	Marionette	TRACE	0 -> [0,82,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461570190	Marionette	TRACE	0 <- [1,82,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a0a85c5d-eefe-443e-8dd7-7f9dfe616b0d"}}]
+1540461570191	Marionette	TRACE	0 -> [0,83,"WebDriver:ElementClick",{"id":"a0a85c5d-eefe-443e-8dd7-7f9dfe616b0d"}]
+1540461570416	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540461570417	Marionette	TRACE	0 <- [1,83,null,{"value":null}]
+1540461570419	Marionette	TRACE	0 -> [0,84,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461570420	Marionette	TRACE	0 <- [1,84,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"22b686e1-92b4-4d83-9f88-30a8478bbdb9"}}]
+1540461570421	Marionette	TRACE	0 -> [0,85,"WebDriver:IsElementDisplayed",{"id":"22b686e1-92b4-4d83-9f88-30a8478bbdb9"}]
+1540461570425	Marionette	TRACE	0 <- [1,85,null,{"value":true}]
+1540461570426	Marionette	TRACE	0 -> [0,86,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461570427	Marionette	TRACE	0 <- [1,86,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"22b686e1-92b4-4d83-9f88-30a8478bbdb9"}}]
+1540461570428	Marionette	TRACE	0 -> [0,87,"WebDriver:GetElementText",{"id":"22b686e1-92b4-4d83-9f88-30a8478bbdb9"}]
+1540461570436	Marionette	TRACE	0 <- [1,87,null,{"value":"请填写手机号"}]
+1540461570438	Marionette	TRACE	0 -> [0,88,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461570441	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461570470	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461570471	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461570551	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461570593	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461570593	Marionette	TRACE	0 <- [1,88,null,{"value":null}]
+1540461570604	Marionette	TRACE	0 -> [0,89,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461570620	Marionette	TRACE	0 <- [1,89,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c576f151-2dbd-48fe-a9f0-ea4e53400df2"}}]
+1540461570622	Marionette	TRACE	0 -> [0,90,"WebDriver:IsElementDisplayed",{"id":"c576f151-2dbd-48fe-a9f0-ea4e53400df2"}]
+1540461570643	Marionette	TRACE	0 <- [1,90,null,{"value":true}]
+1540461570645	Marionette	TRACE	0 -> [0,91,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461570649	Marionette	TRACE	0 <- [1,91,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c576f151-2dbd-48fe-a9f0-ea4e53400df2"}}]
+1540461570650	Marionette	TRACE	0 -> [0,92,"WebDriver:ElementSendKeys",{"id":"c576f151-2dbd-48fe-a9f0-ea4e53400df2","text":"18802094078","value":["1","8","8","0","2","0","9","4","0","7","8"]}]
+1540461570665	Marionette	TRACE	0 <- [1,92,null,{"value":null}]
+1540461570666	Marionette	TRACE	0 -> [0,93,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461570668	Marionette	TRACE	0 <- [1,93,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7d95493e-9eb0-4953-8567-03c18860b0ba"}}]
+1540461570670	Marionette	TRACE	0 -> [0,94,"WebDriver:IsElementDisplayed",{"id":"7d95493e-9eb0-4953-8567-03c18860b0ba"}]
+1540461570673	Marionette	TRACE	0 <- [1,94,null,{"value":true}]
+1540461570676	Marionette	TRACE	0 -> [0,95,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461570677	Marionette	TRACE	0 <- [1,95,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7d95493e-9eb0-4953-8567-03c18860b0ba"}}]
+1540461570681	Marionette	TRACE	0 -> [0,96,"WebDriver:ElementSendKeys",{"id":"7d95493e-9eb0-4953-8567-03c18860b0ba","text":"","value":[]}]
+1540461570691	Marionette	TRACE	0 <- [1,96,null,{"value":null}]
+1540461570692	Marionette	TRACE	0 -> [0,97,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461570693	Marionette	TRACE	0 <- [1,97,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2780c9f3-1d7d-4e36-945f-f61eddc50943"}}]
+1540461570694	Marionette	TRACE	0 -> [0,98,"WebDriver:IsElementDisplayed",{"id":"2780c9f3-1d7d-4e36-945f-f61eddc50943"}]
+1540461570700	Marionette	TRACE	0 <- [1,98,null,{"value":true}]
+1540461570702	Marionette	TRACE	0 -> [0,99,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461570703	Marionette	TRACE	0 <- [1,99,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2780c9f3-1d7d-4e36-945f-f61eddc50943"}}]
+1540461570704	Marionette	TRACE	0 -> [0,100,"WebDriver:ElementClick",{"id":"2780c9f3-1d7d-4e36-945f-f61eddc50943"}]
+1540461570924	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540461570925	Marionette	TRACE	0 <- [1,100,null,{"value":null}]
+1540461570926	Marionette	TRACE	0 -> [0,101,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461570927	Marionette	TRACE	0 <- [1,101,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f2bb0dcb-873c-4da3-a856-e0ff6a7f19cc"}}]
+1540461570931	Marionette	TRACE	0 -> [0,102,"WebDriver:IsElementDisplayed",{"id":"f2bb0dcb-873c-4da3-a856-e0ff6a7f19cc"}]
+1540461570936	Marionette	TRACE	0 <- [1,102,null,{"value":true}]
+1540461570938	Marionette	TRACE	0 -> [0,103,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461570941	Marionette	TRACE	0 <- [1,103,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f2bb0dcb-873c-4da3-a856-e0ff6a7f19cc"}}]
+1540461570944	Marionette	TRACE	0 -> [0,104,"WebDriver:GetElementText",{"id":"f2bb0dcb-873c-4da3-a856-e0ff6a7f19cc"}]
+1540461570950	Marionette	TRACE	0 <- [1,104,null,{"value":"请填写密码"}]
+1540461570952	Marionette	TRACE	0 -> [0,105,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461570955	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461570972	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461570973	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461571027	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461571091	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461571092	Marionette	TRACE	0 <- [1,105,null,{"value":null}]
+1540461571094	Marionette	TRACE	0 -> [0,106,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461571104	Marionette	TRACE	0 <- [1,106,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8413e2c0-2d46-482f-a9b2-0d2c0233ae0c"}}]
+1540461571110	Marionette	TRACE	0 -> [0,107,"WebDriver:IsElementDisplayed",{"id":"8413e2c0-2d46-482f-a9b2-0d2c0233ae0c"}]
+1540461571128	Marionette	TRACE	0 <- [1,107,null,{"value":true}]
+1540461571132	Marionette	TRACE	0 -> [0,108,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461571139	Marionette	TRACE	0 <- [1,108,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"8413e2c0-2d46-482f-a9b2-0d2c0233ae0c"}}]
+1540461571141	Marionette	TRACE	0 -> [0,109,"WebDriver:ElementSendKeys",{"id":"8413e2c0-2d46-482f-a9b2-0d2c0233ae0c","text":"","value":[]}]
+1540461571145	Marionette	TRACE	0 <- [1,109,null,{"value":null}]
+1540461571150	Marionette	TRACE	0 -> [0,110,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461571154	Marionette	TRACE	0 <- [1,110,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f4e9a5bd-7043-4eeb-8fcd-562a1f79f26c"}}]
+1540461571155	Marionette	TRACE	0 -> [0,111,"WebDriver:IsElementDisplayed",{"id":"f4e9a5bd-7043-4eeb-8fcd-562a1f79f26c"}]
+1540461571159	Marionette	TRACE	0 <- [1,111,null,{"value":true}]
+1540461571160	Marionette	TRACE	0 -> [0,112,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461571163	Marionette	TRACE	0 <- [1,112,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f4e9a5bd-7043-4eeb-8fcd-562a1f79f26c"}}]
+1540461571167	Marionette	TRACE	0 -> [0,113,"WebDriver:ElementSendKeys",{"id":"f4e9a5bd-7043-4eeb-8fcd-562a1f79f26c","text":"111111b","value":["1","1","1","1","1","1","b"]}]
+1540461571185	Marionette	TRACE	0 <- [1,113,null,{"value":null}]
+1540461571187	Marionette	TRACE	0 -> [0,114,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461571189	Marionette	TRACE	0 <- [1,114,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a211d255-3f3a-4e77-a39d-1e083733fc8c"}}]
+1540461571190	Marionette	TRACE	0 -> [0,115,"WebDriver:IsElementDisplayed",{"id":"a211d255-3f3a-4e77-a39d-1e083733fc8c"}]
+1540461571193	Marionette	TRACE	0 <- [1,115,null,{"value":true}]
+1540461571194	Marionette	TRACE	0 -> [0,116,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461571196	Marionette	TRACE	0 <- [1,116,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a211d255-3f3a-4e77-a39d-1e083733fc8c"}}]
+1540461571199	Marionette	TRACE	0 -> [0,117,"WebDriver:ElementClick",{"id":"a211d255-3f3a-4e77-a39d-1e083733fc8c"}]
+1540461571419	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1540461571420	Marionette	TRACE	0 <- [1,117,null,{"value":null}]
+1540461571421	Marionette	TRACE	0 -> [0,118,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461571422	Marionette	TRACE	0 <- [1,118,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6d645d2d-ac66-4a14-be29-abcec3a58838"}}]
+1540461571424	Marionette	TRACE	0 -> [0,119,"WebDriver:IsElementDisplayed",{"id":"6d645d2d-ac66-4a14-be29-abcec3a58838"}]
+1540461571427	Marionette	TRACE	0 <- [1,119,null,{"value":true}]
+1540461571429	Marionette	TRACE	0 -> [0,120,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461571434	Marionette	TRACE	0 <- [1,120,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6d645d2d-ac66-4a14-be29-abcec3a58838"}}]
+1540461571436	Marionette	TRACE	0 -> [0,121,"WebDriver:GetElementText",{"id":"6d645d2d-ac66-4a14-be29-abcec3a58838"}]
+1540461571440	Marionette	TRACE	0 <- [1,121,null,{"value":"请填写手机号"}]
+1540461571441	Marionette	TRACE	0 -> [0,122,"WebDriver:Navigate",{"url":"http://192.168.3.19:8090/login.html"}]
+1540461571443	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461571473	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461571474	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461571542	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/login.html
+1540461571594	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/login.html
+1540461571595	Marionette	TRACE	0 <- [1,122,null,{"value":null}]
+1540461571600	Marionette	TRACE	0 -> [0,123,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461571603	Marionette	TRACE	0 <- [1,123,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a08db81f-8e5b-4db4-8798-3f80504474de"}}]
+1540461571610	Marionette	TRACE	0 -> [0,124,"WebDriver:IsElementDisplayed",{"id":"a08db81f-8e5b-4db4-8798-3f80504474de"}]
+1540461571621	Marionette	TRACE	0 <- [1,124,null,{"value":true}]
+1540461571623	Marionette	TRACE	0 -> [0,125,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestUsername\"]"}]
+1540461571635	Marionette	TRACE	0 <- [1,125,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a08db81f-8e5b-4db4-8798-3f80504474de"}}]
+1540461571639	Marionette	TRACE	0 -> [0,126,"WebDriver:ElementSendKeys",{"id":"a08db81f-8e5b-4db4-8798-3f80504474de","text":"18802094078","value":["1","8","8","0","2","0","9","4","0","7","8"]}]
+1540461571659	Marionette	TRACE	0 <- [1,126,null,{"value":null}]
+1540461571661	Marionette	TRACE	0 -> [0,127,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461571665	Marionette	TRACE	0 <- [1,127,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"84375c93-e46a-4f49-ad7e-5a55c78341ca"}}]
+1540461571667	Marionette	TRACE	0 -> [0,128,"WebDriver:IsElementDisplayed",{"id":"84375c93-e46a-4f49-ad7e-5a55c78341ca"}]
+1540461571670	Marionette	TRACE	0 <- [1,128,null,{"value":true}]
+1540461571671	Marionette	TRACE	0 -> [0,129,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestPassword\"]"}]
+1540461571672	Marionette	TRACE	0 <- [1,129,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"84375c93-e46a-4f49-ad7e-5a55c78341ca"}}]
+1540461571674	Marionette	TRACE	0 -> [0,130,"WebDriver:ElementSendKeys",{"id":"84375c93-e46a-4f49-ad7e-5a55c78341ca","text":"qq111111","value":["q","q","1","1","1","1","1","1"]}]
+1540461571688	Marionette	TRACE	0 <- [1,130,null,{"value":null}]
+1540461571689	Marionette	TRACE	0 -> [0,131,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461571690	Marionette	TRACE	0 <- [1,131,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6cf07f10-bc5b-4ee7-8730-3a40752e4bd6"}}]
+1540461571692	Marionette	TRACE	0 -> [0,132,"WebDriver:IsElementDisplayed",{"id":"6cf07f10-bc5b-4ee7-8730-3a40752e4bd6"}]
+1540461571697	Marionette	TRACE	0 <- [1,132,null,{"value":true}]
+1540461571700	Marionette	TRACE	0 -> [0,133,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"requestSubmit\"]"}]
+1540461571703	Marionette	TRACE	0 <- [1,133,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6cf07f10-bc5b-4ee7-8730-3a40752e4bd6"}}]
+1540461571704	Marionette	TRACE	0 -> [0,134,"WebDriver:ElementClick",{"id":"6cf07f10-bc5b-4ee7-8730-3a40752e4bd6"}]
+1540461571735	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.3.19:8090/login.html
+1540461571921	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.3.19:8090/login.html
+1540461571922	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.3.19:8090/login.html
+1540461572331	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.3.19:8090/Home/BookPage/index.html
+1540461574018	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.3.19:8090/Home/BookPage/index.html
+1540461574019	Marionette	TRACE	0 <- [1,134,null,{"value":null}]
+1540461574021	Marionette	TRACE	0 -> [0,135,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"login-tip\"]"}]
+1540461575069	Marionette	DEBUG	Received DOM event unload for [object XULDocument]
+1540461575075	Marionette	DEBUG	Received observer notification message-manager-disconnect
+1540461575084	Marionette	TRACE	0 <- [1,135,null,{"value":null}]
+[Child 7948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540461575245	Marionette	DEBUG	Closed connection 0
+[Parent 7312, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Child 6480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7312, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1540461575928	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1540461575928	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1540461575928	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1540461575929	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1540461575929	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1540461575929	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1540461575929	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1540461575929	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1540461575929	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1540461575929	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1540461575930	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1540461575930	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1540461575930	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1540461575931	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1540461575931	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1540461575931	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1540461575931	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1540461575931	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1540461575931	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1540461575931	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1540461575932	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1540461575932	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1540461575932	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1540461575932	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1540461575932	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1540461575932	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1540461575932	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1540461575932	Marionette	INFO	Stopped listening on port 27377
+1540461575933	Marionette	DEBUG	Remote service is inactive
+[GPU 8180, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -36,9 +36,10 @@ class Login:
     def browser(self):
         username, passwd, tip = self.read_excel()
         url = "http://192.168.3.19:8090/login.html"
-        browser = webdriver.FirefoxOptions()
-        browser.add_argument('-headless')
-        browser = webdriver.Firefox(options=browser)
+        # browser = webdriver.FirefoxOptions()
+        # browser.add_argument('-headless')
+        # browser = webdriver.Firefox(options=browser)
+        browser = webdriver.Firefox()
         browser.implicitly_wait(3)
         Result = []
         for x, y, z in zip(username, passwd, tip):
