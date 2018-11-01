@@ -37,3 +37,8 @@ def edit_action(request):
         ari.content = content
         ari.save()
         return render(request, 'blog_page.html', {'ari': ari})
+
+
+def test(request):
+    a = "HHHHHH"
+    return render(request, 'blog_page.html', a)
