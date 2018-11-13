@@ -1,9 +1,4 @@
-import requests
-import os
-import hashlib
-
-# 禁用警告
-# from requests.packages.urllib3.exceptions import InsecureRequestWarning
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
 # requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 # # help(requests)
 # url = "https://passport.cnblogs.com/user/signin"
@@ -16,7 +11,3 @@ import hashlib
 
 # cur_path = os.path.dirname(os.path.realpath(__file__))
 # print(cur_path)
-
-md5 = hashlib.md5()
-md5.update('how to use md5 in python hashlib?'.encode('utf-8'))
-print(md5.hexdigest())

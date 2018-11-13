@@ -5,11 +5,13 @@ from bs4 import BeautifulSoup
 login_url = 'http://192.168.3.19:8082/login.html'
 login_api = "http://192.168.3.19:8082/Home/Public/login"
 
-data = {
-    'mobile': '18802094078',
-    'password': '45101b093c4e8acf32a525dc231afd50',
-    'areaCode': '86'
-}
+
+def getdata(mobile, password, areaCode):
+    md5 = hashlib.md5()
+    md5.update(password.encode('utf-8'))
+    password = md5.hexdigest()
+    data = {'mobile': mobile, 'password': password, 'areaCode': areaCode}
+    return data
 
 
 def md5(str):
@@ -34,6 +36,7 @@ def gethash(data, hash):
 if __name__ == "__main__":
     session = requests.session()
     hash = hash(login_url)
+    data = getdata('18802094078', 'qq111111', '86')
     print(hash)
     gethash(data, hash)
     print(data['hash'])
