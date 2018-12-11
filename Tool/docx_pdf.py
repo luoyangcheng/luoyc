@@ -1,6 +1,14 @@
-from win32com import client
+import comtypes.client
 
-w = client.Dispatch("Word.Application")
-doc = w.Documents.Open('d:\\temp\\b.docx')
-doc.ExportAsFixedFormat('D:\\temp\\word.pdf', client.constants.wdExportFormatPDF)
-w.Quit()
+
+def convertDocxToPDF(infile, outfile):
+    wdFormatPDF = 17
+    word = comtypes.client.CreateObject('Word.Application')
+    doc = word.Documents.Open(infile)
+    doc.SaveAs(outfile, FileFormat=wdFormatPDF)
+    doc.Close()
+    word.Quit()
+
+
+if __name__ == '__main__':
+    convertDocxToPDF('D:\\temp\\b.docx', 'D:\\temp\\bb.pdf')
