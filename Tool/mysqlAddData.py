@@ -27,21 +27,21 @@ try:
     #     'CREATE TABLE %s(id int primary key,name varchar(30))' % TABLE_NAME)
 
     # 批量插入纪录
-    # values = []
-    # for i in range(2):
-    #     values.append((i, 'luoyc' + str(i)))
-    # cursor.executemany('INSERT INTO user values(%s,%s)', values)
-    # print(values)
+    values = []
+    for i in range(2):
+        values.append((i, 'luoyc' + str(i)))
+    cursor.executemany('INSERT INTO user values(%s,%s)', values)
+    print(values)
 
     # 查询数据条目
-    TABLE_NAME = 'user'
-    FIELD_NAME = 'ID'
-    STR_NAME = '1'
-    count = cursor.execute('SELECT * FROM %s WHERE %s = %s' % (TABLE_NAME, FIELD_NAME, STR_NAME))
-    # 显示所有结果
-    cds = cursor.fetchall()
-    print('total records:', cursor.rowcount)
-    print(cds)
+    # TABLE_NAME = 'user'
+    # FIELD_NAME = 'ID'
+    # STR_NAME = '1'
+    # count = cursor.execute('SELECT * FROM %s WHERE %s = %s' % (TABLE_NAME, FIELD_NAME, STR_NAME))
+    # # 显示所有结果
+    # cds = cursor.fetchall()
+    # print('total records:', cursor.rowcount)
+    # print(cds)
 
     # 获取表名信息
     # desc = cursor.description
