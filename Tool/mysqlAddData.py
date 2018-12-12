@@ -1,21 +1,19 @@
 import pymysql
 
-# 连接数据库
-config = {
-    'host': '192.168.3.19',
-    'port': 3306,
-    'user': 'root',
-    'passwd': 'hongwei',
-    'charset': 'utf8mb4',
-    'db': 'test',
-    'cursorclass': pymysql.cursors.DictCursor
-}
-
 
 class DATA(object):
     try:
-
         def __init__(self):
+            # 连接数据库
+            config = {
+                'host': '192.168.3.19',
+                'port': 3306,
+                'user': 'root',
+                'passwd': 'hongwei',
+                'charset': 'utf8mb4',
+                'db': 'test',
+                'cursorclass': pymysql.cursors.DictCursor
+            }
             self.conn = pymysql.connect(**config)
             self.conn.autocommit(1)
             self.cursor = self.conn.cursor()
