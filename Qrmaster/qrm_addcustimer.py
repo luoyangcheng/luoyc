@@ -37,7 +37,7 @@ class getroomitem:
         f = json.loads(r)
         customerid = (f["data"]["id"])
         data3 = {
-            'id': 2402,
+            'id': id,
             'token': token,
             'communityId': communityId,
             'userId': customerid,
