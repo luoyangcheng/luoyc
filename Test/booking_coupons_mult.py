@@ -1,12 +1,12 @@
-from Test.booking_coupons import coupons
+from booking_coupons import coupons
 import threading
 
 t1 = threading.Thread(
     target=coupons.bc,
-    args=('18802094078', '111111b', '86', '309', 'CP180244'))
+    args=('18802094078', '111111b', '86', '594', 'CP180259'))
 t2 = threading.Thread(
     target=coupons.bc,
-    args=('13480251015', '111111b', '86', '309', 'CP180244'))
+    args=('13480251015', '111111b', '86', '594', 'CP180259'))
 
 if __name__ == '__main__':
     t1.setDaemon(True)
