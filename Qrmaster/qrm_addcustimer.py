@@ -50,12 +50,12 @@ class getroomitem:
         print(r2)
 
 
-
 if __name__ == '__main__':
     token = getroomitem.login(
         '86', '18802094078',
         'wqP2kdWqnQXr5lHtdC03r5JGwjVzzCYfq9PmW2ZN6idIhdesXQxeIK2+BVQzsmJujuyn7obb/e2mRzsjS+VlRhhC9xyYIMPYe1ilCAt9FKzkdwWfHroHKQgNsw3pWi4FYS/aRUjhYOT+UYEjOnVDZLKhp336qNqTRp7J7Xz3b/4AxZSv/R5otHVwZdluyz9S3IqRAenuiZO73vY/l2z558tOPM9wvcTqBoahuYw+eM3cEslDAmexvAIVjoFL/uSEX1TyAKhMHndx8cxfmhmRI+EOEkRo9nRWQqrcRwrX7SIVkw1UrUX1StwOVEwR5g9bNHwZ8PJi4ZX/qcMlDkrBEQ=='
     )
     print(token)
-    for i in range(18802084079, 18802094079):
-        getroomitem.addCustomer('2402', token, '723', '86', i, i, '1', '', '', '', '')
+    for i in range(18802094079, 18802094079):
+        getroomitem.addCustomer('2402', token, '723', '86', i, i, '1', '', '',
+                                '', '')
