@@ -60,7 +60,7 @@ token = getroomitem.login(
 )
 t1 = threading.Thread(
     target=getroomitem.addCustomer,
-    args=('2402', token, '723', '86', 18802094078, 18802094079, '1', '', '',
+    args=('2402', token, '723', '86', 18802094078, 18802094179, '1', '', '',
           '', ''))
 
 if __name__ == '__main__':

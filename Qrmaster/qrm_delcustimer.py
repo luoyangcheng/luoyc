@@ -66,7 +66,7 @@ class DATA2():
                     'communityId': communityId,
                     'userId': customerid,
                     'roomStr': "7269",
-                    'longOpenRoomStr': "",
+                    'longOpenRoomStr': "7269",
                 }
                 Addpermissions_url = "http://192.168.3.19:8082/mobile/Community/addClientRoomPower2"
                 resp = requests.post(Addpermissions_url, data)
@@ -84,5 +84,5 @@ if __name__ == '__main__':
         '86', '18802094078',
         'wqP2kdWqnQXr5lHtdC03r5JGwjVzzCYfq9PmW2ZN6idIhdesXQxeIK2+BVQzsmJujuyn7obb/e2mRzsjS+VlRhhC9xyYIMPYe1ilCAt9FKzkdwWfHroHKQgNsw3pWi4FYS/aRUjhYOT+UYEjOnVDZLKhp336qNqTRp7J7Xz3b/4AxZSv/R5otHVwZdluyz9S3IqRAenuiZO73vY/l2z558tOPM9wvcTqBoahuYw+eM3cEslDAmexvAIVjoFL/uSEX1TyAKhMHndx8cxfmhmRI+EOEkRo9nRWQqrcRwrX7SIVkw1UrUX1StwOVEwR5g9bNHwZ8PJi4ZX/qcMlDkrBEQ=='
     )
-    for i in range(18802094078, 18802094079):
+    for i in range(18802094078, 18802094179):
         DATA2().delCustomer('2402', token, '723', i)
