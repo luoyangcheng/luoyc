@@ -65,8 +65,8 @@ class DATA2():
                     'token': token,
                     'communityId': communityId,
                     'userId': customerid,
-                    'roomStr': "7269",
-                    'longOpenRoomStr': "7269",
+                    'roomStr': "",
+                    'longOpenRoomStr': "",
                 }
                 Addpermissions_url = "http://192.168.3.19:8082/mobile/Community/addClientRoomPower2"
                 resp = requests.post(Addpermissions_url, data)
