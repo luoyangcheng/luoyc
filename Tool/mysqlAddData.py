@@ -3,6 +3,7 @@ import pymysql
 
 class DATA(object):
     try:
+
         def __init__(self):
             # 连接数据库
             config = {
@@ -62,6 +63,26 @@ class DATA(object):
             self.conn.close()
             print('total records:', self.cursor.rowcount)
             print(cds)
+
+        # 修改数据
+        def UPDATE(self):
+            TABLE_NAME = 'user'
+            FIELD_NAME = 'ID'
+            STR_NAME = '1'
+            self.cursor.execute('UPDATE %s SET %s = "1" WHERE %s = 1' %
+                                (TABLE_NAME, STR_NAME, FIELD_NAME))
+            self.cursor.close()
+            self.conn.close()
+
+        # 删除数据
+        def DELETE(self):
+            TABLE_NAME = 'user'
+            FIELD_NAME = 'ID'
+            STR_NAME = '1'
+            self.cursor.execute('DELETE FROM %s WHERE %s = %s' %
+                                (TABLE_NAME, FIELD_NAME, STR_NAME))
+            self.cursor.close()
+            self.conn.close()
 
     except Exception as e:
         print(e)
