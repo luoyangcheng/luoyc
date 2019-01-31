@@ -3,9 +3,10 @@ import itertools
 import json
 import datetime
 import zipfile
+from unrar import rarfile
 
 
-def login():
+def burp_login():
     mylist = ("".join(x) for x in itertools.product(
         "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ",
         repeat=8))
@@ -30,10 +31,30 @@ def login():
             break
 
 
+def burp_zip():
+    pwd = ['qq111111', '111111b', '111111', 'a111111']
+    for p in pwd:
+        try:
+            zipFile = zipfile.ZipFile("C:/hello.zip", "r")
+            zipFile.extractall(pwd=p.encode("ascii"))
+            print('正确密码是：' + p)
+            break
+        except Exception as e:
+            print('错误密码是：' + p)
+            pass
+
+
 def burp_rar():
-    zipFile = zipfile.ZipFile("C:/burp.zip", "r")
-    password = '111111'
-    zipFile.extractall(pwd=password)
+    pwd = ['qq111111', '111111b', '111111', 'a111111']
+    for p in pwd:
+        try:
+            file = rarfile.RarFile("C:/demo.rar", "r")
+            file.extractall(pwd=p.encode("ascii"))
+            print('正确密码是：' + p)
+            break
+        except Exception as e:
+            print('错误密码是：' + p)
+            pass
 
 
 if __name__ == '__main__':
