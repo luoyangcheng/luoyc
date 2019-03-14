@@ -6,7 +6,7 @@ import threading
 class getroomitem:
     def login(areaCode, account, passwd):
         data1 = {'areaCode': areaCode, 'account': account, 'passwd': passwd}
-        login_url = "http://192.168.3.19:8082/mobile/user/login"
+        login_url = "http://115.29.142.212:8320/mobile/user/login"
 
         session = requests.Session()
         resp = session.post(login_url, data1)
@@ -31,7 +31,7 @@ class getroomitem:
                 'staffno': staffno,
                 'staffcardno': staffcardno,
             }
-            room_url = "http://192.168.3.19:8082/mobile/ClientMember/addCustomer"
+            room_url = "http://115.29.142.212:8320/mobile/ClientMember/addCustomer"
             resp = requests.post(room_url, data2)
             code = resp.status_code
             if code == 200:
@@ -43,10 +43,10 @@ class getroomitem:
                     'token': token,
                     'communityId': communityId,
                     'userId': customerid,
-                    'roomStr': "7269",
+                    'roomStr': "18823",
                     'longOpenRoomStr': "",
                 }
-                Addpermissions_url = "http://192.168.3.19:8082/mobile/Community/addClientRoomPower2"
+                Addpermissions_url = "http://115.29.142.212:8320/mobile/Community/addClientRoomPower2"
                 resp2 = requests.post(Addpermissions_url, data3)
                 r2 = resp2.content.decode('utf-8')
                 print(r2)
@@ -60,7 +60,7 @@ token = getroomitem.login(
 )
 t1 = threading.Thread(
     target=getroomitem.addCustomer,
-    args=('2402', token, '723', '86', 18802094078, 18802094179, '1', '', '',
+    args=('4103', token, '1086', '86', 18802196708, 18802296708, '1', '', '',
           '', ''))
 
 if __name__ == '__main__':
