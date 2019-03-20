@@ -43,7 +43,7 @@ class getroomitem:
                     'token': token,
                     'communityId': communityId,
                     'userId': customerid,
-                    'roomStr': "18823",
+                    'roomStr': "18831",
                     'longOpenRoomStr': "",
                 }
                 Addpermissions_url = "http://115.29.142.212:8320/mobile/Community/addClientRoomPower2"
@@ -60,7 +60,7 @@ token = getroomitem.login(
 )
 t1 = threading.Thread(
     target=getroomitem.addCustomer,
-    args=('4103', token, '1086', '86', 18802196708, 18802296708, '1', '', '',
+    args=('4103', token, '2211', '86', 18802094413, 18802095078, '1', '', '',
           '', ''))
 
 if __name__ == '__main__':

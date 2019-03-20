@@ -1,5 +1,4 @@
 import hashlib
-import os
 
 
 def demo(x, y):
@@ -12,7 +11,5 @@ def md5(data):
     print(a)
 
 
-
-# demo(22.04, 10)
-# md5("qq111111")
-maketxt("C:/meizhu.txt")
+demo(22.04, 10)
+md5("qq111111")
