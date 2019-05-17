@@ -1,4 +1,4 @@
-from Test.booking_login import blogin
+from booking_login import blogin
 
 
 class coupons:

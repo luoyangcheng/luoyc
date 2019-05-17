@@ -11,6 +11,7 @@ class login:
         print(datetime.datetime.now())
         resp = session.post(login_url, data)
         print(resp.content.decode('utf-8'))
+        print(resp.cookies.get_dict())
 
 
 T = []
