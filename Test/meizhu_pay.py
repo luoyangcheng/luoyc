@@ -7,6 +7,10 @@ class coupons:
 
         data = {'hotel': hotel}
 
-        login_url = "http://192.168.3.19:8090/Home/Withdraw/payRoomNote"
+        login_url = "http://192.168.100.104:12306/login/doLogin?account=luoyc&password=qq111111"
         resp = session.post(login_url, data)
         print(resp.content.decode('utf-8'))
+
+
+if __name__ == "__main__":
+    coupons.bc('luoyc', 'qq111111')
