@@ -28,11 +28,11 @@ def binarization(img_path, threshold):
     return image
 
 
-def identify():
-    image = binarization('D:/demo/2.png', 130)
+def identify(img_path, threshold):
+    image = binarization(img_path, threshold)
     vcode = pytesseract.image_to_string(image)
     print('识别为：' + vcode)
 
 
 if __name__ == '__main__':
-    identify()
+    identify('D:/demo/3.png', 130)
