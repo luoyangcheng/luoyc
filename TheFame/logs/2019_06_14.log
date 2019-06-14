@@ -1,0 +1,9 @@
+[2019-06-14 20:18:38,421] - [logger.py] - INFO: RRRRRR
+[2019-06-14 20:20:07,115] - [logger.py] - INFO: {"data":"success","info":"成功","status":200}
+[2019-06-14 20:22:11,132] - [logger.py] - INFO: {"data":"success","info":"成功","status":200}
+[2019-06-14 20:29:07,266] - [logger.py] - INFO: {"data":"success","info":"成功","status":200}
+[2019-06-14 20:34:36,911] - INFO: {"data":"success","info":"成功","status":200}
+[2019-06-14 20:40:12,691] - [logger.py] - INFO: {"data":"success","info":"成功","status":200}
+[2019-06-14 20:46:02,036] - [logger.py] - INFO: meizhu_login.py{"data":"success","info":"成功","status":200}
+[2019-06-14 20:46:42,313] - INFO: meizhu_login.py{"data":"success","info":"成功","status":200}
+[2019-06-14 20:47:40,911] - INFO: meizhu_login.py{"data":"success","info":"成功","status":200}
