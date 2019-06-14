@@ -2,11 +2,16 @@ import sys
 import os
 import pytest
 sys.path.append('../TheFame/case/')
-import meizhu_login
+import meizhu_login, meizhu_addvip
 
 
-def test_case():
-    meizhu_login.test_login()
+def test_login():
+    global session  # 设置全局变量
+    session = meizhu_login.test_login()
+
+
+def test_addvip():
+    meizhu_addvip.test_addvip(session)
 
 
 if __name__ == "__main__":
