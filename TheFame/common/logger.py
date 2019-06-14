@@ -19,7 +19,7 @@ class Log():
         self.logger.setLevel(logging.DEBUG)
         # 日志输出格式
         self.formatter = logging.Formatter(
-            '[%(asctime)s] - %(levelname)s: %(message)s')
+            '[%(asctime)s] - %(levelname)s - : %(message)s')
 
     def __console(self, level, message):
         # 创建一个FileHandler，用于写到本地

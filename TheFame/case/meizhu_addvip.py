@@ -28,4 +28,5 @@ def test_addvip(session):
            '黄金VIP')
     filename = os.path.basename(__file__)
     log = logger.Log()
-    log.info(filename + result)
+    log.info(filename + '--' + result)
+    log.error(filename + '--' + result)

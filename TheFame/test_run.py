@@ -16,6 +16,6 @@ def test_addvip():
 
 if __name__ == "__main__":
     cur_path = os.path.dirname(os.path.realpath(__file__))
-    str(cur_path)
-    pytest.main(cur_path + "\\test_run.py --html=" + cur_path +
-                "\\report\log.html")
+    pytest.main(
+        str(cur_path) + "\\test_run.py --html=" + str(cur_path) +
+        "\\report\log.html")

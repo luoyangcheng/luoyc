@@ -17,7 +17,8 @@ def login(mobile, password, areaCode):
 def test_login():
     # 测试登录，正确账号、正确密码
     login('18802094078', 'qq111111', '86')
-    filename = os.path.basename(__file__)
+    filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
-    log.info(filename + result)
+    log.info(filename + '--' + result)
+    log.error(filename + '--' + result)
     return session

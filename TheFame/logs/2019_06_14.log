@@ -1,2 +1,10 @@
-[2019-06-14 22:25:59,831] - INFO: meizhu_login.py{"data":"success","info":"成功","status":200}
-[2019-06-14 22:25:59,917] - INFO: meizhu_addvip.py{"data":"","info":"会员手机号码已存在","status":709}
+[2019-06-14 23:40:32,363] - INFO: meizhu_login.py{"data":"success","info":"成功","status":200}
+[2019-06-14 23:40:32,376] - ERROR: meizhu_login.py{"data":"success","info":"成功","status":200}
+[2019-06-14 23:40:32,479] - INFO: meizhu_addvip.py{"data":"","info":"会员手机号码已存在","status":709}
+[2019-06-14 23:43:05,126] - INFO - : meizhu_login.py{"data":"success","info":"成功","status":200}
+[2019-06-14 23:43:05,129] - ERROR - : meizhu_login.py{"data":"success","info":"成功","status":200}
+[2019-06-14 23:43:05,221] - INFO - : meizhu_addvip.py{"data":"","info":"会员手机号码已存在","status":709}
+[2019-06-14 23:47:31,048] - INFO - : meizhu_login.py--{"data":"success","info":"成功","status":200}
+[2019-06-14 23:47:31,058] - ERROR - : meizhu_login.py--{"data":"success","info":"成功","status":200}
+[2019-06-14 23:47:31,157] - INFO - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-06-14 23:47:31,163] - ERROR - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}
