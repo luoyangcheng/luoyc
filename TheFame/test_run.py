@@ -4,6 +4,9 @@ import pytest
 sys.path.append('../TheFame/api/')
 import meizhu_login, meizhu_addvip
 
+cur_path = os.path.dirname(os.path.realpath(__file__))
+str(cur_path)
+
 
 def test_login():
     global session  # 设置全局变量
@@ -15,7 +18,5 @@ def test_addvip():
 
 
 if __name__ == "__main__":
-    cur_path = os.path.dirname(os.path.realpath(__file__))
-    pytest.main(
-        str(cur_path) + "\\test_run.py --html=" + str(cur_path) +
-        "\\report\log.html")
+    # pytest --html=report.html,在CMD命令下执行此命令会生成报告
+    pytest.main(cur_path + "/test_run.py --html=" + cur_path + "/report/log.html")

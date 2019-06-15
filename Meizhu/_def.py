@@ -70,7 +70,7 @@ def write_excel(excel_path, sheet_name, Result):
         actual = sheet.cell(row=i, column=cols)
         expected = sheet.cell(row=i, column=cols-1)
         if actual.value == expected.value:
-            resu.font = green
+            actual.font = green
         else:
-            resu.font = red
+            actual.font = red
     data.save(excel_path)
