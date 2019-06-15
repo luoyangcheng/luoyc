@@ -1,7 +1,7 @@
 import sys
 import os
 import pytest
-sys.path.append('../TheFame/case/')
+sys.path.append('../TheFame/api/')
 import meizhu_login, meizhu_addvip
 
 

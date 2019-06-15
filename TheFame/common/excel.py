@@ -30,8 +30,9 @@ def write_excel(excel_path, sheet_name, Result):
 
     for i, j in zip(l_, Result):
         sheet.cell(i, cols, j)
-        resu = sheet.cell(row=i, column=cols)
-        if resu.value == "PASS":
+        actual = sheet.cell(row=i, column=cols)
+        expected = sheet.cell(row=i, column=cols-1)
+        if actual.value == expected.value:
             resu.font = green
         else:
             resu.font = red
