@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 15-Jun-2019 at 09:02:43 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
+    <p>Report generated on 16-Jun-2019 at 09:50:04 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v1.20.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -249,13 +249,13 @@ function filter_table(elem) {
         <td>Windows-10-10.0.17763-SP0</td></tr>
       <tr>
         <td>Plugins</td>
-        <td>{&apos;html&apos;: &apos;1.20.0&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;}</td></tr>
+        <td>{&apos;forked&apos;: &apos;1.0.2&apos;, &apos;html&apos;: &apos;1.20.0&apos;, &apos;metadata&apos;: &apos;1.8.0&apos;, &apos;xdist&apos;: &apos;1.29.0&apos;}</td></tr>
       <tr>
         <td>Python</td>
         <td>3.7.0</td></tr></table>
     <h2>Summary</h2>
-    <p>0 tests ran in 0.16 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">1 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 1.95 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -266,12 +266,37 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="error results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">test_run.py::collect</td>
-          <td class="col-duration">0.00</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_run.py::TestClass::test_l</td>
+          <td class="col-duration">0.47</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">c:\python37\lib\site-packages\_pytest\python.py:507: in _importtestmodule<br/>    mod = self.fspath.pyimport(ensuresyspath=importmode)<br/>c:\python37\lib\site-packages\py\_path\local.py:701: in pyimport<br/>    __import__(modname)<br/><span class="error">E     File &quot;D:\git\warehouse\TheFame\test_run.py&quot;, line 21</span><br/><span class="error">E       pytest.main(cur_path + &quot;/test_run.py)</span><br/><span class="error">E                                           ^</span><br/><span class="error">E   SyntaxError: EOL while scanning string literal</span><br/></div></td></tr></tbody></table></body></html>
+            <div class="log">----------------------------- Captured stderr call -----------------------------<br/>[2019-06-16 09:50:04,110] - ERROR - : meizhu_login.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;用户不存在&quot;,&quot;status&quot;:100}
+[2019-06-16 09:50:04,220] - INFO - : meizhu_login.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;密码不正确&quot;,&quot;status&quot;:101}
+[2019-06-16 09:50:04,313] - INFO - : meizhu_login.py--{&quot;data&quot;:&quot;success&quot;,&quot;info&quot;:&quot;成功&quot;,&quot;status&quot;:200}
+------------------------------ Captured log call -------------------------------<br/>DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): www.meizhuyun.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://www.meizhuyun.com:80 &quot;POST /Home/Public/login HTTP/1.1&quot; 403 49
+ERROR    root:logger.py:46 meizhu_login.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;用户不存在&quot;,&quot;status&quot;:100}
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): www.meizhuyun.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://www.meizhuyun.com:80 &quot;POST /Home/Public/login HTTP/1.1&quot; 403 49
+INFO     root:logger.py:40 meizhu_login.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;密码不正确&quot;,&quot;status&quot;:101}
+DEBUG    urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): www.meizhuyun.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://www.meizhuyun.com:80 &quot;POST /Home/Public/login HTTP/1.1&quot; 200 47
+INFO     root:logger.py:40 meizhu_login.py--{&quot;data&quot;:&quot;success&quot;,&quot;info&quot;:&quot;成功&quot;,&quot;status&quot;:200}</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_run.py::TestClass::test_a</td>
+          <td class="col-duration">0.50</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">----------------------------- Captured stderr call -----------------------------<br/>[2019-06-16 09:50:04,735] - INFO - : meizhu_addvip.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;会员手机号码已存在&quot;,&quot;status&quot;:709}
+[2019-06-16 09:50:04,829] - ERROR - : meizhu_addvip.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;会员手机号码已存在&quot;,&quot;status&quot;:709}
+------------------------------ Captured log call -------------------------------<br/>DEBUG    urllib3.connectionpool:connectionpool.py:393 http://www.meizhuyun.com:80 &quot;POST /Home/Customer/addVip HTTP/1.1&quot; 403 61
+INFO     root:logger.py:40 meizhu_addvip.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;会员手机号码已存在&quot;,&quot;status&quot;:709}
+DEBUG    urllib3.connectionpool:connectionpool.py:393 http://www.meizhuyun.com:80 &quot;POST /Home/Customer/addVip HTTP/1.1&quot; 403 61
+ERROR    root:logger.py:46 meizhu_addvip.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;会员手机号码已存在&quot;,&quot;status&quot;:709}</div></td></tr></tbody></table></body></html>

@@ -1,15 +1,18 @@
-import requests
+import pytest
 
 
-def login(areaCode, account, passwd):
-    data1 = {'areaCode': areaCode, 'account': account, 'passwd': passwd}
-    login_url = "http://qrm.uclbrt.com/mobile/user/login"
+class TestClass(object):
+    def test_one(self):
+        x = "this"
+        assert 'h' in x
 
-    session = requests.Session()
-    resp = session.post(login_url, data1)
-    r = resp.content.decode('utf-8')
-    print(r)
+    def test_two(self):
+        x = "hello"
+        assert hasattr(x, 'check')
+
+    def test_three(self):
+        assert 3 == 5
 
 
 if __name__ == '__main__':
-    login(86, 18802094078, 'qq111111')
+    pytest.main(['-q', '--maxfail=1', 'test_hello.py'])
