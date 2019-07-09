@@ -14,3 +14,8 @@
 [2019-06-16 09:50:04,313] - INFO - : meizhu_login.py--{"data":"success","info":"成功","status":200}
 [2019-06-16 09:50:04,735] - INFO - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}
 [2019-06-16 09:50:04,829] - ERROR - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-06-16 10:01:26,301] - ERROR - : meizhu_login.py--{"data":"","info":"用户不存在","status":100}
+[2019-06-16 10:01:26,379] - INFO - : meizhu_login.py--{"data":"","info":"密码不正确","status":101}
+[2019-06-16 10:01:26,457] - INFO - : meizhu_login.py--{"data":"success","info":"成功","status":200}
+[2019-06-16 10:01:26,866] - INFO - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-06-16 10:01:26,960] - ERROR - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}

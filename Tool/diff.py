@@ -16,15 +16,13 @@ def read_excel(excel_path, sheet_name, col):
 
 def aa():
     excel_path = "D:/test.xlsx"
-    a = read_excel(excel_path, 'Sheet1', 2)
-    b = read_excel(excel_path, 'Sheet1', 3)
-    # s1 = set(a)
-    # s2 = set(b)
-    # s = s1.difference(s2)
-    # print(s)
-    for x, y in zip(a, b):
-        if x != y:
-            print(x)
+    a = read_excel(excel_path, 'Sheet1', 4)
+    b = read_excel(excel_path, 'Sheet1', 5)
+    s1 = set(a)
+    s2 = set(b)
+    s = s1.intersection(s2)
+    print(s)
+
 
 
 if __name__ == "__main__":

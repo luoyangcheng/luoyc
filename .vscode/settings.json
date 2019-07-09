@@ -1,2 +1,15 @@
 {
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./TheFame",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "TheFame"
+    ]
 }
