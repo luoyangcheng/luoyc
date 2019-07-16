@@ -23,8 +23,8 @@ class Login:
         browser.find_element_by_name("rememberMe").click()
         waitcss(browser, "button")
         browser.find_element_by_css_selector("button").click()
-        waitclassname(browser, "img3")
-        browser.find_element_by_class_name("img3").click()
+        waitclassname(browser, "item")
+        browser.find_elements_by_class_name("item")[2].click()
 
 
 if __name__ == "__main__":
