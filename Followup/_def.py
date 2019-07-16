@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font, colors
 
 
-def waitxp(browser, xpath):
+def wait_xp(browser, xpath):
     locator = (By.XPATH, xpath)
     try:
         WebDriverWait(browser, 5, 0.5).until(
@@ -19,7 +19,7 @@ def waitxp(browser, xpath):
         print(e)
 
 
-def waitid(browser, id):
+def wait_id(browser, id):
     locator = (By.ID, id)
     try:
         WebDriverWait(browser, 5, 0.5).until(
@@ -28,7 +28,7 @@ def waitid(browser, id):
         print(e)
 
 
-def waittext(browser, id):
+def wait_id_text(browser, id):
     locator = (By.ID, id)
     try:
         WebDriverWait(browser, 5, 0.5).until(
@@ -39,7 +39,7 @@ def waittext(browser, id):
         return ""
 
 
-def waitname(browser, name):
+def wait_name(browser, name):
     locator = (By.NAME, name)
     try:
         WebDriverWait(browser, 5, 0.5).until(
@@ -48,7 +48,7 @@ def waitname(browser, name):
         print(e)
 
 
-def waitcss(browser, css):
+def wait_css(browser, css):
     locator = (By.CSS_SELECTOR, css)
     try:
         WebDriverWait(browser, 5, 0.5).until(
@@ -57,7 +57,7 @@ def waitcss(browser, css):
         print(e)
 
 
-def waitclassname(browser, classname):
+def wait_classname(browser, classname):
     locator = (By.CLASS_NAME, classname)
     try:
         WebDriverWait(browser, 5, 0.5).until(
