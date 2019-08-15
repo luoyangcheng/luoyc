@@ -8,7 +8,7 @@ class TestClass(object):
         assert 'h' in x
 
     def test_three(self):
-        assert x == 5
+        assert x =="this"
 
 
 if __name__ == '__main__':

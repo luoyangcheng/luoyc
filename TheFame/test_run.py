@@ -16,8 +16,7 @@ class TestClass(object):
         session = meizhu_login.test_login()
 
     def test_a(self):
-        a = session
-        meizhu_addvip.test_addvip(a)
+        meizhu_addvip.test_addvip(session)
 		
     # 需要发送邮件是打开
     # def test_email(self):
