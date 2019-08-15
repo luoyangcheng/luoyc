@@ -84,7 +84,7 @@ class SendMail(object):
             recv=['lyc163069@163.com'],
             title='我是邮件标题',
             content='我的邮件内容',
-            file='D:/git/warehouse/TheFame/case/case.xlsx',
+            file='../TheFame/case/case.xlsx',
             ssl=True,
         )
         m.def_mail()
