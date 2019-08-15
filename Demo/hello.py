@@ -3,7 +3,7 @@ import pytest
 
 class TestClass(object):
     def test_one(self):
-	    global y = 1
+	    global y == 1
         x = "this"
         assert 'h' in x
 
