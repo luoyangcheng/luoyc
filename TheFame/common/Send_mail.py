@@ -80,7 +80,7 @@ class SendMail(object):
     def mymail(self):
         m = SendMail(
             username='383310988@qq.com',
-            passwd='klwbfaffmzcwbhaf',
+            passwd='1111111111111111',
             recv=['lyc163069@163.com'],
             title='我是邮件标题',
             content='我的邮件内容',

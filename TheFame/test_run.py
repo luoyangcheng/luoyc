@@ -17,9 +17,10 @@ class TestClass(object):
 
     def test_a(self):
         meizhu_addvip.test_addvip(session)
-
-    def test_email(self):
-        Send_mail.SendMail.mymail(self)
+		
+    # 需要发送邮件是打开
+    # def test_email(self):
+        # Send_mail.SendMail.mymail(self)
 
 if __name__ == "__main__":
     # pytest --html=report.html,在CMD命令下执行此命令会生成报告
