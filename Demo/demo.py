@@ -8,3 +8,6 @@ def fact(n):
 L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
 L[0:3] # 从第一个开始，取前面三个值
 L[-1] # 取倒数第一个值
+
+def a(n):
+    return n+1

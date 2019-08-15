@@ -1,14 +1,15 @@
 import pytest
+from Demo.demo import a
 
 
 class TestClass(object):
     def test_one(self):
         global x
-        x = "this"
-        assert 'h' in x
+        x = 1
+        assert 1 ==1
 
     def test_three(self):
-        assert x =="this"
+        a(x)
 
 
 if __name__ == '__main__':
