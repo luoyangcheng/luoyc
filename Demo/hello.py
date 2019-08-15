@@ -3,12 +3,12 @@ import pytest
 
 class TestClass(object):
     def test_one(self):
-	    global y == 1
+        global x
         x = "this"
         assert 'h' in x
 
     def test_three(self):
-        assert y == 5
+        assert self.x == 5
 
 
 if __name__ == '__main__':
