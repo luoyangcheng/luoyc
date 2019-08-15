@@ -39,7 +39,7 @@ class SendMail(object):
         self.ssl = ssl  #是否安全链接
         self.ssl_port = ssl_port  #安全链接端口
 
-    def send_mail(self):
+    def def_mail(self):
         msg = MIMEMultipart()
         #发送内容的对象
         if self.file:  #处理附件的
@@ -77,15 +77,15 @@ class SendMail(object):
             print('发送成功！')
         self.smtp.quit()
 
-
-if __name__ == "__main__":
-    m = SendMail(
-        username='383310988@qq.com',
-        passwd='XXXXXXXXXXX',
-        recv=['lyc163069@163.com'],
-        title='我是邮件标题',
-        content='我的邮件内容',
-        file='D:\git\warehouse\TheFame\case\case.xlsx',
-        ssl=True,
-    )
-    m.send_mail()
+    def mymail(self):
+        m = SendMail(
+            username='383310988@qq.com',
+            passwd='ddddddddddddddddd',
+            recv=['lyc163069@163.com'],
+            title='我是邮件标题',
+            content='我的邮件内容',
+            file='D:/git/warehouse/TheFame/case/case.xlsx',
+            ssl=True,
+        )
+        m.def_mail()
+    
