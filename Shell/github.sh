@@ -1,5 +1,5 @@
 #!/bin/bash
 export PATH=/usr/local/bin:$PATH
 cd /data/luoyc
-git stash
+rm -rf ./TheFame
 git pull origin master
