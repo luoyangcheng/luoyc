@@ -79,13 +79,14 @@ class SendMail(object):
 
     def mymail(self):
         m = SendMail(
-            username='383310988@qq.com',
-            passwd='1111111111111111',
-            recv=['lyc163069@163.com'],
-            title='我是邮件标题',
-            content='我的邮件内容',
-            file='../TheFame/case/case.xlsx',
-            ssl=True,
+            username='383310988@qq.com'
+            passwd='klwbfaffmzcwbhaf'
+            recv=['lyc163069@163.com', 'lyc163069@live.com']
+            title='测试报告'
+            content='恭喜测试完成！附件为详细测试用例。/n
+                           测试报告：http://94.191.124.146/TheFame/report.html /n
+                           测试用例：https://github.com/luoyangcheng/luoyc/blob/master/TheFame/case/case.xlsx'
+            file='../TheFame/case/case.xlsx'
+            ssl=True
         )
         m.def_mail()
-    
