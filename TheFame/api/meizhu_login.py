@@ -22,14 +22,14 @@ def test_login():
     filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
     excel_path = "../TheFame/case/case.xlsx"
-    mobile = Open_Excel.read_excel(excel_path, '美住登陆', 1)
-    password = Open_Excel.read_excel(excel_path, '美住登陆', 2)
-    areaCode = Open_Excel.read_excel(excel_path, '美住登陆', 3)
-    expected = Open_Excel.read_excel(excel_path, '美住登陆', 4)
+    for i range(1, 4):
+        Test_data = []
+        one_data = Open_Excel.read_excel(excel_path, '美住登陆', i)
+        Test_data.append(one_data)
     actual = []
-    for x, y, e, r in zip(mobile, password, areaCode, expected):
-        login(x, y, e)
-        if result == r:
+    for mobile, password, areaCode, expected in zip(Test_data[0], Test_data[1], Test_data[2], Test_data[3]):
+        login(mobile, password, areaCode)
+        if result == expected:
             log.info(filename + '--' + result)
             actual.append(result)
         else:
