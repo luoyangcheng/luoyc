@@ -1,16 +1,7 @@
-import pytest
-from Demo.demo import a
-
-
-class TestClass(object):
-    def test_one(self):
-        global x
-        x = 1
-        assert 1 ==1
-
-    def test_three(self):
-        a(x)
-
-
-if __name__ == '__main__':
-    pytest.main()
+# 444
+def a():
+    try:
+        f = open(self.file, 'rb').read()
+    except NameError as e:
+        raise (e)
+    print("1")
