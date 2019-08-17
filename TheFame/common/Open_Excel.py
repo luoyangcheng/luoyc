@@ -25,16 +25,12 @@ def write_excel(excel_path, sheet_name, Result):
         data = load_workbook(excel_path)
         sheet = data[sheet_name]
     except Exception as e:
-        print('测试用例文件打开错误', e)
+        print('测试用例文件打开错误')
     else:
         max_rows = sheet.max_row
-        max_cols = sheet.max_column
-        list_cols = []
-        for i in range(2, max_rows + 1):
-            list_cols.append(i)
-            
-        for i, j in zip(list_cols, Result):
-            sheet.cell(i, max_cols - 1, j)
+        max_cols = sheet.max_column           
+        for i in range(2, max_cols+1):
+            sheet.cell(i, max_cols - 1, Result[i-2])
             ippass = sheet.cell(row=i, column=max_cols)
             actual = sheet.cell(row=i, column=max_cols - 1)
             expected = sheet.cell(row=i, column=max_cols - 2)
