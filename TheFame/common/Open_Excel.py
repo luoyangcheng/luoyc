@@ -45,3 +45,4 @@ def write_excel(excel_path, sheet_name, Result):
                 sheet.cell(i, max_cols, 'FAIL')
                 ippass.font = Font(color=colors.RED)
         data.save(excel_path)
+        data.close()

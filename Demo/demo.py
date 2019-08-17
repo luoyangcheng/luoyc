@@ -24,7 +24,7 @@ def write_excel(excel_path, sheet_name, Result):
         data = load_workbook(excel_path)
         sheet = data[sheet_name]
     except Exception as e:
-        print('测试用例文件打开错误', e)
+        print('测试用例文件打开错误')
     else:
         max_rows = sheet.max_row
         max_cols = sheet.max_column
@@ -44,6 +44,7 @@ def write_excel(excel_path, sheet_name, Result):
                 sheet.cell(i, max_cols, 'FAIL')
                 ippass.font = Font(color=colors.RED)
         data.save(excel_path)
+        data.close()
 
 
 if __name__ == '__main__':
