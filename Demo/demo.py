@@ -19,10 +19,32 @@ def read_excel(excel_path, sheet_name, col):
         return newdata
 
 
+def write_excel(excel_path, sheet_name, Result):
+    try:
+        data = load_workbook(excel_path)
+        sheet = data[sheet_name]
+    except Exception as e:
+        print('测试用例文件打开错误', e)
+    else:
+        max_rows = sheet.max_row
+        max_cols = sheet.max_column
+        list_cols = []
+        for i in range(2, max_rows + 1):
+            list_cols.append(i)
+            
+        for i, j in zip(list_cols, Result):
+            sheet.cell(i, max_cols - 1, j)
+            ippass = sheet.cell(row=i, column=max_cols)
+            actual = sheet.cell(row=i, column=max_cols - 1)
+            expected = sheet.cell(row=i, column=max_cols - 2)
+            if actual.value == expected.value:
+                sheet.cell(i, max_cols, 'PASS')
+                ippass.font = Font(color=colors.GREEN)
+            else:
+                sheet.cell(i, max_cols, 'FAIL')
+                ippass.font = Font(color=colors.RED)
+        data.save(excel_path)
+
+
 if __name__ == '__main__':
-    excel_path = "D:\git\warehouse\TheFame\case\case.xlsx"
-    Test_data = []
-    for i in range(1, 5):
-        one_data = read_excel(excel_path, '美住登陆', i)
-        Test_data.append(one_data)
-    print(Test_data)
+    write_excel('D:/a.xlsx', 'Sheet2', ['结果', '结果'])

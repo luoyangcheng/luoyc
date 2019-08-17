@@ -27,20 +27,21 @@ def write_excel(excel_path, sheet_name, Result):
     except Exception as e:
         print('测试用例文件打开错误', e)
     else:
-        green = Font(color=colors.GREEN)
-        red = Font(color=colors.RED)
-        rows = sheet.max_row
-        cols = sheet.max_column
-        l_ = []
-        for i in range(2, rows + 1):
-            l_.append(i)
-
-        for i, j in zip(l_, Result):
-            sheet.cell(i, cols, j)
-            actual = sheet.cell(row=i, column=cols)
-            expected = sheet.cell(row=i, column=cols - 1)
+        max_rows = sheet.max_row
+        max_cols = sheet.max_column
+        list_cols = []
+        for i in range(2, max_rows + 1):
+            list_cols.append(i)
+            
+        for i, j in zip(list_cols, Result):
+            sheet.cell(i, max_cols - 1, j)
+            ippass = sheet.cell(row=i, column=max_cols)
+            actual = sheet.cell(row=i, column=max_cols - 1)
+            expected = sheet.cell(row=i, column=max_cols - 2)
             if actual.value == expected.value:
-                actual.font = green
+                sheet.cell(i, max_cols, 'PASS')
+                ippass.font = Font(color=colors.GREEN)
             else:
-                actual.font = red
+                sheet.cell(i, max_cols, 'FAIL')
+                ippass.font = Font(color=colors.RED)
         data.save(excel_path)
