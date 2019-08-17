@@ -24,28 +24,24 @@ def addvip(session, hotel, name, mobile, vipInfoId, gender, share, areaCode,
         print('接口请求出错！', e)
     else:
         result = result.content.decode('utf-8')
-    
-    
 
 
 def test_addvip(session):
     filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
     excel_path = "../TheFame/case/case.xlsx"
-    hotel = Open_Excel.read_excel(excel_path, '添加会员', 1)
-    name = Open_Excel.read_excel(excel_path, '添加会员', 2)
-    mobile = Open_Excel.read_excel(excel_path, '添加会员', 3)
-    vipInfoId = Open_Excel.read_excel(excel_path, '添加会员', 4)
-    gender = Open_Excel.read_excel(excel_path, '添加会员', 5)
-    share = Open_Excel.read_excel(excel_path, '添加会员', 6)
-    areaCode = Open_Excel.read_excel(excel_path, '添加会员', 7)
-    vipLevelName = Open_Excel.read_excel(excel_path, '添加会员', 8)
-    expected = Open_Excel.read_excel(excel_path, '添加会员', 9)
+    Test_data = []
+    for i in range(1, 10):
+        one_data = Open_Excel.read_excel(excel_path, '添加会员', i)
+        Test_data.append(one_data)
     actual = []
-    for a, b, c, d, e, f ,h, i, j in zip(hotel, name, mobile, vipInfoId, gender, share,
-                          areaCode, vipLevelName, expected):
-        addvip(session, a, b, c, d, e, f ,h, i)
-        if result == j:
+    for hotel, name, mobile, vipInfoId, gender, share, areaCode, vipLevelName, expected in zip(
+            Test_data[0], Test_data[1], Test_data[2], Test_data[3],
+            Test_data[4], Test_data[5], Test_data[6], Test_data[7],
+            Test_data[8]):
+        addvip(session, hotel, name, mobile, vipInfoId, gender, share,
+               areaCode, vipLevelName)
+        if result == expected:
             log.info(filename + '--' + result)
             actual.append(result)
         else:

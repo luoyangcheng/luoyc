@@ -22,8 +22,8 @@ def test_login():
     filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
     excel_path = "../TheFame/case/case.xlsx"
+    Test_data = []
     for i in range(1, 5):
-        Test_data = []
         one_data = Open_Excel.read_excel(excel_path, '美住登陆', i)
         Test_data.append(one_data)
     actual = []
