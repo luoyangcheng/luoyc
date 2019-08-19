@@ -13,10 +13,12 @@ str(cur_path)
 class TestClass(object):
     def test_l(self):
         global session  # 设置全局变量
-        session = meizhu_login.test_login()
+        session, expect, actual = meizhu_login.test_login()
+        assert expect == actual
 
     def test_a(self):
-        meizhu_addvip.test_addvip(session)
+        expect, actual = meizhu_addvip.test_addvip(session)
+        assert expect == actual
 		
     # 需要发送邮件是打开
     # def test_email(self):
