@@ -5,7 +5,7 @@ sys.path.append('../TheFame/common/')
 import logger, Open_Excel
 
 
-def login(mobile, password, areaCode):
+def login_api(mobile, password, areaCode):
     global result, session  # 设置全局变量
     data = {'mobile': mobile, 'password': password, 'areaCode': areaCode}
     try:
@@ -18,7 +18,7 @@ def login(mobile, password, areaCode):
         result = result.content.decode('utf-8')
 
 
-def test_login():
+def login():
     filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
     excel_path = "../TheFame/case/case.xlsx"
@@ -28,7 +28,7 @@ def test_login():
         Test_data.append(one_data)
     actual = []
     for mobile, password, areaCode, expected in zip(Test_data[0], Test_data[1], Test_data[2], Test_data[3]):
-        login(mobile, password, areaCode)
+        login_api(mobile, password, areaCode)
         if result == expected:
             log.info(filename + '--' + result)
             actual.append(result)

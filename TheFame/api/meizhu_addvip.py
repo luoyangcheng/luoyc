@@ -4,7 +4,7 @@ sys.path.append('../TheFame/common/')
 import logger, Open_Excel
 
 
-def addvip(session, hotel, name, mobile, vipInfoId, gender, share, areaCode, vipLevelName):
+def addvip_api(session, hotel, name, mobile, vipInfoId, gender, share, areaCode, vipLevelName):
     global result  # 设置全局变量
     data = {'hotel': hotel, 'name': name, 'mobile': mobile, "vipInfoId": vipInfoId, "gender": gender, "share": share, "areaCode": areaCode, "vipLevelName": vipLevelName}
     try:
@@ -16,7 +16,7 @@ def addvip(session, hotel, name, mobile, vipInfoId, gender, share, areaCode, vip
         result = result.content.decode('utf-8')
 
 
-def test_addvip(session):
+def addvip(session):
     filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
     excel_path = "../TheFame/case/case.xlsx"
@@ -26,7 +26,7 @@ def test_addvip(session):
         Test_data.append(one_data)
     actual = []
     for hotel, name, mobile, vipInfoId, gender, share, areaCode, vipLevelName, expected in zip(Test_data[0], Test_data[1], Test_data[2], Test_data[3], Test_data[4], Test_data[5], Test_data[6], Test_data[7], Test_data[8]):
-        addvip(session, hotel, name, mobile, vipInfoId, gender, share, areaCode, vipLevelName)
+        addvip_api(session, hotel, name, mobile, vipInfoId, gender, share, areaCode, vipLevelName)
         if result == expected:
             log.info(filename + '--' + result)
             actual.append(result)
