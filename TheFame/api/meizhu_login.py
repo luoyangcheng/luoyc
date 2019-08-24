@@ -22,9 +22,11 @@ def login():
     filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
     excel_path = "../TheFame/case/case.xlsx"
+    sheet = '美住登陆'
+    Open_Excel.update_excel(excel_path, sheet)
     Test_data = []
     for i in range(1, 5):
-        one_data = Open_Excel.read_excel(excel_path, '美住登陆', i)
+        one_data = Open_Excel.read_excel(excel_path, sheet, i)
         Test_data.append(one_data)
     actual = []
     for mobile, password, areaCode, expected in zip(Test_data[0], Test_data[1], Test_data[2], Test_data[3]):
