@@ -35,5 +35,5 @@ def addvip(session):
         else:
             log.error(filename + '--' + result)
             actual.append(result)
-    Open_Excel.write_excel(excel_path, '添加会员', actual)
+    Open_Excel.write_excel(excel_path, sheet, actual)
     return Test_data[8], actual

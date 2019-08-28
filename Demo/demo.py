@@ -1,48 +1,142 @@
-# 递归函数，比如可以用来计算:1*2*3...*n = ?
-from openpyxl import load_workbook
-from openpyxl.styles import Font, colors
+from datetime import datetime, timedelta
+import hashlib
+import hmac
+import itertools
+from PIL import Image
+import requests
+from tkinter import *
+import tkinter.messagebox as messagebox
+import socket
+import threading
+import pymysql
 
+# now = datetime.now()
+# print(now)
+# print(now.timestamp())
+# print(datetime.utcfromtimestamp(now.timestamp()))
+#
+# str=datetime.strptime('2018-04-09 10:10:10','%Y-%m-%d %H:%M:%S')
+# print(str)
+#
+# print(now.strftime('%a, %b %d %H:%M'))
+#
+# a = '12:13:50'
+# b = '12:28:21'
+# time_a = datetime.strptime(a,'%H:%M:%S')
+# time_b = datetime.strptime(b,'%H:%M:%S')
+# print(time_b - time_a)
+#
+# md5 = hashlib.md5()
+# md5.update('how to use md5 in python hashlib??'.encode('utf-8'))
+# print(md5.hexdigest())
+#
+# message=b'6534563563563563'
+# key=b'asdddd'
+# h=hmac.new(key,message,digestmod='MD5')
+# print(h.hexdigest())
 
-def read_excel(excel_path, sheet_name, col):
-    try:
-        data = load_workbook(excel_path)
-        sheet = data[sheet_name]
-    except Exception as e:
-        print('测试用例文件打开错误', e)
-    else:
-        newdata = []
-        for r in range(2, sheet.max_row + 1):
-            if sheet.cell(row=r, column=col).value is None:
-                newdata.append("")
-            else:
-                newdata.append(sheet.cell(row=r, column=col).value)
-        return newdata
+# image = Image.open('F:/aa.jpg')
+# w ,h = image.size
+# print('Original image size: %sx%s' % (w, h))
+# image.thumbnail((w//2,h//2))
+# image.save('F:/aa1.jpg','jpeg')
 
+# r = requests.get('https://www.douban.com/')
+# print(r.text)
+# print(r.status_code)
+# class Application(Frame):
+#     def __init__(self, master=None):
+#         Frame.__init__(self, master)
+#         self.pack()
+#         self.createWidgets()
+#
+#     def createWidgets(self):
+#         self.nameInput = Entry(self)
+#         self.nameInput.pack()
+#         self.alertButton = Button(self, text='Hello', command=self.hello)
+#         self.alertButton.pack()
+#
+#     def hello(self):
+#         name = self.nameInput.get() or 'world'
+#         messagebox.showinfo('Message', 'Hello, %s' % name)
+#
+# app = Application()
+# # 设置窗口标题:
+# app.master.title('Hello World')
+# # 主消息循环:
+# app.mainloop()
 
-def write_excel(excel_path, sheet_name, Result):
-    try:
-        data = load_workbook(excel_path)
-        sheet = data[sheet_name]
-    except Exception as e:
-        print('测试用例文件打开错误')
-    else:
-        max_rows = sheet.max_row
-        max_cols = sheet.max_column
-        print(max_cols)          
-        for i in range(2, max_rows+1):
-            sheet.cell(i, max_cols - 1, Result[i-2])
-            ippass = sheet.cell(row=i, column=max_cols)
-            actual = sheet.cell(row=i, column=max_cols - 1)
-            expected = sheet.cell(row=i, column=max_cols - 2)
-            if actual.value == expected.value:
-                sheet.cell(i, max_cols, 'PASS')
-                ippass.font = Font(color=colors.GREEN)
-            else:
-                sheet.cell(i, max_cols, 'FAIL')
-                ippass.font = Font(color=colors.RED)
-        data.save(excel_path)
-        data.close()
+# def tcplink(sock, addr):
+#     print('Accept new connection from %s:%s...' % addr)
+#     sock.send(b'Welcome!')
+#     data = sock.recv(1024)
+#     if data.decode('utf-8') == 'exit':
+#         sock.close()
+#     sock.send(('Hello, %s!' % data.decode('utf-8')).encode('utf-8'))
+#     print('Connection from %s:%s closed.' % addr)
+#
+# s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# s.bind(('127.0.0.1', 5555))
+# s.listen(5)
+# print('Waiting for connection...')
+# while True:
+#     sock, addr = s.accept()
+#     t = threading.Thread(target=tcplink, args=(sock, addr))
+#     t.start()
 
+# co = pymysql.connect('192.168.3.19', 'root', 'hongwei',"luoyc")
+# cursor = co.cursor(cursor=pymysql.cursors.DictCursor)
+# DB_NAME = 'luoyc'
+# cursor.execute('DROP DATABASE IF EXISTS %s' %DB_NAME)
+# cursor.execute('CREATE DATABASE IF NOT EXISTS %s' %DB_NAME)
+# co.select_db(DB_NAME)
+# TABLE_NAME = 'user'
+# cursor.execute('CREATE TABLE %s(id int primary key,name varchar(30),password varchar(50),Email varchar(50))'%TABLE_NAME)
+# # n ="kk"
+# sql = 'INSERT INTO user (id, name) VALUES (%s,%s)',(4,n)
+# sql2 = 'select name from user'
+# cursor.execute('INSERT INTO user (id, name) VALUES (%s,%s)',(4,n))
+# cursor.execute(sql2)
+# re = cursor.fetchall()
+# co.commit()
+# print(re)
 
-if __name__ == '__main__':
-    write_excel('D:/a.xlsx', 'Sheet1', ['结果', '结果'])
+# from flask import Flask
+# from flask import request
+#
+# app = Flask(__name__)
+#
+# @app.route('/', methods=['GET', 'POST'])
+# def home():
+#     return '<h1>Home</h1>'
+#
+# @app.route('/signin', methods=['GET'])
+# def signin_form():
+#     return '''<form action="/signin" method="post">
+#               <p><input name="username"></p>
+#               <p><input name="password" type="password"></p>
+#               <p><button type="submit">Sign In</button></p>
+#               </form>'''
+#
+# @app.route('/signin', methods=['POST'])
+# def signin():
+#     # 需要从request对象读取表单内容：
+#     if request.form['username']=='admin' and request.form['password']=='password':
+#         return '<h3>Hello, admin!</h3>'
+#     return '<h3>Bad username or password.</h3>'
+#
+# if __name__ == '__main__':
+#     app.run()
+
+import json
+for i in range(2):
+    rooms = []
+    data = {
+        "locktype": '1',
+        "name": str(i),
+        "no": str(i),
+        "num": str(i)
+    }
+    a = json.dumps(data)
+    rooms.append(a)
+    print(rooms)
