@@ -41,3 +41,6 @@ if __name__ == "__main__":
     # python -m pytest ：linux下运行用此方式，因为通过pip安装pytest不会使它成为系统命令，
     # 它会将其安装到python。-m命令将pytest作为自己的命令运行，然后任何进行中的脚本都将成为参数
     # TestClass().test_email() # 此方式可以直接在VScode直接调试某个测试用例模块
+    # pip install pytest_assume
+    # pip install pytest_html
+    # pip install pytest_ordering
