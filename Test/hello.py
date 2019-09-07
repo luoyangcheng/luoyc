@@ -4,4 +4,4 @@ def a():
         f = open(self.file, 'rb').read()
     except NameError as e:
         raise (e)
-    print("1")
+    print("18888888")
