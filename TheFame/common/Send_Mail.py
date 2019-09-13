@@ -47,7 +47,7 @@ class SendMail(object):
             try:
                 f = open(self.file, 'rb').read()
             except Exception as e:
-                raise Exception('附件打不开！！！！')
+                raise Exception('附件打不开！')
             else:
                 att = MIMEText(f, "base64", "utf-8")
                 att["Content-Type"] = 'application/octet-stream'
