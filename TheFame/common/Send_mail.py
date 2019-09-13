@@ -72,7 +72,7 @@ class SendMail(object):
             self.smtp.sendmail(self.username, self.recv, msg.as_string())
             pass
         except Exception as e:
-            print('邮件发送出错了', e)
+            print('邮件发送出错', e)
         else:
             print('邮件发送成功！')
         self.smtp.quit()
