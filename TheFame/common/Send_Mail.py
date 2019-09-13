@@ -83,7 +83,7 @@ class SendMail(object):
             passwd='111111111111',
             recv=['lyc163069@163.com', 'lyc163069@live.com'],
             title='测试报告',
-            content='恭喜测试完成！附件为详细测试用例。测试报告查看：http://94.191.124.146/TheFame/report/Meizhu.html 。测试用例下载：http://94.191.124.146/TheFame/case/case.xlsx',
+            content='恭喜测试完成！附件为详细测试用例,测试报告查看：http://94.191.124.146/TheFame/report/Meizhu.html 。测试用例下载：http://94.191.124.146/TheFame/case/case.xlsx',
             file='../TheFame/case/case.xlsx',
             ssl=True,
         )
