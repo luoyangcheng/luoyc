@@ -11,9 +11,8 @@ str(cur_path)
 
 
 def teardown_module(self):
-    print("所有用例执行完成,开始发送邮件!")
-    # Send_mail.SendMail.mymail(self)
-    print("所有用例执行完成,开始发送短信!")
+    print("\n所有用例执行完成,开始发送邮件和短信!")
+    # Send_Mail.SendMail.mymail(self)
     Send_SMS.SendSMS()
 
 
