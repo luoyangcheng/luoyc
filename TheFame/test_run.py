@@ -4,7 +4,7 @@ import pytest
 sys.path.append('../TheFame/api/')
 import meizhu_login, meizhu_addvip
 sys.path.append('../TheFame/common/')
-import Send_mail
+import Send_Mail, Send_SMS
 
 cur_path = os.path.dirname(os.path.realpath(__file__))
 str(cur_path)
@@ -13,6 +13,8 @@ str(cur_path)
 def teardown_module(self):
     print("所有用例执行完成,开始发送邮件!")
     # Send_mail.SendMail.mymail(self)
+    print("所有用例执行完成,开始发送短信!")
+    Send_SMS.SendSMS()
 
 
 class TestVIP(object):
