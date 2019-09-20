@@ -1,0 +1,15 @@
+[2019-09-20 17:31:21,678] - INFO - : Open_Sqlite3.py--{"data":"","info":"用户不存在","status":100}
+[2019-09-20 17:31:21,756] - INFO - : Open_Sqlite3.py--{"data":"","info":"密码不正确","status":101}
+[2019-09-20 17:31:21,818] - INFO - : Open_Sqlite3.py--{"data":"success","info":"成功","status":200}
+[2019-09-20 17:31:21,959] - INFO - : Open_Sqlite3.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-09-20 17:31:22,053] - INFO - : Open_Sqlite3.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-09-20 17:32:10,050] - INFO - : Open_Sqlite3.py--{"data":"","info":"用户不存在","status":100}
+[2019-09-20 17:32:10,128] - INFO - : Open_Sqlite3.py--{"data":"","info":"密码不正确","status":101}
+[2019-09-20 17:32:10,191] - INFO - : Open_Sqlite3.py--{"data":"success","info":"成功","status":200}
+[2019-09-20 17:32:10,332] - INFO - : Open_Sqlite3.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-09-20 17:32:10,425] - INFO - : Open_Sqlite3.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-09-20 17:41:23,491] - INFO - : Open_Sqlite3.py--{"data":"","info":"用户不存在","status":100}
+[2019-09-20 17:41:23,570] - INFO - : Open_Sqlite3.py--{"data":"","info":"密码不正确","status":101}
+[2019-09-20 17:41:23,648] - INFO - : Open_Sqlite3.py--{"data":"success","info":"成功","status":200}
+[2019-09-20 17:41:23,788] - INFO - : Open_Sqlite3.py--{"data":"","info":"会员手机号码已存在","status":709}
+[2019-09-20 17:41:23,882] - INFO - : Open_Sqlite3.py--{"data":"","info":"会员手机号码已存在","status":709}
