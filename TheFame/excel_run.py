@@ -1,13 +1,9 @@
 import sys
-import os
 import pytest
 sys.path.append('../TheFame/api/')
 import meizhu_login, meizhu_addvip
 sys.path.append('../TheFame/common/')
 import Send_Mail, Send_SMS
-
-cur_path = os.path.dirname(os.path.realpath(__file__))
-str(cur_path)
 
 
 def teardown_module(self):
@@ -36,7 +32,10 @@ class TestOrder(object):
 
 
 if __name__ == "__main__":
-    pytest.main(["-s", "-v", "excel_run.py::TestVIP", "--html=../TheFame/report/Meizhu.html"])
+    pytest.main([
+        "-s", "-v", "excel_run.py::TestVIP",
+        "--html=../TheFame/report/Meizhu.html"
+    ])
     # pytest --html=report.html,在CMD命令下执行此命令会生成报告
     # pytest -v -s isr_test.py -n 10，多线程运行测试用例，NUM为想要并发的进程数目。
     # python -m pytest ：linux下运行用此方式，因为通过pip安装pytest不会使它成为系统命令，
