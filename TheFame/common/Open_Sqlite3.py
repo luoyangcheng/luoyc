@@ -20,13 +20,13 @@ def select_data(cursor, tb, i):
     data_all = cursor.fetchall()
     data = data_all[0]
     new_data = []
-    nowTime = int(time.time()) # 获取当前时间戳
-    mobile = "188" + str(nowTime)[-8:] # 取时间戳后8位
+    nowTime = int(time.time())  # 获取当前时间戳
+    mobile = "188" + str(nowTime)[-8:]  # 取时间戳后8位
     for i in data:
-        if i is None: #　如果数据库的值为null时，把None替换为空字符串
+        if i is None:  #　如果数据库的值为null时，把None替换为空字符串
             i = ""
             new_data.append(i)
-        elif i == "{mobile}": # 自定义变量，可根据自己需求添加
+        elif i == "{mobile}":  # 自定义变量，可根据自己需求添加
             i = mobile
             new_data.append(i)
         else:
@@ -41,13 +41,17 @@ def update_data(cursor, tb, i, result):
     # 获取所有字段
     cursor.execute("SELECT * FROM {}".format(tb))
     col_name_list = [tuple[0] for tuple in cursor.description]
-    maxcol = len(col_name_list) # 获取最大列数
+    maxcol = len(col_name_list)  # 获取最大列数
     if result == data[maxcol - 3]:
         log.info(filename + '--' + result)
-        cursor.execute("update %s set actual = '%s', ispass = 1 where rowid = %s" % (tb, result, i))
+        cursor.execute(
+            "update %s set actual = '%s', ispass = 1 where rowid = %s" %
+            (tb, result, i))
     else:
         log.error(filename + '--' + result)
-        cursor.execute("update %s set actual = '%s', ispass = 0 where rowid = %s" % (tb, result, i))
+        cursor.execute(
+            "update %s set actual = '%s', ispass = 0 where rowid = %s" %
+            (tb, result, i))
 
 
 def statistical_data(cursor):
@@ -55,7 +59,8 @@ def statistical_data(cursor):
     fail_num = 0
     tb_num, tb_name = [], []
     # 获取所有表名
-    cursor.execute("select name from sqlite_master where type='table' order by name")
+    cursor.execute(
+        "select name from sqlite_master where type='table' order by name")
     data_all = cursor.fetchall()
     data_all_len = len(data_all)
     # 把表名改成一个list
@@ -71,4 +76,4 @@ def statistical_data(cursor):
             tb_name.append(i[0])
         fail_num = fail_num + fail_count
     # 返回失败用例总数和存在错误的表名
-    return fail_num, tb_name 
+    return fail_num, tb_name
