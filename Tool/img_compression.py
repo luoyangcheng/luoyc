@@ -7,7 +7,8 @@ def get_size(file):
     # 获取文件大小:KB
     size = os.path.getsize(file)
     return size / 1024
-    
+
+
 # 拼接输出文件地址
 def get_outfile(infile, outfile):
     if outfile:
@@ -15,7 +16,8 @@ def get_outfile(infile, outfile):
     dir, suffix = os.path.splitext(infile)
     outfile = '{}-out{}'.format(dir, suffix)
     return outfile
-    
+
+
 # 压缩文件到指定大小，我期望的是150KB,step和quality可以修改到最合适的数值
 def compress_image(infile, outfile='', mb=150, step=55, quality=80):
     """不改变图片尺寸压缩到指定大小
@@ -38,7 +40,8 @@ def compress_image(infile, outfile='', mb=150, step=55, quality=80):
         quality -= step
         o_size = get_size(outfile)
     return outfile, get_size(outfile)
-    
+
+
 # 修改图片尺寸，如果同时有修改尺寸和大小的需要，可以先修改尺寸，再压缩大小
 def resize_image(infile, outfile='', x_s=1376):
     """修改图片尺寸
