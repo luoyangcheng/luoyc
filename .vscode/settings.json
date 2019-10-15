@@ -5,7 +5,7 @@
     "python.formatting.provider": "yapf",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.pythonPath":"C:/Python38/python",
+    "python.pythonPath":"C:/Python38/python.exe",
     "editor.fontSize": 15,
     "sync.gist": "208fc0e87d1e698aacf1facdf6ad5c1d",
     "sync.host": "",
