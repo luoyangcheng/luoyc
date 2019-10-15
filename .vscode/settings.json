@@ -1,15 +1,30 @@
 {
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./TheFame",
-        "-p",
-        "test_*.py"
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath":"C:/Python38/python",
+    "editor.fontSize": 15,
+    "sync.gist": "208fc0e87d1e698aacf1facdf6ad5c1d",
+    "sync.host": "",
+    "sync.pathPrefix": "",
+    "sync.quietSync": false,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.lastUpload": "2018-06-30T00:30:33.847Z",
+    "sync.lastDownload": "2018-07-06T06:04:07.925Z",
+    "sync.forceDownload": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "python.linting.flake8Args": [
+        "--max-line-length=248",
+        "--extend-ignore=E401,E402"
     ],
-    "python.testing.pytestEnabled": true,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestArgs": [
-        "TheFame"
-    ]
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": true
 }
