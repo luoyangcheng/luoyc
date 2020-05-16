@@ -3,7 +3,7 @@ from openpyxl import load_workbook
 from openpyxl.styles import Font, colors
 
 
-## 数据预处理，去掉所有空格
+# 数据预处理，去掉所有空格
 def update_excel(excel_path, sheet_name):
     for i in range(2):
         try:
@@ -17,7 +17,7 @@ def update_excel(excel_path, sheet_name):
             for x in range(1, max_rows + 1):
                 for y in range(1, max_cols + 1):
                     a = sheet.cell(row=x, column=y).value
-                    if type(a) == type(""):
+                    if isinstance(a, ''):
                         s = re.sub('\s', '', a)
                         if s == '':
                             sheet.cell(x, y, '')
@@ -51,7 +51,7 @@ def write_excel(excel_path, sheet_name, Result):
         data = load_workbook(excel_path)
         sheet = data[sheet_name]
     except Exception as e:
-        print('测试用例文件打开错误')
+        print('测试用例文件打开错误', e)
     else:
         max_rows = sheet.max_row
         max_cols = sheet.max_column

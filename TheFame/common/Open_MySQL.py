@@ -6,15 +6,7 @@ class DATA(object):
 
         def __init__(self):
             # 连接数据库
-            config = {
-                'host': '192.168.3.19',
-                'port': 3306,
-                'user': 'root',
-                'passwd': 'hongwei',
-                'charset': 'utf8mb4',
-                'db': 'test',
-                'cursorclass': pymysql.cursors.DictCursor
-            }
+            config = {'host': '192.168.3.19', 'port': 3306, 'user': 'root', 'passwd': 'hongwei', 'charset': 'utf8mb4', 'db': 'test', 'cursorclass': pymysql.cursors.DictCursor}
             self.conn = pymysql.connect(**config)
             self.conn.autocommit(1)
             self.cursor = self.conn.cursor()
@@ -33,9 +25,7 @@ class DATA(object):
         # 创建表
         def CREATE_TABLE(self):
             TABLE_NAME = 'user'
-            self.cursor.execute(
-                'CREATE TABLE %s(id int primary key,name varchar(30))' %
-                TABLE_NAME)
+            self.cursor.execute('CREATE TABLE %s(id int primary key,name varchar(30))' % TABLE_NAME)
             self.cursor.close()
             self.conn.close()
 
@@ -54,9 +44,7 @@ class DATA(object):
             TABLE_NAME = 'user'
             FIELD_NAME = 'ID'
             STR_NAME = '1'
-            self.count = self.cursor.execute(
-                'SELECT * FROM %s WHERE %s = %s' % (TABLE_NAME, FIELD_NAME,
-                                                    STR_NAME))
+            self.count = self.cursor.execute('SELECT * FROM %s WHERE %s = %s' % (TABLE_NAME, FIELD_NAME, STR_NAME))
             # 显示所有结果
             cds = self.cursor.fetchall()
             self.cursor.close()
@@ -69,8 +57,7 @@ class DATA(object):
             TABLE_NAME = 'user'
             FIELD_NAME = 'ID'
             STR_NAME = '1'
-            self.cursor.execute('UPDATE %s SET %s = "1" WHERE %s = 1' %
-                                (TABLE_NAME, STR_NAME, FIELD_NAME))
+            self.cursor.execute('UPDATE %s SET %s = "1" WHERE %s = 1' % (TABLE_NAME, STR_NAME, FIELD_NAME))
             self.cursor.close()
             self.conn.close()
 
@@ -79,8 +66,7 @@ class DATA(object):
             TABLE_NAME = 'user'
             FIELD_NAME = 'ID'
             STR_NAME = '1'
-            self.cursor.execute('DELETE FROM %s WHERE %s = %s' %
-                                (TABLE_NAME, FIELD_NAME, STR_NAME))
+            self.cursor.execute('DELETE FROM %s WHERE %s = %s' % (TABLE_NAME, FIELD_NAME, STR_NAME))
             self.cursor.close()
             self.conn.close()
 

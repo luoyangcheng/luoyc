@@ -1,24 +1,11 @@
-import requests
 import sys
 import os
 sys.path.append('../TheFame/common/')
-import logger, Open_Excel
-
-
-def login_api(mobile, password, areaCode):
-    global result, session  # 设置全局变量
-    data = {'mobile': mobile, 'password': password, 'areaCode': areaCode}
-    try:
-        login_url = "http://www.meizhuyun.com/Home/Public/login"
-        session = requests.Session()
-        result = session.post(login_url, data)
-    except Exception as e:
-        print('接口请求出错！', e)
-    else:
-        result = result.content.decode('utf-8')
+import logger, Open_Excel, TestRequests
 
 
 def login():
+    x = TestRequests.Test_Requests()
     filename = os.path.basename(__file__)  # 获取当前文件名
     log = logger.Log()
     excel_path = "../TheFame/case/case.xlsx"
@@ -30,7 +17,9 @@ def login():
         Test_data.append(one_data)
     actual = []
     for mobile, password, areaCode, expected in zip(Test_data[0], Test_data[1], Test_data[2], Test_data[3]):
-        login_api(mobile, password, areaCode)
+        result = x.run_main('login', url='http://www.meizhuyun.com/Home/Public/login', data={'mobile': mobile, 'password': password, 'areaCode': areaCode})
+        result = result.content.decode('utf-8')
+        # print(result)
         if result == expected:
             log.info(filename + '--' + result)
             actual.append(result)
@@ -38,4 +27,4 @@ def login():
             log.error(filename + '--' + result)
             actual.append(result)
     Open_Excel.write_excel(excel_path, sheet, actual)
-    return session, Test_data[3], actual
+    return Test_data[3], actual

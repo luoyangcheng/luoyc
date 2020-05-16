@@ -1,11 +1,12 @@
 {
+    "python.pythonPath": "D:\\Python38\\python.exe",
     "workbench.colorTheme": "Monokai",
     "files.autoSave": "afterDelay",
     "window.zoomLevel": 0,
     "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": ["--style", "{column_limit: 888}"],
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.pythonPath":"C:/Python38/python.exe",
     "editor.fontSize": 15,
     "sync.gist": "208fc0e87d1e698aacf1facdf6ad5c1d",
     "sync.host": "",
@@ -22,9 +23,9 @@
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDelete": false,
     "python.linting.flake8Args": [
-        "--max-line-length=248",
-        "--extend-ignore=E401,E402"
+        "--max-line-length=888",
+        "--extend-ignore=E401,E402,W292"
     ],
     "git.enableSmartCommit": true,
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
 }

@@ -1,5 +1,4 @@
 import sys
-import os
 import pytest
 import sqlite3
 sys.path.append('../TheFame/api/')
@@ -24,17 +23,17 @@ class TestVIP(object):
         print("\n正在发送邮件和短信...")
         # Send_Mail.SendMail.mymail(self)
         # Send_SMS.SendSMS()
-        
+
     @pytest.mark.run(order=1)
     def test_login(self):
-        global session  # 设置全局变量
-        session, expect, actual = meizhu_login_sqlite.login(self.cursor)
+        expect, actual = meizhu_login_sqlite.login(self.cursor)
         pytest.assume(expect == actual)
 
     @pytest.mark.run(order=2)
     def test_addvip(self):
-        expect, actual = meizhu_addvip_sqlite.addvip(session, self.cursor)
+        expect, actual = meizhu_addvip_sqlite.addvip(self.cursor)
         pytest.assume(expect == actual)
+
 
 if __name__ == "__main__":
     pytest.main(["-s", "sqlite_run.py::TestVIP", "--html=../TheFame/report/Meizhu.html"])
