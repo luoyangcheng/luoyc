@@ -13,16 +13,19 @@ if not os.path.exists(log_path):
 class Log():
     def __init__(self):
         # 文件的命名
-        self.logname = os.path.join(log_path, '%s.log' % time.strftime('%Y_%m_%d'))
+        self.logname = os.path.join(log_path,
+                                    '%s.log' % time.strftime('%Y_%m_%d'))
         self.logger = logging.getLogger()
         self.logger.setLevel(logging.DEBUG)
         # 日志输出格式
-        self.formatter = logging.Formatter('[%(asctime)s] - %(levelname)s - : %(message)s')
+        self.formatter = logging.Formatter(
+            '[%(asctime)s] - %(levelname)s - : %(message)s')
 
     def __console(self, level, message):
         # 创建一个FileHandler，用于写到本地
         # fh = logging.FileHandler(self.logname, 'a')  # 追加模式  这个是python2的
-        fh = logging.FileHandler(self.logname, 'a', encoding='utf-8')  # 这个是python3的
+        fh = logging.FileHandler(
+            self.logname, 'a', encoding='utf-8')  # 这个是python3的
         fh.setLevel(logging.DEBUG)
         fh.setFormatter(self.formatter)
         self.logger.addHandler(fh)

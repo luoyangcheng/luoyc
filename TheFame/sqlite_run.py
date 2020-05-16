@@ -1,4 +1,5 @@
 import sys
+import os
 import pytest
 import sqlite3
 sys.path.append('../TheFame/api/')
@@ -26,12 +27,13 @@ class TestVIP(object):
 
     @pytest.mark.run(order=1)
     def test_login(self):
-        expect, actual = meizhu_login_sqlite.login(self.cursor)
+        global session  # 设置全局变量
+        session, expect, actual = meizhu_login_sqlite.login(self.cursor)
         pytest.assume(expect == actual)
 
     @pytest.mark.run(order=2)
     def test_addvip(self):
-        expect, actual = meizhu_addvip_sqlite.addvip(self.cursor)
+        expect, actual = meizhu_addvip_sqlite.addvip(session, self.cursor)
         pytest.assume(expect == actual)
 
 
