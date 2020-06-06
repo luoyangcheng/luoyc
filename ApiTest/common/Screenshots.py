@@ -14,7 +14,7 @@ def mkdirfile(file_path):
 
 def picture():
     nowDate = time.strftime("%Y-%m-%d", time.localtime(time.time()))
-    mkdirfile('../TheFame/report/%s/' % (nowDate))
+    mkdirfile('../ApiTest/report/%s/' % (nowDate))
     nowTime = int(time.time())
     im = ImageGrab.grab()
-    im.save('../TheFame/report/%s/%s.jpg' % (nowDate, nowTime))
+    im.save('../ApiTest/report/%s/%s.jpg' % (nowDate, nowTime))

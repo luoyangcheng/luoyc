@@ -1,27 +1,43 @@
-import sys
+import sys, json
 import pytest
 sys.path.append('../ApiTest/api/')
-import meizhu_login, meizhu_addvip
+import meizhu_api
 sys.path.append('../ApiTest/common/')
-import Send_Mail, Send_SMS
-
-
-def teardown_module(self):
-    print("\n所有用例执行完成,开始发送邮件和短信!")
-    # Send_Mail.SendMail.mymail(self)
-    # Send_SMS.SendSMS()
+# import Send_Mail, Send_SMS
 
 
 class TestVIP(object):
+    def setup_class(self):
+        print("\n正在开始执行测试用例!")
+
+    def teardown_class(self):
+        print("\n所有用例执行完成,开始发送邮件和短信!")
+        # Send_Mail.SendMail.mymail(self)
+        # Send_SMS.SendSMS()
+
     @pytest.mark.run(order=1)
     def test_login(self):
-        expect, actual = meizhu_login.login()
+        expect, actual = meizhu_api.meizhu('login', 'dict', '美住登陆', '/Home/Public/login')
         pytest.assume(expect == actual)
 
     @pytest.mark.run(order=2)
     def test_addvip(self):
-        expect, actual = meizhu_addvip.addvip()
+        expect, actual = meizhu_api.meizhu('post', 'dict', '添加会员', '/Home/Customer/addVip')
         pytest.assume(expect == actual)
+
+    @pytest.mark.run(order=3)
+    def test_viplist(self):
+        expect, actual = meizhu_api.meizhu('post', 'dict', '会员列表', '/Home/Customer/vip')
+        actual = json.loads(actual[0])
+        pytest.assume(expect[0] == actual['status'])
+        global vipUserId
+        vipUserId = actual['data']['item'][0]['id']
+
+    @pytest.mark.run(order=4)
+    def test_vipinfo(self):
+        expect, actual = meizhu_api.meizhu('post', 'dict', '会员详情', '/Home/Customer/setVip', field=['vipUserId'], valu=[vipUserId])
+        actual = json.loads(actual[0])
+        pytest.assume(expect[0] == actual['status'])
 
 
 class TestOrder(object):

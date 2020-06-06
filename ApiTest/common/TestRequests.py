@@ -29,7 +29,7 @@ class Test_Requests():
             print("post请求错误: %s" % e)
 
     def login(self, url, **kwargs):
-        '''封装post方法'''
+        '''封装登陆方法'''
         # 获取请求参数
         global session
         session = requests.Session()

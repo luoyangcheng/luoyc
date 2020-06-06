@@ -2,6 +2,7 @@ from twilio.rest import Client
 
 
 def SendSMS():
+    # sid/token需要去twilio官网获取
     sid = 'ACce24d396e0802184da660c363223e658'
     token = 'f91a0bc13e71427780d016f794535917'
     content = '测试完成！测试报告：http://94.191.124.146/TheFame/report/Meizhu.html'

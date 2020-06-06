@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>Meizhu.html</h1>
-    <p>Report generated on 16-May-2020 at 11:27:25 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 06-Jun-2020 at 19:51:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -262,7 +262,7 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.8.3</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 1.45 seconds. </p>
+    <p>2 tests ran in 1.01 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -277,29 +277,27 @@ function filter_table(elem) {
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">excel_run.py::TestVIP::test_login</td>
-          <td class="col-duration">0.81</td>
+          <td class="col-name">sqlite_run.py::TestVIP::test_login</td>
+          <td class="col-duration">0.52</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>DEBUG    urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): www.meizhuyun.com:80
-DEBUG    urllib3.connectionpool:connectionpool.py:433 http://www.meizhuyun.com:80 &quot;POST /Home/Public/login HTTP/1.1&quot; 403 49
-INFO     root:logger.py:40 meizhu_login.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;用户不存在&quot;,&quot;status&quot;:100}
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     root:logger.py:37 Open_Sqlite3.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;用户不存在&quot;,&quot;status&quot;:100}
 DEBUG    urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): www.meizhuyun.com:80
 DEBUG    urllib3.connectionpool:connectionpool.py:433 http://www.meizhuyun.com:80 &quot;POST /Home/Public/login HTTP/1.1&quot; 403 49
-INFO     root:logger.py:40 meizhu_login.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;密码不正确&quot;,&quot;status&quot;:101}
+INFO     root:logger.py:37 Open_Sqlite3.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;密码不正确&quot;,&quot;status&quot;:101}
 DEBUG    urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): www.meizhuyun.com:80
 DEBUG    urllib3.connectionpool:connectionpool.py:433 http://www.meizhuyun.com:80 &quot;POST /Home/Public/login HTTP/1.1&quot; 200 47
-INFO     root:logger.py:40 meizhu_login.py--{&quot;data&quot;:&quot;success&quot;,&quot;info&quot;:&quot;成功&quot;,&quot;status&quot;:200}<br/></div></td></tr></tbody>
+INFO     root:logger.py:37 Open_Sqlite3.py--{&quot;data&quot;:&quot;success&quot;,&quot;info&quot;:&quot;成功&quot;,&quot;status&quot;:200}<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">excel_run.py::TestVIP::test_addvip</td>
-          <td class="col-duration">0.61</td>
+          <td class="col-name">sqlite_run.py::TestVIP::test_addvip</td>
+          <td class="col-duration">0.34</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="log"> -------------------------------Captured log call-------------------------------- <br/>DEBUG    urllib3.connectionpool:connectionpool.py:433 http://www.meizhuyun.com:80 &quot;POST /Home/Customer/addVip HTTP/1.1&quot; 403 61
-INFO     root:logger.py:40 meizhu_addvip.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;会员手机号码已存在&quot;,&quot;status&quot;:709}
-DEBUG    urllib3.connectionpool:connectionpool.py:433 http://www.meizhuyun.com:80 &quot;POST /Home/Customer/addVip HTTP/1.1&quot; 403 61
-INFO     root:logger.py:40 meizhu_addvip.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;会员手机号码已存在&quot;,&quot;status&quot;:709}<br/></div></td></tr></tbody></table></body></html>
+INFO     root:logger.py:37 Open_Sqlite3.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;会员手机号码已存在&quot;,&quot;status&quot;:709}
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://www.meizhuyun.com:80 &quot;POST /Home/Customer/addVip HTTP/1.1&quot; 200 40
+INFO     root:logger.py:37 Open_Sqlite3.py--{&quot;data&quot;:&quot;&quot;,&quot;info&quot;:&quot;成功&quot;,&quot;status&quot;:200}<br/></div></td></tr></tbody></table></body></html>

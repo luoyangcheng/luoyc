@@ -1,5 +1,0 @@
-[2019-08-16 10:17:02,416] - ERROR - : meizhu_login.py--{"data":"","info":"用户不存在","status":100}
-[2019-08-16 10:17:02,533] - INFO - : meizhu_login.py--{"data":"","info":"密码不正确","status":101}
-[2019-08-16 10:17:02,640] - INFO - : meizhu_login.py--{"data":"success","info":"成功","status":200}
-[2019-08-16 10:17:03,058] - INFO - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}
-[2019-08-16 10:17:03,166] - ERROR - : meizhu_addvip.py--{"data":"","info":"会员手机号码已存在","status":709}

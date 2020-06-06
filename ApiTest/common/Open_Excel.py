@@ -1,6 +1,7 @@
-import re
+import re, copy
 from openpyxl import load_workbook
 from openpyxl.styles import Font, colors
+from up_data import up_excel
 
 
 # 数据预处理，去掉所有空格
@@ -18,7 +19,7 @@ def update_excel(excel_path, sheet_name):
                 for y in range(1, max_cols + 1):
                     a = sheet.cell(row=x, column=y).value
                     if isinstance(a, str):
-                        s = re.sub('\s', '', a)
+                        s = re.sub('/s', '', a)
                         if s == '':
                             sheet.cell(x, y, '')
                         else:
@@ -28,7 +29,7 @@ def update_excel(excel_path, sheet_name):
             data.save(excel_path)
 
 
-# 读取Excel公共方法
+# 读取Excel公共方法:列
 def read_excel(excel_path, sheet_name, col):
     try:
         data = load_workbook(excel_path)
@@ -43,6 +44,35 @@ def read_excel(excel_path, sheet_name, col):
             else:
                 newdata.append(sheet.cell(row=r, column=col).value)
         return newdata
+
+
+# 读取Excel公共方法:行
+def read_excel_row(excel_path, sheet_name, field=[], valu=[]):
+    try:
+        data = load_workbook(excel_path)
+        sheet = data[sheet_name]
+    except Exception as e:
+        print('测试用例文件打开错误', e)
+    else:
+        maxr = sheet.max_row
+        maxl = sheet.max_column
+        dict = {}
+        data_dict = []
+        for i in range(2, maxr + 1):
+            for j in range(1, maxl - 1):
+                title = sheet.cell(row=1, column=j).value
+                value = sheet.cell(row=i, column=j).value
+                new_value = up_excel(value)  # 获取自定义参数
+                dict[title] = new_value
+            info = copy.deepcopy(dict)
+            # 修改自定的用例参数
+            if not field and not valu:
+                pass
+            else:
+                for i, j in zip(field, valu):
+                    info[i] = j
+            data_dict.append(info)
+        return data_dict
 
 
 # 写入Excel公共方法
