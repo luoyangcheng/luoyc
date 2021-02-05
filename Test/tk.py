@@ -1,7 +1,29 @@
-import tkinter as tk
+wx.login({
 
-root = tk.Tk()
-root.title("标题")
-theLabel = tk.Label(root, text="就是体验一下")
-theLabel.pack()
-root.mainloop()
+      success: res => {
+
+        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+
+        console.log(res.code);
+
+        wx.request({
+
+            url: 'http://localhost/mi/getopenID.php',
+
+            data:{code:res.code},
+
+          success:(res)=>{
+
+              console.log(res.data.openid);
+
+              console.log(this);
+
+              this.globalData.openID=res.data.openid;
+
+          }
+
+        })
+
+      }
+
+    })

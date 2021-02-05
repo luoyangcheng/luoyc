@@ -1,6 +1,6 @@
 import re, copy
 from openpyxl import load_workbook
-from openpyxl.styles import Font, colors
+from openpyxl.styles import Font, colors, PatternFill
 from up_data import up_excel
 
 
@@ -92,9 +92,11 @@ def write_excel(excel_path, sheet_name, Result):
             expected = sheet.cell(row=i, column=max_cols - 2)
             if actual.value == expected.value:
                 sheet.cell(i, max_cols, 'PASS')
-                ippass.font = Font(color=colors.GREEN)
+                ippass.font = Font(color='00FF00')
+                ippass.fill = PatternFill(start_color ='FFFF00', end_color = 'FFFF00', fill_type = 'solid')
             else:
                 sheet.cell(i, max_cols, 'FAIL')
-                ippass.font = Font(color=colors.RED)
+                ippass.font = Font(color='CC3300')
+                ippass.fill = PatternFill(start_color ='FFFF00', end_color = 'FFFF00', fill_type = 'solid')
         data.save(excel_path)
         data.close()

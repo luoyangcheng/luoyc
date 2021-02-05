@@ -1,48 +1,13 @@
-# 递归函数，比如可以用来计算:1*2*3...*n = ?
-from openpyxl import load_workbook
-from openpyxl.styles import Font, colors
+import requests
+import urllib3
+import json
 
 
-def read_excel(excel_path, sheet_name, col):
-    try:
-        data = load_workbook(excel_path)
-        sheet = data[sheet_name]
-    except Exception as e:
-        print('测试用例文件打开错误', e)
-    else:
-        newdata = []
-        for r in range(2, sheet.max_row + 1):
-            if sheet.cell(row=r, column=col).value is None:
-                newdata.append("")
-            else:
-                newdata.append(sheet.cell(row=r, column=col).value)
-        return newdata
-
-
-def write_excel(excel_path, sheet_name, Result):
-    try:
-        data = load_workbook(excel_path)
-        sheet = data[sheet_name]
-    except Exception as e:
-        print('测试用例文件打开错误')
-    else:
-        max_rows = sheet.max_row
-        max_cols = sheet.max_column
-        print(max_cols)          
-        for i in range(2, max_rows+1):
-            sheet.cell(i, max_cols - 1, Result[i-2])
-            ippass = sheet.cell(row=i, column=max_cols)
-            actual = sheet.cell(row=i, column=max_cols - 1)
-            expected = sheet.cell(row=i, column=max_cols - 2)
-            if actual.value == expected.value:
-                sheet.cell(i, max_cols, 'PASS')
-                ippass.font = Font(color=colors.GREEN)
-            else:
-                sheet.cell(i, max_cols, 'FAIL')
-                ippass.font = Font(color=colors.RED)
-        data.save(excel_path)
-        data.close()
-
-
-if __name__ == '__main__':
-    write_excel('D:/a.xlsx', 'Sheet1', ['结果', '结果'])
+urllib3.disable_warnings()  # 忽略警告
+data1 = {"header": {"requestId": "94354ae4b24c89b1c8893ca6522bdcf2", "timeStamp": 1612407458743, "applicationId": "b2c-mobile", "ip": "0.0.0.0", "version": "TRIAL", "tokenId": "#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MTIzMjU4NDUsImV4cCI6MTYxMjQxMjI0NSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMjkxMjcifQ.8o0TrsGYJphrR8kpN-wTOc92BovMdCAV2vI9rxvAYJ5wbm7xyFeok37f5_zzbZsRvWNyaJGv0peu4_DM7-MXGQ"}, "body": {"unit": 1, "orgNo": "66666662", "isTemp": "1", "type": 1, "productDTO": {"productUuid": "4028f5507768d44501776ae5581d002a"}}}
+url1 = 'https://wx-test1.by-health.com/b2c/rest/consumer/addProductToCart'
+res = requests.post(url1, verify=False, json=data1)
+r = res.content.decode('utf-8')
+f = json.loads(r)
+token = (f["body"]["data"]["shoppingCartUuid"])
+print(token)
