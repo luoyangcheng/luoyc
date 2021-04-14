@@ -5,8 +5,8 @@ import json
 
 urllib3.disable_warnings()
 null = 'null'
-token = ''
-productUuid = ''
+token = '#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MTgyOTk3MzYsImV4cCI6MTYxODM4NjEzNiwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMjk0NjgifQ.mU-ukpEakxYXlvpCArtxQKaQMv51Paph2AQias4F9wdjyUgyAPTjYs8zIXVGZJXQNro4x38eKbgtFcSBQi3q1g'
+productUuid = '4028f55078c4e5d80178ce236af2001a'
 url1 = 'https://wx-test1.by-health.com/b2c/rest/consumer/addProductToCart'
 data1 = {"header": {"requestId": "94354ae4b24c89b1c8893ca6522bdcf2", "timeStamp": 1612407458743, "applicationId": "b2c-mobile", "ip": "0.0.0.0", "version": "TRIAL", "tokenId": token}, "body": {"unit": 1, "orgNo": "66666662", "isTemp": "1", "type": 1, "productDTO": {"productUuid": productUuid}}}
 res = requests.post(url1, verify=False, json=data1)
