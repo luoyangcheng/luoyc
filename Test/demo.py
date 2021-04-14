@@ -1,13 +1,24 @@
-import requests
-import urllib3
 import json
 
+class LoginHandler(RequestHandler):
+    def post(self):
+        req_data = json.loads(self.request.body)
 
-urllib3.disable_warnings()  # 忽略警告
-data1 = {"header": {"requestId": "94354ae4b24c89b1c8893ca6522bdcf2", "timeStamp": 1612407458743, "applicationId": "b2c-mobile", "ip": "0.0.0.0", "version": "TRIAL", "tokenId": "#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MTIzMjU4NDUsImV4cCI6MTYxMjQxMjI0NSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMjkxMjcifQ.8o0TrsGYJphrR8kpN-wTOc92BovMdCAV2vI9rxvAYJ5wbm7xyFeok37f5_zzbZsRvWNyaJGv0peu4_DM7-MXGQ"}, "body": {"unit": 1, "orgNo": "66666662", "isTemp": "1", "type": 1, "productDTO": {"productUuid": "4028f5507768d44501776ae5581d002a"}}}
-url1 = 'https://wx-test1.by-health.com/b2c/rest/consumer/addProductToCart'
-res = requests.post(url1, verify=False, json=data1)
-r = res.content.decode('utf-8')
-f = json.loads(r)
-token = (f["body"]["data"]["shoppingCartUuid"])
-print(token)
+        js_code = req_data.get('js_code')
+
+        # 这里是换取用户的信息
+        user_info = get_user_info(js_code=js_code)
+
+        openid = user_info['openid']
+        session_key = user_info['session_key']
+        user_uuid = str(uuid.uuid4())  # 暴露给小程序端的用户标示
+
+        # 用来维护用户的登录态
+        User.save_user_session(user_uuid=user_uuid, openid=openid, session_key=session_key)
+        # 微信小程序不能设置cookie，把用户信息存在了 headers 中
+        self.set_header('Authorization', user_uuid)
+
+        # 存储用户信息
+        User.save_user_info(open_id=openid)
+
+        self.set_status(204)

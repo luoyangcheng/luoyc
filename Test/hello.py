@@ -1,15 +1,53 @@
-#author：Luoyc
+from __future__ import print_function
+import time
+import gevent
+from gevent import monkey
+monkey.patch_all()
 
-nick = input('Please enter the nick')
-if nick == '小狗婷':
-    for love in range(10000):
-        print('-2021.03.08 女神节快乐 I️ miss U-')
-else:
-    print('error 404')
-    
-#第一行：提示请输入昵称
-#第二行：如果输入昵称等于：小狗婷
-#第三行：循环1万次输出【-2021.03.08 女神节快乐 I️ miss U-】寓意爱你一万年！
-#第四行：输出显示【-2021.03.08 女神节快乐 I️ miss U-】
-#第五行：与第二行对应，如果输入昵称不等于：小狗婷
-#第六行：输出 错误提示，寓意只爱你一个，其他人对我来说都是错误！
+import requests
+from numpy import mean
+
+users = 10  # 用户数
+numbers = 100  # 请求次数
+req_url = "https://wx-test1.by-health.com/web/ccm-b2c-admin/index.html#/login"  # 请求URL
+
+print("请求URL: {url}".format(url=req_url))
+
+print("用户数：{}，循环次数: {}".format(users, numbers))
+
+print("============== Running ===================")
+
+pass_number = 0
+fail_number = 0
+
+run_time_list = []
+
+
+def running(url):
+    global fail_number
+    global pass_number
+    for _ in range(numbers):
+        start_time = time.time()
+        r = requests.get(url)
+        if r.status_code == 200:
+            pass_number = pass_number + 1
+            print(".", end="")
+        else:
+            fail_number = fail_number + 1
+            print("F", end="")
+
+        end_time = time.time()
+        run_time = round(end_time - start_time, 4)
+        run_time_list.append(run_time)
+
+
+jobs = [gevent.spawn(running, req_url) for _url in range(users)]
+gevent.wait(jobs)
+
+print("\n============== Results ===================")
+print("最大:       {} s".format(str(max(run_time_list))))
+print("最小:       {} s".format(str(min(run_time_list))))
+print("平均:       {} s".format(str(round(mean(run_time_list), 4))))
+print("请求成功", pass_number)
+print("请求失败", fail_number)
+print("============== end ===================")
