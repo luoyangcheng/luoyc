@@ -6,9 +6,9 @@ urllib3.disable_warnings()
 null = 'null'
 token = ''
 productUuid = ''
-url1 = 'https://wx-test1.by-health.com/scrmv2/antifakecode/antifakecodeIntegral'
-header = {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MTgxOTEzMjEsImV4cCI6MTYxODI3NzcyMSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMjk0NjgifQ.sRDX_Jd_KDgzrLTNzfyQr1Mbjoixodh1zbtEdX06E_whNiq4v9MjdMSAwHl-N_ZYCOaOJIDqEFSNHoep39tpcQ'}
-data1 = {"storeId": "1-WAYZ2", "channelType": 4, "mobilePhone": "15278427701", "antifakecode": "6731284330296179", "clerkId": "", "comment": "微信礼品商城首页积分", "brand": "TCBJ"}
+url1 = 'https://yyj-test.by-health.com/scrm/liteActivity/exchangePrize'
+header = {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MjA5NjA0OTgsImV4cCI6MTYyMTA0Njg5OCwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMjk0NjgifQ.hQrsdDg0KCmNdMjr_k3xeJVoJ2PQ4nfx6u5Uznz2Nw3czpWt0GKPI_w3KJcEGVpjsZX--OOofrJSUTaTzKzgvg'}
+data1 = {"openId": "o-DCM5R2HsZXqzU7TTTk-IYseSlE", "actId": "320", "prizeId": 2, "amount": 1}
 #  res = requests.post(url1, verify=False, json=data1, headers=header)
 #  r = res.content.decode('utf-8')
 

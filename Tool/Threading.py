@@ -6,16 +6,16 @@ import datetime
 class login:
     def ll(mobile, password, areaCode):
         data = {'mobile': mobile, 'password': password, 'areaCode': areaCode}
-        login_url = "http://192.168.3.19:8090/Home/Public/login"
+        login_url = "https://www.meizhuyun.com/Home/Public/login"
         session = requests.Session()
         print(datetime.datetime.now())
-        resp = session.post(login_url, data)
-        print(resp.content.decode('utf-8'))
-        print(resp.cookies.get_dict())
+        resp = session.post(login_url, data, verify=False)
+        # print(resp.content.decode('utf-8'))
+        # print(resp.cookies.get_dict())
 
 
 T = []
-for i in range(2):
+for i in range(10):
     t1 = threading.Thread(target=login.ll, args=('18802094078', 'qq111111', '86'))
     T.append(t1)
 
