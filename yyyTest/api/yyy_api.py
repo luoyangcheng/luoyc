@@ -12,7 +12,7 @@ from configparser import ConfigParser
 def yyy(r_type, parameter_type, sheet, row_name, field=[], valu=[]):
     global result
     cfg = ConfigParser()
-    cfg.read('../ApiTest/common/config.ini')
+    cfg.read('../yyyTest/common/config.ini')
     ip = (cfg.get('server', 'ip'))
     port = (cfg.get('server', 'port'))
     excel_path = (cfg.get('excel', 'excel_path'))

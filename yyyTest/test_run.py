@@ -63,7 +63,7 @@ class TestList(object):
 
 
 if __name__ == "__main__":
-    pytest.main(["-s", "-v", "test_run.py::TestList", "--html=../ApiTest/report/yyy.html"])
+    pytest.main(["-s", "-v", "test_run.py::TestList", "--html=../yyyTest/report/yyy.html"])
     # pytest --html=report.html,在CMD命令下执行此命令会生成报告
     # pytest -v -s isr_test.py -n 10，多线程运行测试用例，NUM为想要并发的进程数目。
     # python -m pytest ：linux下运行用此方式，因为通过pip安装pytest不会使它成为系统命令，
