@@ -1,0 +1,17 @@
+[2021-08-31 09:20:36,762] - INFO - : https://wx-test1.by-health.com
+[2021-08-31 09:22:13,906] - INFO - : https://wx-test1.by-health.com
+[2021-08-31 09:23:03,032] - INFO - : https://wx-test1.by-health.com
+[2021-08-31 09:23:03,033] - INFO - : https://wx-test1.by-health.com/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-08-31 09:24:44,529] - INFO - : https://wx-test1.by-health.com
+[2021-08-31 09:24:44,530] - INFO - : None
+[2021-08-31 09:25:17,646] - INFO - : [{'data': '{"body":{"cityId":"440100","orgNo":"66666662"},"header":{"requestId":"472158bd6c5b8eb7dfe88ed94ee2d51c","timeStamp":1630293075151,"applicationId":"b2c-mobile","ip":"0.0.0.0","version":"TRIAL","tokenId":"#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2Mjk4NzEyNjUsImV4cCI6MTYyOTk1NzY2NSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMzAzMjAifQ.TVFvoZGC4DE0UTGLuipUTqeoBj0inB-shzEhazW_D0sTnnHwf_GMPDEcecuM05-bNVYg2ryg_UY0mLuYhMwtOQ"}}', 'expect': 200}]
+[2021-08-31 09:25:17,649] - INFO - : https://wx-test1.by-health.com
+[2021-08-31 09:25:17,649] - INFO - : None
+[2021-08-31 09:30:53,949] - INFO - : [{'data': '{"body":{"cityId":"440100","orgNo":"66666662"},"header":{"requestId":"472158bd6c5b8eb7dfe88ed94ee2d51c","timeStamp":1630293075151,"applicationId":"b2c-mobile","ip":"0.0.0.0","version":"TRIAL","tokenId":"#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2Mjk4NzEyNjUsImV4cCI6MTYyOTk1NzY2NSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMzAzMjAifQ.TVFvoZGC4DE0UTGLuipUTqeoBj0inB-shzEhazW_D0sTnnHwf_GMPDEcecuM05-bNVYg2ryg_UY0mLuYhMwtOQ"}}', 'expect': 200}]
+[2021-08-31 09:30:53,950] - INFO - : https://wx-test1.by-health.com
+[2021-08-31 09:30:53,951] - INFO - : None
+[2021-08-31 09:39:14,874] - INFO - : {"body":{"cityId":"440100","orgNo":"66666662"},"header":{"requestId":"472158bd6c5b8eb7dfe88ed94ee2d51c","timeStamp":1630293075151,"applicationId":"b2c-mobile","ip":"0.0.0.0","version":"TRIAL","tokenId":"#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2Mjk4NzEyNjUsImV4cCI6MTYyOTk1NzY2NSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMzAzMjAifQ.TVFvoZGC4DE0UTGLuipUTqeoBj0inB-shzEhazW_D0sTnnHwf_GMPDEcecuM05-bNVYg2ryg_UY0mLuYhMwtOQ"}}
+[2021-08-31 09:39:14,876] - INFO - : None
+[2021-08-31 09:42:42,413] - INFO - : <class 'str'>
+[2021-08-31 09:42:42,414] - INFO - : None
+[2021-08-31 09:52:39,433] - INFO - : ccc

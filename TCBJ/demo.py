@@ -1,5 +1,2 @@
-import requests, time, calendar
-import hashlib
-
-api_timestamp = str(calendar.timegm(time.gmtime()) * 1000)
-print(api_timestamp)
+for i in range(1, 2):
+    print(1)

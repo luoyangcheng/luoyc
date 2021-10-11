@@ -1,0 +1,35 @@
+[2021-09-28 09:50:49,589] - INFO - : vvvv
+[2021-09-28 09:56:31,842] - INFO - : vvvv
+[2021-09-28 10:19:44,464] - INFO - : {'data': '{"body":{"cityId":"440100","orgNo":"66666662"},"header":{"requestId":"472158bd6c5b8eb7dfe88ed94ee2d51c","timeStamp":1630293075151,"applicationId":"b2c-mobile","ip":"0.0.0.0","version":"TRIAL","tokenId":"#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2Mjk4NzEyNjUsImV4cCI6MTYyOTk1NzY2NSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMzAzMjAifQ.TVFvoZGC4DE0UTGLuipUTqeoBj0inB-shzEhazW_D0sTnnHwf_GMPDEcecuM05-bNVYg2ryg_UY0mLuYhMwtOQ"}}', 'expect': 200}
+[2021-09-28 11:32:43,201] - INFO - : {'data': '{"body":{"cityId":"440100","orgNo":"66666662"},"header":{"requestId":"472158bd6c5b8eb7dfe88ed94ee2d51c","timeStamp":1630293075151,"applicationId":"b2c-mobile","ip":"0.0.0.0","version":"TRIAL","tokenId":"#ywzt#eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2Mjk4NzEyNjUsImV4cCI6MTYyOTk1NzY2NSwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMzAzMjAifQ.TVFvoZGC4DE0UTGLuipUTqeoBj0inB-shzEhazW_D0sTnnHwf_GMPDEcecuM05-bNVYg2ryg_UY0mLuYhMwtOQ"}}', 'expect': 200}
+[2021-09-28 11:34:01,555] - INFO - : https://wx-test1.by-health.com:80/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:36:11,955] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:36:12,008] - ERROR - : 直播列表--{"header":{},"body":{"status":{"statusCode":"2","errorCode":"未知错误"}}}
+[2021-09-28 11:42:22,155] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:43:18,250] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:43:18,283] - ERROR - : 直播列表--200
+[2021-09-28 11:45:50,756] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:45:50,790] - INFO - : 直播列表--200
+[2021-09-28 11:47:32,567] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:47:32,599] - INFO - : 直播列表--200
+[2021-09-28 11:49:32,580] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:49:32,609] - INFO - : 直播列表--200
+[2021-09-28 11:50:31,552] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:50:31,583] - INFO - : 直播列表--200
+[2021-09-28 11:51:22,116] - INFO - : 直播列表--200
+[2021-09-28 11:52:06,142] - INFO - : 直播列表--200
+[2021-09-28 11:52:43,521] - INFO - : 直播列表--200
+[2021-09-28 11:52:50,229] - INFO - : www
+[2021-09-28 11:53:46,140] - INFO - : https://wx-test1.by-health.com:/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:53:46,173] - INFO - : 直播列表--200
+[2021-09-28 11:54:43,752] - INFO - : https://wx-test1.by-health.com/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:54:43,783] - INFO - : 直播列表--200
+[2021-09-28 11:55:02,191] - INFO - : https://wx-test1.by-health.com/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:55:02,211] - INFO - : www
+[2021-09-28 11:55:09,444] - INFO - : https://wx-test1.by-health.com/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:55:09,469] - INFO - : www
+[2021-09-28 11:56:02,729] - INFO - : https://wx-test1.by-health.com/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:56:02,760] - INFO - : 直播列表--200
+[2021-09-28 11:56:09,592] - INFO - : https://wx-test1.by-health.com/b2c/rest/streamingOnline/searchStreamingOnlineInfo.do
+[2021-09-28 11:56:09,624] - INFO - : 直播列表--200
+[2021-09-28 11:56:56,800] - INFO - : 直播列表--200

@@ -1,30 +1,29 @@
-import requests
 import threading
-import urllib3
-
-urllib3.disable_warnings()
-null = 'null'
-token = ''
-productUuid = ''
-url1 = 'https://yyj-test.by-health.com/scrm/liteActivity/exchangePrize'
-header = {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2MjA5NjA0OTgsImV4cCI6MTYyMTA0Njg5OCwiaXNzIjoiTWVtYmVyIiwic3ViIjoiNTEzMjk0NjgifQ.hQrsdDg0KCmNdMjr_k3xeJVoJ2PQ4nfx6u5Uznz2Nw3czpWt0GKPI_w3KJcEGVpjsZX--OOofrJSUTaTzKzgvg'}
-data1 = {"openId": "o-DCM5R2HsZXqzU7TTTk-IYseSlE", "actId": "320", "prizeId": 2, "amount": 1}
-#  res = requests.post(url1, verify=False, json=data1, headers=header)
-#  r = res.content.decode('utf-8')
+import requests
 
 
-def tixian():
-    resp = requests.post(url1, verify=False, json=data1, headers=header)
-    print(resp.content.decode('utf-8'))
+def ll(i):
+    url1 = "https://wx-test1.by-health.com/scrmv2/liteactivity/xrlb/getPrizeMsg"
+    url2 = 'https://wx-test1.by-health.com/scrmv2/marketing/consumerLottery'
+    data1 = {"phone": i, "validateCode": "7474", "loginSource": "xrlb", "sourceFrom": "新人礼包"}
+    data2 = {"activityId": "116375", "lotteryMemberId": "51330315", "lotteryType": "task_lottery", "identityType": "WECHAT_YYJ", "channelType": 11, "tag": "xrhb"}
+    resp = requests.post(url1, json=data1)
+    status = resp.status_code
+    seTime = resp.elapsed.microseconds
+    if status == 500:
+        print(i)
+        print(resp.content.decode('utf-8'))
+    # print(i, '请求状态:', status, '请求耗时：', seTime / 1000000)
 
 
-t1 = threading.Thread(target=tixian)
-t2 = threading.Thread(target=tixian)
+T = []
+for i in range(18802094378, 18802094428):
+    t1 = threading.Thread(target=ll, args=(i,))
+    T.append(t1)
 
 if __name__ == '__main__':
-    t1.setDaemon(True)
-    t2.setDaemon(True)
-    t1.start()
-    t2.start()
-    t1.join()
-    t2.join()
+    for i in T:
+        i.setDaemon(True)
+        i.start()
+    for j in T:
+        j.join()
