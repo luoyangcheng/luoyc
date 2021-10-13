@@ -41,24 +41,32 @@ class TestVIP(object):
 
 
 class TestList(object):
+    def setup_class(self):
+        print("\n正在开始执行测试用例!")
+
+    def teardown_class(self):
+        print("\n所有用例执行完成,开始发送邮件和短信!")
+        # Send_Mail.SendMail.mymail(self)
+        # Send_SMS.SendSMS()
+
     @pytest.mark.run(order=1)
     def test_searchStreamingOnlineInfo(self):
-        expected, result = yyy('post', 'json', 'YOU营养测试用例', 2)
+        expected, result = yyy('post', 'json', 'YOU营养测试用例', 2, 'ip1')
         pytest.assume(expected == result)
 
     @pytest.mark.run(order=2)
     def test_findStoreDistance(self):
-        expected, result = yyy('post', 'json', 'YOU营养测试用例', 3)
+        expected, result = yyy('post', 'json', 'YOU营养测试用例', 3, 'ip2')
         pytest.assume(expected == result)
         
     @pytest.mark.run(order=3)
     def test_getNotificationBar(self):
-        expected, result = yyy('post', 'json', 'YOU营养测试用例', 4)
+        expected, result = yyy('post', 'json', 'YOU营养测试用例', 4, 'ip1')
         pytest.assume(expected == result)
         
     @pytest.mark.run(order=4)
     def test_queryProtocolLog(self):
-        expected, result = yyy('post', 'json', 'YOU营养测试用例', 5)
+        expected, result = yyy('post', 'json', 'YOU营养测试用例', 5, 'ip2')
         pytest.assume(expected == result)
 
 
