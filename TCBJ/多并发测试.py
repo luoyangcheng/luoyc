@@ -18,7 +18,7 @@ def ll(i):
 
 T = []
 for i in range(18802094378, 18802094428):
-    t1 = threading.Thread(target=ll, args=(i,))
+    t1 = threading.Thread(target=ll, args=(i, ))
     T.append(t1)
 
 if __name__ == '__main__':
