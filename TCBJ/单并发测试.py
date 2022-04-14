@@ -2,9 +2,9 @@ import requests, threading
 
 
 def n():
-    h = {'Referer': 'https://wx-test.by-health.com/web/jkt-mini-h5senior/?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2Mzc5MDQ5ODAsImV4cCI6MTYzODUwOTc4MCwiaXNzIjoiRW1wbG95ZWUiLCJzdWIiOiI1MTMzMjQ1NiJ9.qXgvHJHfqudhXlgNWUq9eVYEuQ1ZKUP0ESbjoWAcSfAgDjAgfQI63LBVj_MbTigkiliqw9cLqhzNBAM49pEdKg'}
-    data = {"storeId": "1-1MZNP", "memberId": 51332456, "antifakecode": "3278229827862365", "channelType": 4, "actId": "435", "saleDay": "2021-11-25", "actType": "otherRoadShow"}
-    url = 'https://wx-test1.by-health.com/scrmv2/antifakecode/scancodeForPerformance'
+    h = {'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJJZCI6MjEsInRlbmFudElkIjoxLCJyb2xlTGV2ZWwiOjEsImlhdCI6MTY0NzM5NDYwMCwiZXhwIjoxNjQ3NDgxMDAwLCJpc3MiOiJzdHVkZW50In0.UNd0v0gKvXzmcj7K6ZTNNfgKd66hMt-qqPOk0nffPVNf6Z33-6pwVu_UmJb7WbJEr0gRqdSsLebQcIrzmx1wxA'}
+    data = {"adminId": 4, "orgNo": "183671", "gender": "女", "phone": "18802094081", "validateCode": "7474", "name": "罗兰", "planId": 1, "profiles": {"profile1": {"policyPic": "https://upload-yyj.by-health.com/upload/images/0329105322819.png", "orgName": "130分店", "TRIG": 1.8, "TCHOL": 5.18, "HDL-CH": 1.08, "LDL-CH": 3.9, "age": "12", "report": ["https://upload-yyj.by-health.com/upload/images/0329105328840.png"], "memberLabel": ["高血脂"]}}}
+    url = 'https://yyj-test.by-health.com/his/plan/h5/memberLoginByMsg'
     res = requests.post(url, json=data, headers=h)
     r = res.content.decode('utf-8')
     print(r)
