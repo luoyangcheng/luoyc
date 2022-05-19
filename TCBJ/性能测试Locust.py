@@ -1,7 +1,7 @@
 # coding:utf-8
 # @task(1)表示权重，值越大，执行的次数占比越大
 
-
+# 报告结果解析：
 # Type:请求类型
 # Name:请求路径
 # Requests:请求数量
@@ -18,6 +18,11 @@
 # Total Requests per Second ：每秒请求总数：如果上下波动较大，说明性能不稳定
 # Response Time(ms) ：响应时间：黄色为最大时间，绿色为最小时间。一般3-5秒为最佳，超过10秒为较差，最大值如果持续高位就需要进行性能优化
 # Number of Users ：虚拟用户数
+
+# 注意事项：
+# 1.HttpLocust类从继承 Locust的类，并把它添加一个客户端属性，它是的一个实例 HttpSession，可用于使HTTP请求,这就相当于它自动使用了session机制，类似于client = requests.session()所以后面的请求，直接拿client.get()、client.post()请求就可以了
+# 2.如果设置了10个虚拟用户同时启动，并无法做到10个请求同时并发，可能会是 2 / 3个这样并发
+
 
 from locust import HttpUser, TaskSet, task
 
@@ -50,4 +55,4 @@ class websitUser(HttpUser):
 
 if __name__ == "__main__":
     import os
-    os.system("locust -f ../luoyc/TCBJ/性能测试.py --host=https://wx-test1.by-health.com -t 10")
+    os.system("locust -f ../luoyc/TCBJ/性能测试Locust.py --host=https://wx-test1.by-health.com -t 10")
