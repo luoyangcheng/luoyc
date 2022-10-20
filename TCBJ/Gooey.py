@@ -1,16 +1,9 @@
-from gooey import Gooey, GooeyParser
+import time
+import requests
 
-
-@Gooey(program_name="简单的实例")
-def main():
-    parser = GooeyParser(description="第一个示例!")
-    c = parser.add_argument('请输入', widget="TextField")  # 文件输入框
-    parser.add_argument('日期', widget="DateChooser")  # 日期选择框
-    args = parser.parse_args()  # 接收界面传递的参数
-    for i in range(5):
-        a = i
-        print(a, c)
-
-
-if __name__ == '__main__':
-    main()
+current = int(time.time() * 1000)
+print(current)
+data = {"guid": "1721C5D2-17F0-440A-9DBD-5BFC76A0CBE4", "reqId": current, "jsonInfo": {"actType": "LOTTERY", "orderId": 2581057, "memberId": 20, "createTime": current, "uploadTime": "2022-08-25T06:34:01.990Z", "mobilePhone": "13246492686", "totalPoints": 1000, "presentLegalLevel": 0}}
+r = requests.post("http://172.16.8.88:6581/services/v1/upload", json=data, verify=False)
+print(r.content.decode('utf-8'))
+print(r.status_code)
