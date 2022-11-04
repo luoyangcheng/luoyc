@@ -76,10 +76,10 @@ class websitUser(HttpUser):
 
 
 if __name__ == "__main__":
-    # 不使用分布式时执行：
+    # 【1】不使用分布式时执行：
     # os.system("locust -f ../luoyc/TCBJ/性能测试Locust.py --host=https://yyj-test.by-health.com -t 10")
 
-    # 使用分布式时执行：
+    # 【2】使用分布式时执行：
     # 查看电脑内核数，电脑搜索【设备管理器】--【处理器】，下面有几条数就算几核
     master0 = os.system("locust -f ../luoyc/TCBJ/性能测试Locust.py --master")  # mater节点只需要执行一次
     worker1 = os.system("locust -f ../luoyc/TCBJ/性能测试Locust.py --worker")  # worker节点根据根据电脑内核数n，就启动n次
